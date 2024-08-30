@@ -436,7 +436,7 @@ class Database:
         with db_handler(self.sqltools):
             for table_key, table in self.index.data.items():
 
-                if table.type in ['endogenous', 'constant']:
+                if table.type in ['endogenous','endogenous_integer', 'constant']:
                     continue
 
                 if self.settings['multiple_input_files']:
@@ -491,7 +491,7 @@ class Database:
             with db_handler(self.sqltools):
                 for table_key, table in self.index.data.items():
 
-                    if table.type not in ['endogenous', 'constant']:
+                    if table.type not in ['endogenous','endogenous_integer', 'constant']:
                         file_name = table_key + file_extension
 
                         data.update(

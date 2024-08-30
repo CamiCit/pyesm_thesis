@@ -46,7 +46,7 @@ class Problem:
     and maps these entities to corresponding data points. This class is essential 
     for setting up and solving various types of optimization models while ensuring 
     efficient data handling and result management. It supports multiple variable 
-    types, including endogenous, exogenous, and constants, each associated with 
+    types, including endogenous (float and integer), exogenous, and constants, each associated with 
     tailored data management strategies.
 
     Attributes:
@@ -178,7 +178,7 @@ class Problem:
 
         Parameters:
             var_type (str): The type of the CVXPY object to create. Valid
-                values are 'endogenous', 'exogenous', or 'constant'.
+                values are 'endogenous','endogenous_integer', 'exogenous', or 'constant'.
             shape (Tuple[int, ...]): The shape of the Variable or Parameter to
                 be created.
             name (Optional[str]): The name assigned to the Variable or Parameter.
@@ -197,6 +197,9 @@ class Problem:
 
         if var_type == 'exogenous':
             return cp.Parameter(shape=shape, name=name)
+        
+        if var_type == 'endogenous_integer':
+            return cp.Variable(shape=shape, name=name,integer=True)
 
         if var_type == 'constant':
             if value is None:
@@ -246,7 +249,7 @@ class Problem:
             MissingDataError: If the DataTable is missing necessary configurations
                 or the data is undefined.
         """
-        if var_type != 'endogenous':
+        if var_type != 'endogenous' and var_type != 'endogenous_integer':
             msg = "Only endogenous variables can be sliced from DataTable."
             self.logger.error(msg)
             raise exc.SettingsError(msg)
@@ -532,7 +535,7 @@ class Problem:
                     merged_df.index[0]
 
         # create new cvxpy variables (exogenous vars and constants)
-        if variable_type != 'endogenous':
+        if variable_type != 'endogenous' and variable_type != 'endogenous_integer':
             for row in var_data.index:
                 var_data.at[row, headers['cvxpy']] = \
                     self.create_cvxpy_variable(
