@@ -77,6 +77,24 @@ cost_op:
             cols:
                 set: activities
 
+cost_period:
+    name: cost per period (1 year)
+    type: exogenous
+    coordinates: [scenarios,techs]
+    variables_info:
+        cost_period:
+            cols:
+                set: techs
+
+cost_cap:
+    name: cost per 1 unit of capacity
+    type: exogenous
+    coordinates: [scenarios,techs]
+    variables_info:
+        cost_cap:
+            cols:
+                set: techs
+
 cost_inv:
     name: cost_inv
     type: exogenous
@@ -375,6 +393,15 @@ cap_new:
             cols:
                 set: techs
                 filters: {BEV: y}
+
+active_techs:
+    name: active technologies #binary variable
+    type: endogenous_integer
+    coordinates: [scenarios,techs]
+    variables_info:
+        active_techs:
+            cols:
+                set: techs
 
 cost_op_hours:
     name: cost_op_hours
@@ -731,7 +758,7 @@ N_ones:
                  set: needs
 
 H_ones:
-     name: Vector of 1s as long as hours
+     name: Column vector of 1s as long as hours (peak excluded)
      type: constant 
      coordinates: [scenarios, time_hour] 
      variables_info:
@@ -740,6 +767,16 @@ H_ones:
              rows:
                  set: time_hour
                  filters: {peak: n}
+
+H_ones_row:
+     name: Row vector of 1s as long as hours (peak included)
+     type: constant 
+     coordinates: [scenarios, time_hour] 
+     variables_info:
+        H_ones_row: 
+             value: sum_vector
+             cols:
+                 set: time_hour
 
 I_dh: 
     name: special identity matrix for hours aggregation into days
