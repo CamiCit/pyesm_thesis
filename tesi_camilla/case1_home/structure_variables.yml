@@ -354,6 +354,13 @@ X:
                 filters: {peak: n}
             cols:
                 set: activities
+        X_stor_peak:
+            rows:
+                set: time_hour
+                filters: {peak: y}
+            cols:
+                set: activities
+                filters: {storage: y}
 
 curtail:
     name: curtail
