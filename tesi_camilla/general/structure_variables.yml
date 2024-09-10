@@ -77,6 +77,24 @@ cost_op:
             cols:
                 set: activities
 
+cost_period:
+    name: cost per period (1 year)
+    type: exogenous
+    coordinates: [scenarios,techs]
+    variables_info:
+        cost_period:
+            cols:
+                set: techs
+
+cost_cap:
+    name: cost per 1 unit of capacity
+    type: exogenous
+    coordinates: [scenarios,techs]
+    variables_info:
+        cost_cap:
+            cols:
+                set: techs
+
 cost_inv:
     name: cost_inv
     type: exogenous
@@ -208,28 +226,6 @@ storage_min_charge:        #da moltiplicare a capacità di storage [kWh] per ott
                 set: techs
                 filters: {storage: y}
 
-
-# Cool_vector:                            #Cooling of starting value vector
-#     name: Cool_vector
-#     type: exogenous 
-#     coordinates: [scenarios,techs,time_hour] 
-#     variables_info:
-#         Cool_vector: 
-#             rows: 
-#                 set: techs
-#                 filters: {storage: y}
-#             cols: 
-#                 set: time_hour
-#                 filters: {peak: n}
-#         Cool_vector_t: 
-#             intra: 
-#                 set: techs
-#                 filters: {storage: y}
-#             cols: 
-#                 set: time_hour
-#                 filters: {peak: n}
-
-
 #BEV exogenous variables
 BEV_level_min:        #to be multiplied by BEV sorage capacity [kWh] to obtain min BEV SOC 
     name: BEV_level_min
@@ -357,6 +353,13 @@ X:
                 filters: {peak: n}
             cols:
                 set: activities
+        X_stor_peak:
+            rows:
+                set: time_hour
+                filters: {peak: y}
+            cols:
+                set: activities
+                filters: {storage: y}
 
 curtail:
     name: curtail
@@ -396,6 +399,15 @@ cap_new:
             cols:
                 set: techs
                 filters: {BEV: y}
+
+active_techs:
+    name: active technologies #binary variable
+    type: endogenous_integer
+    coordinates: [scenarios,techs]
+    variables_info:
+        active_techs:
+            cols:
+                set: techs
 
 cost_op_hours:
     name: cost_op_hours
@@ -621,31 +633,6 @@ min_charge:        #valore minimo (negativo) per X dello storage= massimo valore
                 set: techs
                 filters: {storage: y}
 
-# SOC_start_cool: #controllo per la prima parte di SOC
-#     name: SOC_start_cool
-#     type: endogenous
-#     coordinates: [scenarios,techs,time_hour]
-#     variables_info:
-#         SOC_start_cool:
-#             rows:
-#                 set: time_hour
-#             cols:
-#                 set: techs
-#                 filters: {storage: y}
-
-# SOC_second_part: #controllo per la seconda parte di SOC
-#     name: SOC_second_part
-#     type: endogenous
-#     coordinates: [scenarios,activities,time_hour]
-#     variables_info:
-#         SOC_second_part:
-#             rows:
-#                 set: time_hour
-#             cols:
-#                 set: activities
-#                 filters: {storage: y}
-
-
 #BEV endogenous variables
 BEV_SOC_min:
     name: BEV_SOC_min
@@ -686,19 +673,6 @@ BEV_SOC_start:
                 set: techs
                 filters: {BEV: y}
 
-# intermedio_BEV:
-#     name: intermedio_BEV
-#     type: endogenous
-#     coordinates: [scenarios,techs,time_hour]
-#     variables_info:
-#         intermedio_BEV:
-#             rows:
-#                 set: time_hour
-#                 filters: {peak: n}
-#             cols:
-#                 set: techs
-#                 filters: {BEV: y}
-
 BEV_SOC:
     name: BEV_SOC
     type: endogenous
@@ -727,18 +701,6 @@ I_ta:
             cols:
                 set: activities
 
-# T_hh:
-#     name: Lower triangular matrix (used to depict storage state of charge)
-#     type: constant 
-#     coordinates: [time_hour] 
-#     variables_info:
-#         T_hh: 
-#             value: lower_triangular
-#             rows: 
-#                 set: time_hour
-#             cols:
-#                 set: time_hour
-
 N_ones:
      name: Vector of 1s as long as needs
      type: constant 
@@ -760,6 +722,16 @@ H_ones:
                  set: time_hour
                  filters: {peak: n}
 
+H_ones_row:
+     name: Row vector of 1s as long as hours (peak included)
+     type: constant 
+     coordinates: [scenarios, time_hour] 
+     variables_info:
+        H_ones_row: 
+             value: sum_vector
+             cols:
+                 set: time_hour
+                 
 I_dh: 
     name: special identity matrix for hours aggregation into days
     type: constant

@@ -39,13 +39,7 @@ needs:
     symbol: n                                   
     table_name: _set_needs                         
     table_structure:                            
-        name: [n_names, TEXT]   
-
-# flows:                                        
-#     symbol: f                                   
-#     table_name: _set_f              
-#     table_structure:                           
-#         name: [f_names, TEXT]                   
+        name: [n_names, TEXT]                  
                                    
 techs:                                        
     symbol: t                                   
@@ -74,13 +68,6 @@ activities:
             seasonal:                                  
                 header: [a_season, TEXT]
                 values: [y, n]
-
-# activities2:                                        
-#     symbol: activities2                                  
-#     table_name: _set_a2                    
-#     table_structure:                            
-#         name: [a2_names, TEXT] 
-#         aggregation: [flows, TEXT]
 
 scenarios:                                        
     symbol: s                                   

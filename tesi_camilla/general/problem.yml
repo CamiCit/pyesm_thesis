@@ -1,7 +1,7 @@
 # SYMBOLIC PROBLEM
 
 objective:                  # (optional) definition of the objective function
-    - Minimize(sum(cost_op_tot) * sum(power_vector(n_years,disc_frac)) + cost_inv @ tran(new_units) + insulation @ TI_cost)         # Minimize() or Maximize() with a scalar obj expression
+    - Minimize((sum(cost_op_tot) + cost_period @ tran(active_techs) + cost_cap @ tran(cap_tot) ) * sum(power_vector(n_years,disc_frac)) + cost_inv @ tran(new_units) + insulation @ TI_cost)         # Minimize() or Maximize() with a scalar obj expression
 expressions:                # definition of additional expressions (equalities/inequalities)   
     - tran(Q) - u @ tran(X) - diag(TI) @ Y - curtail == 0
     - d @ tran(X) - tran(Q)== 0
@@ -20,6 +20,7 @@ expressions:                # definition of additional expressions (equalities/i
     - cost_op_tot == (days_per_type @ I_dh) @ cost_op_hours
     - X @ Act_constr >= 0 #in order to export only electricity from PV or storage, and only store electricity from PV
     - curtail_peak == 0 #as peak_hour is not part of cost computation, there is risk of useless curtailment
+    - X_stor_peak ==0 #No available storage during peak hour
     #Seasonal activities
     - act_capacity == cap_tot @ I_ta
     - season_limit == mult(sf,season_capacity)
@@ -30,17 +31,17 @@ expressions:                # definition of additional expressions (equalities/i
     - min_charge == mult(storage_min_charge,cap_tot_stor) 
     - max_disch - X_t_stor >= 0 
     - X_t_stor - min_charge >= 0
-    - SOC_max == mult(H_ones,(cap_tot_stor @ storage_max))
-    - SOC_min == mult(H_ones,(cap_tot_stor @ storage_min))
-    - SOC_start == mult(H_ones,(cap_tot_stor @ storage_start))
+    - SOC_max == H_ones @ mult(cap_tot_stor, tran(storage_max))
+    - SOC_min == H_ones @ mult(cap_tot_stor, tran(storage_min))
+    - SOC_start == H_ones @ mult(cap_tot_stor, tran(storage_start))
     - SOC_t == mult(SOC_start_t,power_vector(n_hours,loss_factors_t)) - power_tri(n_hours,loss_factors_t) @ X_t_stor_t
     - SOC - SOC_min >=0
     - SOC_max - SOC >=0
 
     #BEV equations
-    - BEV_SOC_max == mult(H_ones,(cap_tot_BEV @ BEV_level_max))
-    - BEV_SOC_min == mult(H_ones,(cap_tot_BEV @ BEV_level_min))
-    - BEV_SOC_start == mult(H_ones,(cap_tot_BEV @ BEV_level_start))
+    - BEV_SOC_max == H_ones @ mult(cap_tot_BEV, tran(BEV_level_max))
+    - BEV_SOC_min == H_ones @ mult(cap_tot_BEV, tran(BEV_level_min))
+    - BEV_SOC_start == H_ones @ mult(cap_tot_BEV, tran(BEV_level_start))
     - BEV_SOC == BEV_SOC_start - power_tri(n_hours,loss_factors_BEV) @ (X_no_peak @ BEV_vector)
     - BEV_SOC_max - BEV_SOC >= 0
     - BEV_SOC - BEV_SOC_min >= 0
