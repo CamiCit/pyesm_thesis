@@ -104,6 +104,20 @@ cost_inv:
             cols:
                 set: techs
 
+max_opex:
+    name: maximum O&M expenses per year
+    type: exogenous
+    coordinates: [scenarios]
+    variables_info:
+        max_opex:
+
+max_capex:
+    name: maximum investment expense
+    type: exogenous
+    coordinates: [scenarios]
+    variables_info:
+        max_capex:
+
 cap_i:
     name: cap_i
     type: exogenous
@@ -429,6 +443,20 @@ cost_op_tot:
         cost_op_tot:
             cols:
                 set: activities
+
+cost_op_year:
+    name: cost_op_year
+    type: endogenous
+    coordinates: [scenarios]
+    variables_info:
+        cost_op_year:
+
+cost_inv_tot:
+    name: cost_inv_tot
+    type: endogenous
+    coordinates: [scenarios]
+    variables_info:
+        cost_inv_tot:
 
 X_t:
     name: X_agg_techs
@@ -784,6 +812,16 @@ H_ones_row:
              value: sum_vector
              cols:
                  set: time_hour
+
+A_ones:
+     name: Column vector of 1s as long as hours (peak excluded)
+     type: constant 
+     coordinates: [scenarios, activities] 
+     variables_info:
+        A_ones: 
+             value: sum_vector
+             rows:
+                 set: activities
 
 I_dh: 
     name: special identity matrix for hours aggregation into days

@@ -1,7 +1,8 @@
 # SYMBOLIC PROBLEM
 
 objective:                  # (optional) definition of the objective function
-    - Minimize( (sum(cost_op_tot) + cost_period @ tran(active_techs) + cost_cap @ tran(cap_tot) ) * sum(power_vector(n_years,disc_frac)) + cost_inv @ tran(new_units) + insulation @ TI_cost)         # Minimize() or Maximize() with a scalar obj expression
+    #- Minimize( (sum(cost_op_tot) + cost_period @ tran(active_techs) + cost_cap @ tran(cap_tot) ) * sum(power_vector(n_years,disc_frac)) + cost_inv @ tran(new_units) + insulation @ TI_cost)         # Minimize() or Maximize() with a scalar obj expression
+    - Minimize(cost_op_year * sum(power_vector(n_years,disc_frac)) + cost_inv_tot) 
 
 expressions:                # definition of additional expressions (equalities/inequalities)   
     - tran(Q) - u @ tran(X) - diag(TI) @ Y - curtail == 0
@@ -19,6 +20,10 @@ expressions:                # definition of additional expressions (equalities/i
     - cap_tot == cap_new + cap_i
     - cost_op_hours == X @ diag(cost_op)
     - cost_op_tot == (days_per_type @ I_dh) @ cost_op_hours
+    - cost_op_year == cost_op_tot @ A_ones + cost_period @ tran(active_techs) + cost_cap @ tran(cap_tot) 
+    #-max_opex - cost_op_year >=0
+    - cost_inv_tot == cost_inv @ tran(new_units) + insulation @ TI_cost
+    #-max_capex - cost_inv_tot >=0
     - X @ Act_constr >= 0 #in order to export only electricity from PV or storage, and only store electricity from PV
     - curtail_peak == 0 #as peak_hour is not part of cost computation, there is risk of useless curtailment
     - X_stor_peak ==0 #No available storage during peak hour
