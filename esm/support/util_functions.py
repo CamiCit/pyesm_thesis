@@ -364,7 +364,7 @@ def weibull_distribution(
 
 
 def power_tri(
-         dimension: cp.Parameter, 
+        dimension: cp.Parameter, 
         power_factor: cp.Parameter,
 ) -> np.array:
     """
@@ -397,13 +397,19 @@ def power_tri(
 
     # Initialize the matrix
     matrix = np.zeros((dim, dim))
+    s=dim/4
 
-    for i in range(dim):
-        for j in range(i + 1):
-            if i == j:
-                matrix[i, j] = 1
-            else:
-                matrix[i, j] = matrix[i - 1, j] * pf
+    for block in range(4):
+            start_row = block * s
+            start_col = block * s
+            
+            # Costruzione del blocco triangolare
+            for i in range(s):
+                for j in range(i + 1):
+                    if i == j:
+                        matrix[start_row + i, start_col + j] = 1
+                    else:
+                        matrix[start_row + i, start_col + j] = matrix[start_row + i - 1, start_col + j] * pf
 
     return matrix
 
