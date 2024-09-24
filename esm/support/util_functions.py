@@ -397,14 +397,15 @@ def power_tri(
 
     # Initialize the matrix
     matrix = np.zeros((dim, dim))
-    s=dim/4
+    s=dim/4 
+    int_s=int(s)
 
     for block in range(4):
-            start_row = block * s
-            start_col = block * s
+            start_row = block * int_s
+            start_col = block * int_s
             
             # Costruzione del blocco triangolare
-            for i in range(s):
+            for i in range(int_s):
                 for j in range(i + 1):
                     if i == j:
                         matrix[start_row + i, start_col + j] = 1
