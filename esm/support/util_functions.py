@@ -364,7 +364,8 @@ def weibull_distribution(
 
 
 def power_tri(
-        dimension: cp.Parameter, 
+        dimension: cp.Parameter,
+        seasons: cp.Parameter, 
         power_factor: cp.Parameter,
 ) -> np.array:
     """
@@ -391,21 +392,24 @@ def power_tri(
         raise TypeError("power_factor must be a cvxpy.Parameter")
     
     dim = int(dimension.value)  # Extract the integer value of the dimension
-
+    if isinstance(seasons,int):
+        s = seasons
+    else:
+        s = int(seasons.value)  # Extract the integer value of the seasons
     #Extract values from cvxpy parameters
     pf: np.ndarray = power_factor.value #pf defined for storage technologies, one equation for each storage tech 
 
     # Initialize the matrix
     matrix = np.zeros((dim, dim))
-    s=dim/4 
-    int_s=int(s)
+    x=dim/s 
+    int_x=int(x)
 
-    for block in range(4):
-            start_row = block * int_s
-            start_col = block * int_s
+    for block in range(s):
+            start_row = block * int_x
+            start_col = block * int_x
             
             # Costruzione del blocco triangolare
-            for i in range(int_s):
+            for i in range(int_x):
                 for j in range(i + 1):
                     if i == j:
                         matrix[start_row + i, start_col + j] = 1

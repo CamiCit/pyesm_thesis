@@ -45,7 +45,7 @@ expressions:                # definition of additional expressions (equalities/i
     - SOC_max == H_ones @ mult(cap_tot_stor, tran(storage_max))
     - SOC_min == H_ones @ mult(cap_tot_stor, tran(storage_min))
     - SOC_start == H_ones @ mult(cap_tot_stor, tran(storage_start))
-    - SOC_t == mult(SOC_start_t,power_vector(n_hours,loss_factors_t)) - power_tri(n_hours,loss_factors_t) @ X_t_stor_t
+    - SOC_t == mult(SOC_start_t,power_vector(n_hours,loss_factors_t)) - power_tri(n_hours,4,loss_factors_t) @ X_t_stor_t
     - SOC - SOC_min >= 0
     - SOC_max - SOC >= 0
 
@@ -53,7 +53,7 @@ expressions:                # definition of additional expressions (equalities/i
     - BEV_SOC_max == H_ones @ mult(cap_tot_BEV, tran(BEV_level_max))
     - BEV_SOC_min == H_ones @ mult(cap_tot_BEV, tran(BEV_level_min))
     - BEV_SOC_start == H_ones @ mult(cap_tot_BEV, tran(BEV_level_start))
-    - BEV_SOC == BEV_SOC_start - power_tri(n_hours,loss_factors_BEV) @ (X_no_peak @ BEV_vector)
+    - BEV_SOC == BEV_SOC_start - power_tri(n_hours,4,loss_factors_BEV) @ (X_no_peak @ BEV_vector)
     - BEV_SOC_max - BEV_SOC >= 0
     - BEV_SOC - BEV_SOC_min >= 0
     
