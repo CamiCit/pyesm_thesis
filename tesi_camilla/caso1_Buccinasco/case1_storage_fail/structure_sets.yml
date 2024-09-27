@@ -1,0 +1,88 @@
+# structure of sets
+
+# set_key:                                        # put here the name of the set
+#     symbol: a                                   # symbol of the set
+#     table_name: _set_a                          # name of the table of the set in the database
+#     split_problem: False                        # (optional) if the set defines independent numerical sub-problems
+#     copy_from: another_set_key                  # (optional) key of another set to copy the data from (table_structure must be filled anyway)
+#     table_structure:                            # structure of the set sqlite table (columns)
+#         name: [a_Names, TYPE]                   # header and type of the main set entry (defining set items names)
+#         aggregation: [a_Agg, TEXT]              # (optional) header of set entries that are matching another set (aggregation)
+#         filters:                                # (optional) add multiple filter columns if needed
+#             0:                                  # (int) index of the filter category
+#                 header: [a_Cat_1, TEXT]         # header and type of the filter category
+#                 values: [a_1a, a_1b, a_1c]      # values that will be present in the filter category
+#             1: 
+#                 header: [a_Cat_2, TEXT] 
+#                 values: [a_2a, a_2b]
+# -----------------------------------------------------------------------------
+# sets
+
+days:                                        
+    symbol: day                                   
+    table_name: _set_days                         
+    table_structure:                           
+        name: [days_names, TEXT]
+
+seasons:                                        
+    symbol: season                                   
+    table_name: _set_seasons                         
+    table_structure:                           
+        name: [seasons_names, TEXT]
+
+time_hour:                                        
+    symbol: th                                   
+    table_name: _set_th                         
+    table_structure:                           
+        name: [th_names, TEXT]
+        aggregation: [days, TEXT]
+        filters: 
+            peak:                                  
+                header: [h_peak, TEXT]
+                values: [y, n]    
+            # end:
+            #     header: [h_end, TEXT]
+            #     values: [y, n]
+
+needs:                                        
+    symbol: n                                   
+    table_name: _set_needs                         
+    table_structure:                            
+        name: [n_names, TEXT]                  
+                                   
+techs:                                        
+    symbol: t                                   
+    table_name: _set_t                         
+    table_structure:                            
+        name: [t_names, TEXT] 
+        filters:                                
+            storage:                                  
+                header: [t_storage, TEXT]        
+                values: [y, n]
+            BEV:                                  
+                header: [t_BEV, TEXT]        
+                values: [y, n]            
+                 
+
+activities:                                        
+    symbol: a                                   
+    table_name: _set_a                         
+    table_structure:                            
+        name: [a_names, TEXT] 
+        aggregation: [techs, TEXT]
+        filters:                                
+            storage:                                  
+                header: [a_storage, TEXT]
+                values: [y, n]                              
+            seasonal:                                  
+                header: [a_season, TEXT]
+                values: [y, n]
+
+scenarios:                                        
+    symbol: s                                   
+    table_name: _set_s                         
+    split_problem: True                        
+    table_structure:                            
+        name: [s_names, TEXT]                   
+
+
