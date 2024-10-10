@@ -6,13 +6,6 @@ objective:                  # (optional) definition of the objective function
 
 expressions:                # definition of additional expressions (equalities/inequalities)   
     - tran(Q) - u @ tran(X) - diag(TI) @ Y - curtail == 0
-
-     #Emissions
-    - CO2_act ==  days_per_type @ I_dh @ X @ diag(e_op) 
-    - CO2_embed ==  new_units @ tran(e_embed) + TI_e @ insulation
-    - CO2_start == cap_tot @ minv(diag(cap_units)) @ tran(e_embed)
-    - CO2_tot == n_years @ CO2_act @ A_ones + CO2_embed
-
     - d @ tran(X) - tran(Q)== 0
     - TI == N_ones + mult(tran(TI_param),insulation)
     - X_t == X @ tran(I_ta)
@@ -44,7 +37,12 @@ expressions:                # definition of additional expressions (equalities/i
     - H_ones_row @ X_t - active_techs >= 0 
     - active_techs * 1000000 - H_ones_row @ X_t >= 0
 
-   
+    #Emissions
+    - CO2_act ==  days_per_type @ I_dh @ X @ diag(e_op) 
+    - CO2_embed ==  new_units @ tran(e_embed) + TI_e @ insulation
+    - CO2_start == cap_tot @ minv(diag(cap_units)) @ tran(e_embed)
+    - CO2_tot == n_years @ CO2_act @ A_ones + CO2_embed
+
     #STORAGE equations
     - max_disch == mult(storage_max_disch,cap_tot_stor)
     - min_charge == mult(storage_min_charge,cap_tot_stor) 

@@ -445,7 +445,9 @@ class Model:
 
     def load_results_to_database(
         self,
-        operation: str = 'update'
+        main_dir_path,
+        model_dir_name,
+        operation: str = 'update',
     ) -> None:
         """
         Loads the endogenous model results to a SQLite database. 
@@ -460,7 +462,7 @@ class Model:
         self.logger.info(
             'Exporting endogenous model results to SQLite database.')
 
-        self.core.cvxpy_endogenous_data_to_database(operation)
+        self.core.cvxpy_endogenous_data_to_database(operation,main_dir_path,model_dir_name)
 
     def update_database_and_problem(
             self,

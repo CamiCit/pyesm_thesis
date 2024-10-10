@@ -518,6 +518,8 @@ class Core:
     def cvxpy_endogenous_data_to_database(
             self,
             operation: str,
+            main_dir_path,
+            model_dir_name,
             suppress_warnings: bool = False,
     ) -> None:
         """
@@ -545,6 +547,7 @@ class Core:
             The data is exported using the 'dataframe_to_table' method of the 
                 SQLTools instance.
         """
+
         self.logger.debug(
             "Exporting data from cvxpy endogenous variable (in data table) "
             f"to SQLite database '{self.settings['sqlite_database_file']}' ")
@@ -574,7 +577,6 @@ class Core:
                         data_table.coordinates_dataframe.values(),
                         ignore_index=True
                     )
-
                 if not util.add_column_to_dataframe(
                     dataframe=data_table_dataframe,
                     column_header=values_headers,
@@ -584,14 +586,13 @@ class Core:
                         self.logger.warning(
                             f"Column '{values_headers}' already exists in data "
                             f"table '{data_table_key}'")
-
                 if data_table.cvxpy_var is None:
                     if self.settings['log_level'] == 'debug' or \
                             not suppress_warnings:
                         self.logger.warning(
                             f"No data available in cvxpy variable '{data_table_key}'")
                     continue
-
+                
                 if isinstance(data_table.cvxpy_var, dict):
 
                     cvxpy_var_values_list = []
@@ -605,13 +606,20 @@ class Core:
                     cvxpy_var_data = data_table.cvxpy_var.value
 
                 data_table_dataframe[values_headers] = cvxpy_var_data
+                
+                #Camilla: change
+                file_path = f"{main_dir_path}/{model_dir_name}/Results_csv"
+                file_name = f"{model_dir_path}/{model_dir_name}/{data_table_key}.csv"
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                data_table_dataframe.to_csv(file_name, index=False)
+                self.logger.info(f"Data exported to {data_table_key}.csv")
 
-                self.sqltools.dataframe_to_table(
-                    table_name=data_table_key,
-                    dataframe=data_table_dataframe,
-                    operation=operation,
-                    suppress_warnings=suppress_warnings,
-                )
+                # self.sqltools.dataframe_to_table(
+                #     table_name=data_table_key,
+                #     dataframe=data_table_dataframe,
+                #     operation=operation,
+                #     suppress_warnings=suppress_warnings,
+                # )
 
     def check_results_as_expected(
             self,
