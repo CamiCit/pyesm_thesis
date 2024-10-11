@@ -961,7 +961,7 @@ UserA,h08_wi04,Gas stove,0.0
 UserA,h08_wi04,Gas National Grid,0.0
 UserA,h09_wi04,PV sys,0.0
 UserA,h09_wi04,National Grid EE,0.0
-UserA,h09_wi04,Storage EE,0.0
+UserA,h09_wi04,Storage EE,5.348087988021888e-07
 UserA,h09_wi04,Gas Boiler,0.0
 UserA,h09_wi04,HP,0.0
 UserA,h09_wi04,AC,0.0
@@ -4981,7 +4981,7 @@ UserA,h07_mc04,Gas stove,0.0
 UserA,h07_mc04,Gas National Grid,0.0
 UserA,h08_mc04,PV sys,0.0
 UserA,h08_mc04,National Grid EE,0.0
-UserA,h08_mc04,Storage EE,0.0
+UserA,h08_mc04,Storage EE,-2.3098987611547273e-07
 UserA,h08_mc04,Gas Boiler,0.0
 UserA,h08_mc04,HP,0.0
 UserA,h08_mc04,AC,0.0
@@ -4993,7 +4993,7 @@ UserA,h08_mc04,Gas stove,0.0
 UserA,h08_mc04,Gas National Grid,0.0
 UserA,h09_mc04,PV sys,0.0
 UserA,h09_mc04,National Grid EE,0.0
-UserA,h09_mc04,Storage EE,0.0
+UserA,h09_mc04,Storage EE,-5.68385379651204e-07
 UserA,h09_mc04,Gas Boiler,0.0
 UserA,h09_mc04,HP,0.0
 UserA,h09_mc04,AC,0.0
@@ -5005,7 +5005,7 @@ UserA,h09_mc04,Gas stove,0.0
 UserA,h09_mc04,Gas National Grid,0.0
 UserA,h10_mc04,PV sys,0.0
 UserA,h10_mc04,National Grid EE,0.0
-UserA,h10_mc04,Storage EE,0.0
+UserA,h10_mc04,Storage EE,-5.68385379651204e-07
 UserA,h10_mc04,Gas Boiler,0.0
 UserA,h10_mc04,HP,0.0
 UserA,h10_mc04,AC,0.0
@@ -5017,7 +5017,7 @@ UserA,h10_mc04,Gas stove,0.0
 UserA,h10_mc04,Gas National Grid,0.0
 UserA,h11_mc04,PV sys,0.0
 UserA,h11_mc04,National Grid EE,0.0
-UserA,h11_mc04,Storage EE,0.0
+UserA,h11_mc04,Storage EE,-5.68385379651204e-07
 UserA,h11_mc04,Gas Boiler,0.0
 UserA,h11_mc04,HP,0.0
 UserA,h11_mc04,AC,0.0
@@ -5029,7 +5029,7 @@ UserA,h11_mc04,Gas stove,0.0
 UserA,h11_mc04,Gas National Grid,0.0
 UserA,h12_mc04,PV sys,0.0
 UserA,h12_mc04,National Grid EE,0.0
-UserA,h12_mc04,Storage EE,0.0
+UserA,h12_mc04,Storage EE,-5.68385379651204e-07
 UserA,h12_mc04,Gas Boiler,0.0
 UserA,h12_mc04,HP,0.0
 UserA,h12_mc04,AC,0.0
@@ -7321,7 +7321,7 @@ UserA,h10_mc12,Gas stove,0.0
 UserA,h10_mc12,Gas National Grid,0.0
 UserA,h11_mc12,PV sys,0.0
 UserA,h11_mc12,National Grid EE,0.0
-UserA,h11_mc12,Storage EE,0.0
+UserA,h11_mc12,Storage EE,1.1296152030437767e-07
 UserA,h11_mc12,Gas Boiler,0.0
 UserA,h11_mc12,HP,0.0
 UserA,h11_mc12,AC,0.0
@@ -7333,7 +7333,7 @@ UserA,h11_mc12,Gas stove,0.0
 UserA,h11_mc12,Gas National Grid,0.0
 UserA,h12_mc12,PV sys,0.0
 UserA,h12_mc12,National Grid EE,0.0
-UserA,h12_mc12,Storage EE,0.0
+UserA,h12_mc12,Storage EE,1.1296152030437767e-07
 UserA,h12_mc12,Gas Boiler,0.0
 UserA,h12_mc12,HP,0.0
 UserA,h12_mc12,AC,0.0
@@ -7585,7 +7585,7 @@ UserA,h08_mc13,Gas stove,0.0
 UserA,h08_mc13,Gas National Grid,0.0
 UserA,h09_mc13,PV sys,0.0
 UserA,h09_mc13,National Grid EE,0.0
-UserA,h09_mc13,Storage EE,0.0
+UserA,h09_mc13,Storage EE,-2.7040270417222345e-07
 UserA,h09_mc13,Gas Boiler,0.0
 UserA,h09_mc13,HP,0.0
 UserA,h09_mc13,AC,0.0
@@ -7597,7 +7597,7 @@ UserA,h09_mc13,Gas stove,0.0
 UserA,h09_mc13,Gas National Grid,0.0
 UserA,h10_mc13,PV sys,0.0
 UserA,h10_mc13,National Grid EE,0.0
-UserA,h10_mc13,Storage EE,0.0
+UserA,h10_mc13,Storage EE,-2.7040270417222345e-07
 UserA,h10_mc13,Gas Boiler,0.0
 UserA,h10_mc13,HP,0.0
 UserA,h10_mc13,AC,0.0
@@ -7609,7 +7609,7 @@ UserA,h10_mc13,Gas stove,0.0
 UserA,h10_mc13,Gas National Grid,0.0
 UserA,h11_mc13,PV sys,0.0
 UserA,h11_mc13,National Grid EE,0.0
-UserA,h11_mc13,Storage EE,0.0
+UserA,h11_mc13,Storage EE,-2.7040270417222345e-07
 UserA,h11_mc13,Gas Boiler,0.0
 UserA,h11_mc13,HP,0.0
 UserA,h11_mc13,AC,0.0
@@ -8569,7 +8569,7 @@ UserA,h18_mw02,Gas stove,0.0
 UserA,h18_mw02,Gas National Grid,0.0
 UserA,h19_mw02,PV sys,0.0
 UserA,h19_mw02,National Grid EE,0.0
-UserA,h19_mw02,Storage EE,-1.1066757475336398e-06
+UserA,h19_mw02,Storage EE,0.0
 UserA,h19_mw02,Gas Boiler,0.0
 UserA,h19_mw02,HP,0.0
 UserA,h19_mw02,AC,0.0
@@ -8581,7 +8581,7 @@ UserA,h19_mw02,Gas stove,0.0
 UserA,h19_mw02,Gas National Grid,0.0
 UserA,h20_mw02,PV sys,0.0
 UserA,h20_mw02,National Grid EE,0.0
-UserA,h20_mw02,Storage EE,-1.1066666666458507e-06
+UserA,h20_mw02,Storage EE,0.0
 UserA,h20_mw02,Gas Boiler,0.0
 UserA,h20_mw02,HP,0.0
 UserA,h20_mw02,AC,0.0
@@ -8593,7 +8593,7 @@ UserA,h20_mw02,Gas stove,0.0
 UserA,h20_mw02,Gas National Grid,0.0
 UserA,h21_mw02,PV sys,0.0
 UserA,h21_mw02,National Grid EE,0.0
-UserA,h21_mw02,Storage EE,-1.1066666666458507e-06
+UserA,h21_mw02,Storage EE,0.0
 UserA,h21_mw02,Gas Boiler,0.0
 UserA,h21_mw02,HP,0.0
 UserA,h21_mw02,AC,0.0
@@ -8605,7 +8605,7 @@ UserA,h21_mw02,Gas stove,0.0
 UserA,h21_mw02,Gas National Grid,0.0
 UserA,h22_mw02,PV sys,0.0
 UserA,h22_mw02,National Grid EE,0.0
-UserA,h22_mw02,Storage EE,-1.1066666666458507e-06
+UserA,h22_mw02,Storage EE,0.0
 UserA,h22_mw02,Gas Boiler,0.0
 UserA,h22_mw02,HP,0.0
 UserA,h22_mw02,AC,0.0
@@ -11617,7 +11617,7 @@ UserA,h08_mw13,Gas stove,0.0
 UserA,h08_mw13,Gas National Grid,0.0
 UserA,h09_mw13,PV sys,0.0
 UserA,h09_mw13,National Grid EE,0.0
-UserA,h09_mw13,Storage EE,0.0
+UserA,h09_mw13,Storage EE,-2.886493963849546e-08
 UserA,h09_mw13,Gas Boiler,0.0
 UserA,h09_mw13,HP,0.0
 UserA,h09_mw13,AC,0.0
@@ -11629,7 +11629,7 @@ UserA,h09_mw13,Gas stove,0.0
 UserA,h09_mw13,Gas National Grid,0.0
 UserA,h10_mw13,PV sys,0.0
 UserA,h10_mw13,National Grid EE,0.0
-UserA,h10_mw13,Storage EE,0.0
+UserA,h10_mw13,Storage EE,-2.886493963849546e-08
 UserA,h10_mw13,Gas Boiler,0.0
 UserA,h10_mw13,HP,0.0
 UserA,h10_mw13,AC,0.0
@@ -11641,7 +11641,7 @@ UserA,h10_mw13,Gas stove,0.0
 UserA,h10_mw13,Gas National Grid,0.0
 UserA,h11_mw13,PV sys,0.0
 UserA,h11_mw13,National Grid EE,0.0
-UserA,h11_mw13,Storage EE,0.0
+UserA,h11_mw13,Storage EE,-2.886493963849546e-08
 UserA,h11_mw13,Gas Boiler,0.0
 UserA,h11_mw13,HP,0.0
 UserA,h11_mw13,AC,0.0
@@ -11653,7 +11653,7 @@ UserA,h11_mw13,Gas stove,0.0
 UserA,h11_mw13,Gas National Grid,0.0
 UserA,h12_mw13,PV sys,0.0
 UserA,h12_mw13,National Grid EE,0.0
-UserA,h12_mw13,Storage EE,0.0
+UserA,h12_mw13,Storage EE,-2.886493963849546e-08
 UserA,h12_mw13,Gas Boiler,0.0
 UserA,h12_mw13,HP,0.0
 UserA,h12_mw13,AC,0.0
@@ -12193,7 +12193,7 @@ UserA,h08_su01,Gas stove,0.0
 UserA,h08_su01,Gas National Grid,0.0
 UserA,h09_su01,PV sys,0.0
 UserA,h09_su01,National Grid EE,0.0
-UserA,h09_su01,Storage EE,0.0
+UserA,h09_su01,Storage EE,-5.417224351045302e-07
 UserA,h09_su01,Gas Boiler,0.0
 UserA,h09_su01,HP,0.0
 UserA,h09_su01,AC,0.0
@@ -12205,7 +12205,7 @@ UserA,h09_su01,Gas stove,0.0
 UserA,h09_su01,Gas National Grid,0.0
 UserA,h10_su01,PV sys,0.0
 UserA,h10_su01,National Grid EE,0.0
-UserA,h10_su01,Storage EE,0.0
+UserA,h10_su01,Storage EE,-5.417224351045302e-07
 UserA,h10_su01,Gas Boiler,0.0
 UserA,h10_su01,HP,0.0
 UserA,h10_su01,AC,0.0
@@ -12217,7 +12217,7 @@ UserA,h10_su01,Gas stove,0.0
 UserA,h10_su01,Gas National Grid,0.0
 UserA,h11_su01,PV sys,0.0
 UserA,h11_su01,National Grid EE,0.0
-UserA,h11_su01,Storage EE,0.0
+UserA,h11_su01,Storage EE,-5.417224351045302e-07
 UserA,h11_su01,Gas Boiler,0.0
 UserA,h11_su01,HP,0.0
 UserA,h11_su01,AC,0.0
@@ -12229,7 +12229,7 @@ UserA,h11_su01,Gas stove,0.0
 UserA,h11_su01,Gas National Grid,0.0
 UserA,h12_su01,PV sys,0.0
 UserA,h12_su01,National Grid EE,0.0
-UserA,h12_su01,Storage EE,0.0
+UserA,h12_su01,Storage EE,-5.417224351045302e-07
 UserA,h12_su01,Gas Boiler,0.0
 UserA,h12_su01,HP,0.0
 UserA,h12_su01,AC,0.0
@@ -19201,7 +19201,7 @@ UserB,h15_wi11,Gas stove,0.0
 UserB,h15_wi11,Gas National Grid,0.0
 UserB,h16_wi11,PV sys,0.0
 UserB,h16_wi11,National Grid EE,0.0
-UserB,h16_wi11,Storage EE,-6.527183154118385e-08
+UserB,h16_wi11,Storage EE,0.0
 UserB,h16_wi11,Gas Boiler,0.0
 UserB,h16_wi11,HP,0.0
 UserB,h16_wi11,AC,0.0
@@ -19213,7 +19213,7 @@ UserB,h16_wi11,Gas stove,0.0
 UserB,h16_wi11,Gas National Grid,0.0
 UserB,h17_wi11,PV sys,0.0
 UserB,h17_wi11,National Grid EE,0.0
-UserB,h17_wi11,Storage EE,-6.527183154118385e-08
+UserB,h17_wi11,Storage EE,0.0
 UserB,h17_wi11,Gas Boiler,0.0
 UserB,h17_wi11,HP,0.0
 UserB,h17_wi11,AC,0.0
@@ -19225,7 +19225,7 @@ UserB,h17_wi11,Gas stove,0.0
 UserB,h17_wi11,Gas National Grid,0.0
 UserB,h18_wi11,PV sys,0.0
 UserB,h18_wi11,National Grid EE,0.0
-UserB,h18_wi11,Storage EE,-6.527183154118385e-08
+UserB,h18_wi11,Storage EE,0.0
 UserB,h18_wi11,Gas Boiler,0.0
 UserB,h18_wi11,HP,0.0
 UserB,h18_wi11,AC,0.0
@@ -24577,7 +24577,7 @@ UserB,h07_mw02,Gas stove,0.0
 UserB,h07_mw02,Gas National Grid,0.0
 UserB,h08_mw02,PV sys,0.0
 UserB,h08_mw02,National Grid EE,0.0
-UserB,h08_mw02,Storage EE,0.0
+UserB,h08_mw02,Storage EE,1.9678593136711099e-10
 UserB,h08_mw02,Gas Boiler,0.0
 UserB,h08_mw02,HP,0.0
 UserB,h08_mw02,AC,0.0
@@ -28585,7 +28585,7 @@ UserB,h05_su02,Gas stove,0.0
 UserB,h05_su02,Gas National Grid,0.0
 UserB,h06_su02,PV sys,0.0
 UserB,h06_su02,National Grid EE,0.0
-UserB,h06_su02,Storage EE,-6.00000000239298e-08
+UserB,h06_su02,Storage EE,0.0
 UserB,h06_su02,Gas Boiler,0.0
 UserB,h06_su02,HP,0.0
 UserB,h06_su02,AC,0.0
@@ -29017,7 +29017,7 @@ UserB,h17_su03,Gas stove,0.0
 UserB,h17_su03,Gas National Grid,0.0
 UserB,h18_su03,PV sys,0.0
 UserB,h18_su03,National Grid EE,0.0
-UserB,h18_su03,Storage EE,9.333333326394446e-08
+UserB,h18_su03,Storage EE,0.0
 UserB,h18_su03,Gas Boiler,0.0
 UserB,h18_su03,HP,0.0
 UserB,h18_su03,AC,0.0
@@ -29029,7 +29029,7 @@ UserB,h18_su03,Gas stove,0.0
 UserB,h18_su03,Gas National Grid,0.0
 UserB,h19_su03,PV sys,0.0
 UserB,h19_su03,National Grid EE,0.0
-UserB,h19_su03,Storage EE,9.333333326394446e-08
+UserB,h19_su03,Storage EE,0.0
 UserB,h19_su03,Gas Boiler,0.0
 UserB,h19_su03,HP,0.0
 UserB,h19_su03,AC,0.0
@@ -29041,7 +29041,7 @@ UserB,h19_su03,Gas stove,0.0
 UserB,h19_su03,Gas National Grid,0.0
 UserB,h20_su03,PV sys,0.0
 UserB,h20_su03,National Grid EE,0.0
-UserB,h20_su03,Storage EE,9.333333326394446e-08
+UserB,h20_su03,Storage EE,0.0
 UserB,h20_su03,Gas Boiler,0.0
 UserB,h20_su03,HP,0.0
 UserB,h20_su03,AC,0.0
@@ -29053,7 +29053,7 @@ UserB,h20_su03,Gas stove,0.0
 UserB,h20_su03,Gas National Grid,0.0
 UserB,h21_su03,PV sys,0.0
 UserB,h21_su03,National Grid EE,0.0
-UserB,h21_su03,Storage EE,9.333333326394446e-08
+UserB,h21_su03,Storage EE,0.0
 UserB,h21_su03,Gas Boiler,0.0
 UserB,h21_su03,HP,0.0
 UserB,h21_su03,AC,0.0
@@ -29065,7 +29065,7 @@ UserB,h21_su03,Gas stove,0.0
 UserB,h21_su03,Gas National Grid,0.0
 UserB,h22_su03,PV sys,0.0
 UserB,h22_su03,National Grid EE,0.0
-UserB,h22_su03,Storage EE,9.333333326394446e-08
+UserB,h22_su03,Storage EE,0.0
 UserB,h22_su03,Gas Boiler,0.0
 UserB,h22_su03,HP,0.0
 UserB,h22_su03,AC,0.0
@@ -29077,7 +29077,7 @@ UserB,h22_su03,Gas stove,0.0
 UserB,h22_su03,Gas National Grid,0.0
 UserB,h23_su03,PV sys,0.0
 UserB,h23_su03,National Grid EE,0.0
-UserB,h23_su03,Storage EE,9.333333326394446e-08
+UserB,h23_su03,Storage EE,0.0
 UserB,h23_su03,Gas Boiler,0.0
 UserB,h23_su03,HP,0.0
 UserB,h23_su03,AC,0.0
@@ -30985,7 +30985,7 @@ UserB,h13_su10,Gas stove,0.0
 UserB,h13_su10,Gas National Grid,0.0
 UserB,h14_su10,PV sys,0.0
 UserB,h14_su10,National Grid EE,0.0
-UserB,h14_su10,Storage EE,6.666666640953167e-08
+UserB,h14_su10,Storage EE,0.0
 UserB,h14_su10,Gas Boiler,0.0
 UserB,h14_su10,HP,0.0
 UserB,h14_su10,AC,0.0
@@ -31741,7 +31741,7 @@ UserB,h04_su13,Gas stove,0.0
 UserB,h04_su13,Gas National Grid,0.0
 UserB,h05_su13,PV sys,0.0
 UserB,h05_su13,National Grid EE,0.0
-UserB,h05_su13,Storage EE,2.3333333265540546e-08
+UserB,h05_su13,Storage EE,0.0
 UserB,h05_su13,Gas Boiler,0.0
 UserB,h05_su13,HP,0.0
 UserB,h05_su13,AC,0.0
@@ -32401,7 +32401,7 @@ UserC,h10_wi01,Gas stove,0.0
 UserC,h10_wi01,Gas National Grid,0.0
 UserC,h11_wi01,PV sys,0.0
 UserC,h11_wi01,National Grid EE,0.0
-UserC,h11_wi01,Storage EE,4.656612873077393e-10
+UserC,h11_wi01,Storage EE,0.0
 UserC,h11_wi01,Gas Boiler,0.0
 UserC,h11_wi01,HP,0.0
 UserC,h11_wi01,AC,0.0
@@ -32413,7 +32413,7 @@ UserC,h11_wi01,Gas stove,0.0
 UserC,h11_wi01,Gas National Grid,0.0
 UserC,h12_wi01,PV sys,0.0
 UserC,h12_wi01,National Grid EE,0.0
-UserC,h12_wi01,Storage EE,4.656612873077393e-10
+UserC,h12_wi01,Storage EE,0.0
 UserC,h12_wi01,Gas Boiler,0.0
 UserC,h12_wi01,HP,0.0
 UserC,h12_wi01,AC,0.0
@@ -32425,7 +32425,7 @@ UserC,h12_wi01,Gas stove,0.0
 UserC,h12_wi01,Gas National Grid,0.0
 UserC,h13_wi01,PV sys,0.0
 UserC,h13_wi01,National Grid EE,0.0
-UserC,h13_wi01,Storage EE,4.656612873077393e-10
+UserC,h13_wi01,Storage EE,0.0
 UserC,h13_wi01,Gas Boiler,0.0
 UserC,h13_wi01,HP,0.0
 UserC,h13_wi01,AC,0.0
@@ -32449,7 +32449,7 @@ UserC,h14_wi01,Gas stove,0.0
 UserC,h14_wi01,Gas National Grid,0.0
 UserC,h15_wi01,PV sys,0.0
 UserC,h15_wi01,National Grid EE,0.0
-UserC,h15_wi01,Storage EE,1.1350493878126144e-09
+UserC,h15_wi01,Storage EE,0.0
 UserC,h15_wi01,Gas Boiler,0.0
 UserC,h15_wi01,HP,0.0
 UserC,h15_wi01,AC,0.0
@@ -32461,7 +32461,7 @@ UserC,h15_wi01,Gas stove,0.0
 UserC,h15_wi01,Gas National Grid,0.0
 UserC,h16_wi01,PV sys,0.0
 UserC,h16_wi01,National Grid EE,0.0
-UserC,h16_wi01,Storage EE,1.1350493878126144e-09
+UserC,h16_wi01,Storage EE,0.0
 UserC,h16_wi01,Gas Boiler,0.0
 UserC,h16_wi01,HP,0.0
 UserC,h16_wi01,AC,0.0
@@ -32473,7 +32473,7 @@ UserC,h16_wi01,Gas stove,0.0
 UserC,h16_wi01,Gas National Grid,0.0
 UserC,h17_wi01,PV sys,0.0
 UserC,h17_wi01,National Grid EE,0.0
-UserC,h17_wi01,Storage EE,1.1350493878126144e-09
+UserC,h17_wi01,Storage EE,0.0
 UserC,h17_wi01,Gas Boiler,0.0
 UserC,h17_wi01,HP,0.0
 UserC,h17_wi01,AC,0.0
@@ -32485,7 +32485,7 @@ UserC,h17_wi01,Gas stove,0.0
 UserC,h17_wi01,Gas National Grid,0.0
 UserC,h18_wi01,PV sys,0.0
 UserC,h18_wi01,National Grid EE,0.0
-UserC,h18_wi01,Storage EE,1.1350493878126144e-09
+UserC,h18_wi01,Storage EE,0.0
 UserC,h18_wi01,Gas Boiler,0.0
 UserC,h18_wi01,HP,0.0
 UserC,h18_wi01,AC,0.0
@@ -32497,7 +32497,7 @@ UserC,h18_wi01,Gas stove,0.0
 UserC,h18_wi01,Gas National Grid,0.0
 UserC,h19_wi01,PV sys,0.0
 UserC,h19_wi01,National Grid EE,0.0
-UserC,h19_wi01,Storage EE,1.1350493878126144e-09
+UserC,h19_wi01,Storage EE,0.0
 UserC,h19_wi01,Gas Boiler,0.0
 UserC,h19_wi01,HP,0.0
 UserC,h19_wi01,AC,0.0
@@ -33001,7 +33001,7 @@ UserC,h12_wi03,Gas stove,0.0
 UserC,h12_wi03,Gas National Grid,0.0
 UserC,h13_wi03,PV sys,0.0
 UserC,h13_wi03,National Grid EE,0.0
-UserC,h13_wi03,Storage EE,1.1985094898801323e-11
+UserC,h13_wi03,Storage EE,0.0
 UserC,h13_wi03,Gas Boiler,0.0
 UserC,h13_wi03,HP,0.0
 UserC,h13_wi03,AC,0.0
@@ -33013,7 +33013,7 @@ UserC,h13_wi03,Gas stove,0.0
 UserC,h13_wi03,Gas National Grid,0.0
 UserC,h14_wi03,PV sys,0.0
 UserC,h14_wi03,National Grid EE,0.0
-UserC,h14_wi03,Storage EE,1.1985094898801323e-11
+UserC,h14_wi03,Storage EE,0.0
 UserC,h14_wi03,Gas Boiler,0.0
 UserC,h14_wi03,HP,0.0
 UserC,h14_wi03,AC,0.0
@@ -33025,7 +33025,7 @@ UserC,h14_wi03,Gas stove,0.0
 UserC,h14_wi03,Gas National Grid,0.0
 UserC,h15_wi03,PV sys,0.0
 UserC,h15_wi03,National Grid EE,0.0
-UserC,h15_wi03,Storage EE,1.1985094898801355e-11
+UserC,h15_wi03,Storage EE,0.0
 UserC,h15_wi03,Gas Boiler,0.0
 UserC,h15_wi03,HP,0.0
 UserC,h15_wi03,AC,0.0
@@ -33037,7 +33037,7 @@ UserC,h15_wi03,Gas stove,0.0
 UserC,h15_wi03,Gas National Grid,0.0
 UserC,h16_wi03,PV sys,0.0
 UserC,h16_wi03,National Grid EE,0.0
-UserC,h16_wi03,Storage EE,1.1985094898801355e-11
+UserC,h16_wi03,Storage EE,0.0
 UserC,h16_wi03,Gas Boiler,0.0
 UserC,h16_wi03,HP,0.0
 UserC,h16_wi03,AC,0.0
@@ -33049,7 +33049,7 @@ UserC,h16_wi03,Gas stove,0.0
 UserC,h16_wi03,Gas National Grid,0.0
 UserC,h17_wi03,PV sys,0.0
 UserC,h17_wi03,National Grid EE,0.0
-UserC,h17_wi03,Storage EE,1.1985094898801355e-11
+UserC,h17_wi03,Storage EE,0.0
 UserC,h17_wi03,Gas Boiler,0.0
 UserC,h17_wi03,HP,0.0
 UserC,h17_wi03,AC,0.0
@@ -33061,7 +33061,7 @@ UserC,h17_wi03,Gas stove,0.0
 UserC,h17_wi03,Gas National Grid,0.0
 UserC,h18_wi03,PV sys,0.0
 UserC,h18_wi03,National Grid EE,0.0
-UserC,h18_wi03,Storage EE,1.1985094898801355e-11
+UserC,h18_wi03,Storage EE,0.0
 UserC,h18_wi03,Gas Boiler,0.0
 UserC,h18_wi03,HP,0.0
 UserC,h18_wi03,AC,0.0
@@ -33073,7 +33073,7 @@ UserC,h18_wi03,Gas stove,0.0
 UserC,h18_wi03,Gas National Grid,0.0
 UserC,h19_wi03,PV sys,0.0
 UserC,h19_wi03,National Grid EE,0.0
-UserC,h19_wi03,Storage EE,1.1985094898801355e-11
+UserC,h19_wi03,Storage EE,0.0
 UserC,h19_wi03,Gas Boiler,0.0
 UserC,h19_wi03,HP,0.0
 UserC,h19_wi03,AC,0.0
@@ -33085,7 +33085,7 @@ UserC,h19_wi03,Gas stove,0.0
 UserC,h19_wi03,Gas National Grid,0.0
 UserC,h20_wi03,PV sys,0.0
 UserC,h20_wi03,National Grid EE,0.0
-UserC,h20_wi03,Storage EE,1.1985094898801355e-11
+UserC,h20_wi03,Storage EE,0.0
 UserC,h20_wi03,Gas Boiler,0.0
 UserC,h20_wi03,HP,0.0
 UserC,h20_wi03,AC,0.0
@@ -33097,7 +33097,7 @@ UserC,h20_wi03,Gas stove,0.0
 UserC,h20_wi03,Gas National Grid,0.0
 UserC,h21_wi03,PV sys,0.0
 UserC,h21_wi03,National Grid EE,0.0
-UserC,h21_wi03,Storage EE,1.1985094898801355e-11
+UserC,h21_wi03,Storage EE,0.0
 UserC,h21_wi03,Gas Boiler,0.0
 UserC,h21_wi03,HP,0.0
 UserC,h21_wi03,AC,0.0
@@ -33109,7 +33109,7 @@ UserC,h21_wi03,Gas stove,0.0
 UserC,h21_wi03,Gas National Grid,0.0
 UserC,h22_wi03,PV sys,0.0
 UserC,h22_wi03,National Grid EE,0.0
-UserC,h22_wi03,Storage EE,1.1985094898801355e-11
+UserC,h22_wi03,Storage EE,0.0
 UserC,h22_wi03,Gas Boiler,0.0
 UserC,h22_wi03,HP,0.0
 UserC,h22_wi03,AC,0.0
@@ -33121,7 +33121,7 @@ UserC,h22_wi03,Gas stove,0.0
 UserC,h22_wi03,Gas National Grid,0.0
 UserC,h23_wi03,PV sys,0.0
 UserC,h23_wi03,National Grid EE,0.0
-UserC,h23_wi03,Storage EE,1.1985094898801355e-11
+UserC,h23_wi03,Storage EE,0.0
 UserC,h23_wi03,Gas Boiler,0.0
 UserC,h23_wi03,HP,0.0
 UserC,h23_wi03,AC,0.0
@@ -33493,7 +33493,7 @@ UserC,h05_wi05,Gas stove,0.0
 UserC,h05_wi05,Gas National Grid,0.0
 UserC,h06_wi05,PV sys,0.0
 UserC,h06_wi05,National Grid EE,0.0
-UserC,h06_wi05,Storage EE,-1.1059455573558807e-09
+UserC,h06_wi05,Storage EE,0.0
 UserC,h06_wi05,Gas Boiler,0.0
 UserC,h06_wi05,HP,0.0
 UserC,h06_wi05,AC,0.0
@@ -33505,7 +33505,7 @@ UserC,h06_wi05,Gas stove,0.0
 UserC,h06_wi05,Gas National Grid,0.0
 UserC,h07_wi05,PV sys,0.0
 UserC,h07_wi05,National Grid EE,0.0
-UserC,h07_wi05,Storage EE,-1.1059455573558807e-09
+UserC,h07_wi05,Storage EE,0.0
 UserC,h07_wi05,Gas Boiler,0.0
 UserC,h07_wi05,HP,0.0
 UserC,h07_wi05,AC,0.0
@@ -34549,7 +34549,7 @@ UserC,h21_wi08,Gas stove,0.0
 UserC,h21_wi08,Gas National Grid,0.0
 UserC,h22_wi08,PV sys,0.0
 UserC,h22_wi08,National Grid EE,0.0
-UserC,h22_wi08,Storage EE,7.861556205000248e-09
+UserC,h22_wi08,Storage EE,0.0
 UserC,h22_wi08,Gas Boiler,0.0
 UserC,h22_wi08,HP,0.0
 UserC,h22_wi08,AC,0.0
@@ -34561,7 +34561,7 @@ UserC,h22_wi08,Gas stove,0.0
 UserC,h22_wi08,Gas National Grid,0.0
 UserC,h23_wi08,PV sys,0.0
 UserC,h23_wi08,National Grid EE,0.0
-UserC,h23_wi08,Storage EE,7.861556205000248e-09
+UserC,h23_wi08,Storage EE,0.0
 UserC,h23_wi08,Gas Boiler,0.0
 UserC,h23_wi08,HP,0.0
 UserC,h23_wi08,AC,0.0
@@ -35017,7 +35017,7 @@ UserC,h12_wi10,Gas stove,0.0
 UserC,h12_wi10,Gas National Grid,0.0
 UserC,h13_wi10,PV sys,0.0
 UserC,h13_wi10,National Grid EE,0.0
-UserC,h13_wi10,Storage EE,4.156004873016629e-12
+UserC,h13_wi10,Storage EE,0.0
 UserC,h13_wi10,Gas Boiler,0.0
 UserC,h13_wi10,HP,0.0
 UserC,h13_wi10,AC,0.0
@@ -35077,7 +35077,7 @@ UserC,h17_wi10,Gas stove,0.0
 UserC,h17_wi10,Gas National Grid,0.0
 UserC,h18_wi10,PV sys,0.0
 UserC,h18_wi10,National Grid EE,0.0
-UserC,h18_wi10,Storage EE,-1.751931932858497e-12
+UserC,h18_wi10,Storage EE,0.0
 UserC,h18_wi10,Gas Boiler,0.0
 UserC,h18_wi10,HP,0.0
 UserC,h18_wi10,AC,0.0
@@ -35089,7 +35089,7 @@ UserC,h18_wi10,Gas stove,0.0
 UserC,h18_wi10,Gas National Grid,0.0
 UserC,h19_wi10,PV sys,0.0
 UserC,h19_wi10,National Grid EE,0.0
-UserC,h19_wi10,Storage EE,-1.751931932858497e-12
+UserC,h19_wi10,Storage EE,0.0
 UserC,h19_wi10,Gas Boiler,0.0
 UserC,h19_wi10,HP,0.0
 UserC,h19_wi10,AC,0.0
@@ -35101,7 +35101,7 @@ UserC,h19_wi10,Gas stove,0.0
 UserC,h19_wi10,Gas National Grid,0.0
 UserC,h20_wi10,PV sys,0.0
 UserC,h20_wi10,National Grid EE,0.0
-UserC,h20_wi10,Storage EE,-1.751931932858497e-12
+UserC,h20_wi10,Storage EE,0.0
 UserC,h20_wi10,Gas Boiler,0.0
 UserC,h20_wi10,HP,0.0
 UserC,h20_wi10,AC,0.0
@@ -35113,7 +35113,7 @@ UserC,h20_wi10,Gas stove,0.0
 UserC,h20_wi10,Gas National Grid,0.0
 UserC,h21_wi10,PV sys,0.0
 UserC,h21_wi10,National Grid EE,0.0
-UserC,h21_wi10,Storage EE,-1.751931932858497e-12
+UserC,h21_wi10,Storage EE,0.0
 UserC,h21_wi10,Gas Boiler,0.0
 UserC,h21_wi10,HP,0.0
 UserC,h21_wi10,AC,0.0
@@ -35125,7 +35125,7 @@ UserC,h21_wi10,Gas stove,0.0
 UserC,h21_wi10,Gas National Grid,0.0
 UserC,h22_wi10,PV sys,0.0
 UserC,h22_wi10,National Grid EE,0.0
-UserC,h22_wi10,Storage EE,-1.751931932858497e-12
+UserC,h22_wi10,Storage EE,0.0
 UserC,h22_wi10,Gas Boiler,0.0
 UserC,h22_wi10,HP,0.0
 UserC,h22_wi10,AC,0.0
@@ -35137,7 +35137,7 @@ UserC,h22_wi10,Gas stove,0.0
 UserC,h22_wi10,Gas National Grid,0.0
 UserC,h23_wi10,PV sys,0.0
 UserC,h23_wi10,National Grid EE,0.0
-UserC,h23_wi10,Storage EE,-1.751931932858497e-12
+UserC,h23_wi10,Storage EE,0.0
 UserC,h23_wi10,Gas Boiler,0.0
 UserC,h23_wi10,HP,0.0
 UserC,h23_wi10,AC,0.0
@@ -35149,7 +35149,7 @@ UserC,h23_wi10,Gas stove,0.0
 UserC,h23_wi10,Gas National Grid,0.0
 UserC,h24_wi10,PV sys,0.0
 UserC,h24_wi10,National Grid EE,0.0
-UserC,h24_wi10,Storage EE,-1.751931932858497e-12
+UserC,h24_wi10,Storage EE,0.0
 UserC,h24_wi10,Gas Boiler,0.0
 UserC,h24_wi10,HP,0.0
 UserC,h24_wi10,AC,0.0
@@ -35269,7 +35269,7 @@ UserC,h09_wi11,Gas stove,0.0
 UserC,h09_wi11,Gas National Grid,0.0
 UserC,h10_wi11,PV sys,0.0
 UserC,h10_wi11,National Grid EE,0.0
-UserC,h10_wi11,Storage EE,5.820766091346741e-10
+UserC,h10_wi11,Storage EE,0.0
 UserC,h10_wi11,Gas Boiler,0.0
 UserC,h10_wi11,HP,0.0
 UserC,h10_wi11,AC,0.0
@@ -35281,7 +35281,7 @@ UserC,h10_wi11,Gas stove,0.0
 UserC,h10_wi11,Gas National Grid,0.0
 UserC,h11_wi11,PV sys,0.0
 UserC,h11_wi11,National Grid EE,0.0
-UserC,h11_wi11,Storage EE,1.1641532182693481e-09
+UserC,h11_wi11,Storage EE,0.0
 UserC,h11_wi11,Gas Boiler,0.0
 UserC,h11_wi11,HP,0.0
 UserC,h11_wi11,AC,0.0
@@ -35293,7 +35293,7 @@ UserC,h11_wi11,Gas stove,0.0
 UserC,h11_wi11,Gas National Grid,0.0
 UserC,h12_wi11,PV sys,0.0
 UserC,h12_wi11,National Grid EE,0.0
-UserC,h12_wi11,Storage EE,1.1641532182693481e-09
+UserC,h12_wi11,Storage EE,0.0
 UserC,h12_wi11,Gas Boiler,0.0
 UserC,h12_wi11,HP,0.0
 UserC,h12_wi11,AC,0.0
@@ -35305,7 +35305,7 @@ UserC,h12_wi11,Gas stove,0.0
 UserC,h12_wi11,Gas National Grid,0.0
 UserC,h13_wi11,PV sys,0.0
 UserC,h13_wi11,National Grid EE,0.0
-UserC,h13_wi11,Storage EE,1.1641532182693481e-09
+UserC,h13_wi11,Storage EE,0.0
 UserC,h13_wi11,Gas Boiler,0.0
 UserC,h13_wi11,HP,0.0
 UserC,h13_wi11,AC,0.0
@@ -35317,7 +35317,7 @@ UserC,h13_wi11,Gas stove,0.0
 UserC,h13_wi11,Gas National Grid,0.0
 UserC,h14_wi11,PV sys,0.0
 UserC,h14_wi11,National Grid EE,0.0
-UserC,h14_wi11,Storage EE,1.1750619412577315e-09
+UserC,h14_wi11,Storage EE,0.0
 UserC,h14_wi11,Gas Boiler,0.0
 UserC,h14_wi11,HP,0.0
 UserC,h14_wi11,AC,0.0
@@ -35425,7 +35425,7 @@ UserC,h22_wi11,Gas stove,0.0
 UserC,h22_wi11,Gas National Grid,0.0
 UserC,h23_wi11,PV sys,0.0
 UserC,h23_wi11,National Grid EE,0.0
-UserC,h23_wi11,Storage EE,2.922665390821935e-10
+UserC,h23_wi11,Storage EE,0.0
 UserC,h23_wi11,Gas Boiler,0.0
 UserC,h23_wi11,HP,0.0
 UserC,h23_wi11,AC,0.0
@@ -36025,7 +36025,7 @@ UserC,h24_wi13,Gas stove,0.0
 UserC,h24_wi13,Gas National Grid,0.0
 UserC,h01_wi14,PV sys,0.0
 UserC,h01_wi14,National Grid EE,0.0
-UserC,h01_wi14,Storage EE,-7.921866989144838e-09
+UserC,h01_wi14,Storage EE,0.0
 UserC,h01_wi14,Gas Boiler,0.0
 UserC,h01_wi14,HP,0.0
 UserC,h01_wi14,AC,0.0
@@ -36037,7 +36037,7 @@ UserC,h01_wi14,Gas stove,0.0
 UserC,h01_wi14,Gas National Grid,0.0
 UserC,h02_wi14,PV sys,0.0
 UserC,h02_wi14,National Grid EE,0.0
-UserC,h02_wi14,Storage EE,-7.921866989144838e-09
+UserC,h02_wi14,Storage EE,0.0
 UserC,h02_wi14,Gas Boiler,0.0
 UserC,h02_wi14,HP,0.0
 UserC,h02_wi14,AC,0.0
@@ -36049,7 +36049,7 @@ UserC,h02_wi14,Gas stove,0.0
 UserC,h02_wi14,Gas National Grid,0.0
 UserC,h03_wi14,PV sys,0.0
 UserC,h03_wi14,National Grid EE,0.0
-UserC,h03_wi14,Storage EE,-7.921866989144838e-09
+UserC,h03_wi14,Storage EE,0.0
 UserC,h03_wi14,Gas Boiler,0.0
 UserC,h03_wi14,HP,0.0
 UserC,h03_wi14,AC,0.0
@@ -36061,7 +36061,7 @@ UserC,h03_wi14,Gas stove,0.0
 UserC,h03_wi14,Gas National Grid,0.0
 UserC,h04_wi14,PV sys,0.0
 UserC,h04_wi14,National Grid EE,0.0
-UserC,h04_wi14,Storage EE,-7.921866989144838e-09
+UserC,h04_wi14,Storage EE,0.0
 UserC,h04_wi14,Gas Boiler,0.0
 UserC,h04_wi14,HP,0.0
 UserC,h04_wi14,AC,0.0
@@ -36073,7 +36073,7 @@ UserC,h04_wi14,Gas stove,0.0
 UserC,h04_wi14,Gas National Grid,0.0
 UserC,h05_wi14,PV sys,0.0
 UserC,h05_wi14,National Grid EE,0.0
-UserC,h05_wi14,Storage EE,-7.921866989144838e-09
+UserC,h05_wi14,Storage EE,0.0
 UserC,h05_wi14,Gas Boiler,0.0
 UserC,h05_wi14,HP,0.0
 UserC,h05_wi14,AC,0.0
@@ -36085,7 +36085,7 @@ UserC,h05_wi14,Gas stove,0.0
 UserC,h05_wi14,Gas National Grid,0.0
 UserC,h06_wi14,PV sys,0.0
 UserC,h06_wi14,National Grid EE,0.0
-UserC,h06_wi14,Storage EE,-7.921866989144838e-09
+UserC,h06_wi14,Storage EE,0.0
 UserC,h06_wi14,Gas Boiler,0.0
 UserC,h06_wi14,HP,0.0
 UserC,h06_wi14,AC,0.0
@@ -36097,7 +36097,7 @@ UserC,h06_wi14,Gas stove,0.0
 UserC,h06_wi14,Gas National Grid,0.0
 UserC,h07_wi14,PV sys,0.0
 UserC,h07_wi14,National Grid EE,0.0
-UserC,h07_wi14,Storage EE,-7.921866989144838e-09
+UserC,h07_wi14,Storage EE,0.0
 UserC,h07_wi14,Gas Boiler,0.0
 UserC,h07_wi14,HP,0.0
 UserC,h07_wi14,AC,0.0
@@ -36109,7 +36109,7 @@ UserC,h07_wi14,Gas stove,0.0
 UserC,h07_wi14,Gas National Grid,0.0
 UserC,h08_wi14,PV sys,0.0
 UserC,h08_wi14,National Grid EE,0.0
-UserC,h08_wi14,Storage EE,-7.921866989144838e-09
+UserC,h08_wi14,Storage EE,0.0
 UserC,h08_wi14,Gas Boiler,0.0
 UserC,h08_wi14,HP,0.0
 UserC,h08_wi14,AC,0.0
@@ -36121,7 +36121,7 @@ UserC,h08_wi14,Gas stove,0.0
 UserC,h08_wi14,Gas National Grid,0.0
 UserC,h09_wi14,PV sys,0.0
 UserC,h09_wi14,National Grid EE,0.0
-UserC,h09_wi14,Storage EE,-7.921866989144838e-09
+UserC,h09_wi14,Storage EE,0.0
 UserC,h09_wi14,Gas Boiler,0.0
 UserC,h09_wi14,HP,0.0
 UserC,h09_wi14,AC,0.0
@@ -36133,7 +36133,7 @@ UserC,h09_wi14,Gas stove,0.0
 UserC,h09_wi14,Gas National Grid,0.0
 UserC,h10_wi14,PV sys,0.0
 UserC,h10_wi14,National Grid EE,0.0
-UserC,h10_wi14,Storage EE,-7.921866989144838e-09
+UserC,h10_wi14,Storage EE,0.0
 UserC,h10_wi14,Gas Boiler,0.0
 UserC,h10_wi14,HP,0.0
 UserC,h10_wi14,AC,0.0
@@ -36145,7 +36145,7 @@ UserC,h10_wi14,Gas stove,0.0
 UserC,h10_wi14,Gas National Grid,0.0
 UserC,h11_wi14,PV sys,0.0
 UserC,h11_wi14,National Grid EE,0.0
-UserC,h11_wi14,Storage EE,-7.921866989144838e-09
+UserC,h11_wi14,Storage EE,0.0
 UserC,h11_wi14,Gas Boiler,0.0
 UserC,h11_wi14,HP,0.0
 UserC,h11_wi14,AC,0.0
@@ -36157,7 +36157,7 @@ UserC,h11_wi14,Gas stove,0.0
 UserC,h11_wi14,Gas National Grid,0.0
 UserC,h12_wi14,PV sys,0.0
 UserC,h12_wi14,National Grid EE,0.0
-UserC,h12_wi14,Storage EE,-1.5855153315987336e-08
+UserC,h12_wi14,Storage EE,0.0
 UserC,h12_wi14,Gas Boiler,0.0
 UserC,h12_wi14,HP,0.0
 UserC,h12_wi14,AC,0.0
@@ -36169,7 +36169,7 @@ UserC,h12_wi14,Gas stove,0.0
 UserC,h12_wi14,Gas National Grid,0.0
 UserC,h13_wi14,PV sys,0.0
 UserC,h13_wi14,National Grid EE,0.0
-UserC,h13_wi14,Storage EE,-1.5855153315987336e-08
+UserC,h13_wi14,Storage EE,0.0
 UserC,h13_wi14,Gas Boiler,0.0
 UserC,h13_wi14,HP,0.0
 UserC,h13_wi14,AC,0.0
@@ -36397,7 +36397,7 @@ UserC,h07_mc01,Gas stove,0.0
 UserC,h07_mc01,Gas National Grid,0.0
 UserC,h08_mc01,PV sys,0.0
 UserC,h08_mc01,National Grid EE,0.0
-UserC,h08_mc01,Storage EE,1.4551915228366852e-11
+UserC,h08_mc01,Storage EE,0.0
 UserC,h08_mc01,Gas Boiler,0.0
 UserC,h08_mc01,HP,0.0
 UserC,h08_mc01,AC,0.0
@@ -36409,7 +36409,7 @@ UserC,h08_mc01,Gas stove,0.0
 UserC,h08_mc01,Gas National Grid,0.0
 UserC,h09_mc01,PV sys,0.0
 UserC,h09_mc01,National Grid EE,0.0
-UserC,h09_mc01,Storage EE,-2.3283064365386963e-10
+UserC,h09_mc01,Storage EE,0.0
 UserC,h09_mc01,Gas Boiler,0.0
 UserC,h09_mc01,HP,0.0
 UserC,h09_mc01,AC,0.0
@@ -37321,7 +37321,7 @@ UserC,h12_mc04,Gas stove,0.0
 UserC,h12_mc04,Gas National Grid,0.0
 UserC,h13_mc04,PV sys,0.0
 UserC,h13_mc04,National Grid EE,0.0
-UserC,h13_mc04,Storage EE,-2.296707964004109e-12
+UserC,h13_mc04,Storage EE,0.0
 UserC,h13_mc04,Gas Boiler,0.0
 UserC,h13_mc04,HP,0.0
 UserC,h13_mc04,AC,0.0
@@ -37333,7 +37333,7 @@ UserC,h13_mc04,Gas stove,0.0
 UserC,h13_mc04,Gas National Grid,0.0
 UserC,h14_mc04,PV sys,0.0
 UserC,h14_mc04,National Grid EE,0.0
-UserC,h14_mc04,Storage EE,-2.296707964004109e-12
+UserC,h14_mc04,Storage EE,0.0
 UserC,h14_mc04,Gas Boiler,0.0
 UserC,h14_mc04,HP,0.0
 UserC,h14_mc04,AC,0.0
@@ -37345,7 +37345,7 @@ UserC,h14_mc04,Gas stove,0.0
 UserC,h14_mc04,Gas National Grid,0.0
 UserC,h15_mc04,PV sys,0.0
 UserC,h15_mc04,National Grid EE,0.0
-UserC,h15_mc04,Storage EE,-2.296707964004109e-12
+UserC,h15_mc04,Storage EE,0.0
 UserC,h15_mc04,Gas Boiler,0.0
 UserC,h15_mc04,HP,0.0
 UserC,h15_mc04,AC,0.0
@@ -37357,7 +37357,7 @@ UserC,h15_mc04,Gas stove,0.0
 UserC,h15_mc04,Gas National Grid,0.0
 UserC,h16_mc04,PV sys,0.0
 UserC,h16_mc04,National Grid EE,0.0
-UserC,h16_mc04,Storage EE,-2.296707964004109e-12
+UserC,h16_mc04,Storage EE,0.0
 UserC,h16_mc04,Gas Boiler,0.0
 UserC,h16_mc04,HP,0.0
 UserC,h16_mc04,AC,0.0
@@ -37885,7 +37885,7 @@ UserC,h11_mc06,Gas stove,0.0
 UserC,h11_mc06,Gas National Grid,0.0
 UserC,h12_mc06,PV sys,0.0
 UserC,h12_mc06,National Grid EE,0.0
-UserC,h12_mc06,Storage EE,4.656612873077393e-10
+UserC,h12_mc06,Storage EE,0.0
 UserC,h12_mc06,Gas Boiler,0.0
 UserC,h12_mc06,HP,0.0
 UserC,h12_mc06,AC,0.0
@@ -37897,7 +37897,7 @@ UserC,h12_mc06,Gas stove,0.0
 UserC,h12_mc06,Gas National Grid,0.0
 UserC,h13_mc06,PV sys,0.0
 UserC,h13_mc06,National Grid EE,0.0
-UserC,h13_mc06,Storage EE,4.656612873077393e-10
+UserC,h13_mc06,Storage EE,0.0
 UserC,h13_mc06,Gas Boiler,0.0
 UserC,h13_mc06,HP,0.0
 UserC,h13_mc06,AC,0.0
@@ -37909,7 +37909,7 @@ UserC,h13_mc06,Gas stove,0.0
 UserC,h13_mc06,Gas National Grid,0.0
 UserC,h14_mc06,PV sys,0.0
 UserC,h14_mc06,National Grid EE,0.0
-UserC,h14_mc06,Storage EE,4.656612873077393e-10
+UserC,h14_mc06,Storage EE,0.0
 UserC,h14_mc06,Gas Boiler,0.0
 UserC,h14_mc06,HP,0.0
 UserC,h14_mc06,AC,0.0
@@ -37921,7 +37921,7 @@ UserC,h14_mc06,Gas stove,0.0
 UserC,h14_mc06,Gas National Grid,0.0
 UserC,h15_mc06,PV sys,0.0
 UserC,h15_mc06,National Grid EE,0.0
-UserC,h15_mc06,Storage EE,-4.656612873077393e-10
+UserC,h15_mc06,Storage EE,0.0
 UserC,h15_mc06,Gas Boiler,0.0
 UserC,h15_mc06,HP,0.0
 UserC,h15_mc06,AC,0.0
@@ -39013,7 +39013,7 @@ UserC,h09_mc10,Gas stove,0.0
 UserC,h09_mc10,Gas National Grid,0.0
 UserC,h10_mc10,PV sys,0.0
 UserC,h10_mc10,National Grid EE,0.0
-UserC,h10_mc10,Storage EE,1.0991822291022868e-11
+UserC,h10_mc10,Storage EE,0.0
 UserC,h10_mc10,Gas Boiler,0.0
 UserC,h10_mc10,HP,0.0
 UserC,h10_mc10,AC,0.0
@@ -39889,7 +39889,7 @@ UserC,h10_mc13,Gas stove,0.0
 UserC,h10_mc13,Gas National Grid,0.0
 UserC,h11_mc13,PV sys,0.0
 UserC,h11_mc13,National Grid EE,0.0
-UserC,h11_mc13,Storage EE,1.0593794286251068e-08
+UserC,h11_mc13,Storage EE,0.0
 UserC,h11_mc13,Gas Boiler,0.0
 UserC,h11_mc13,HP,0.0
 UserC,h11_mc13,AC,0.0
@@ -39901,7 +39901,7 @@ UserC,h11_mc13,Gas stove,0.0
 UserC,h11_mc13,Gas National Grid,0.0
 UserC,h12_mc13,PV sys,0.0
 UserC,h12_mc13,National Grid EE,0.0
-UserC,h12_mc13,Storage EE,1.0593794286251068e-08
+UserC,h12_mc13,Storage EE,0.0
 UserC,h12_mc13,Gas Boiler,0.0
 UserC,h12_mc13,HP,0.0
 UserC,h12_mc13,AC,0.0
@@ -39913,7 +39913,7 @@ UserC,h12_mc13,Gas stove,0.0
 UserC,h12_mc13,Gas National Grid,0.0
 UserC,h13_mc13,PV sys,0.0
 UserC,h13_mc13,National Grid EE,0.0
-UserC,h13_mc13,Storage EE,1.0593794286251068e-08
+UserC,h13_mc13,Storage EE,0.0
 UserC,h13_mc13,Gas Boiler,0.0
 UserC,h13_mc13,HP,0.0
 UserC,h13_mc13,AC,0.0
@@ -40861,7 +40861,7 @@ UserC,h19_mw02,Gas stove,0.0
 UserC,h19_mw02,Gas National Grid,0.0
 UserC,h20_mw02,PV sys,0.0
 UserC,h20_mw02,National Grid EE,0.0
-UserC,h20_mw02,Storage EE,-1.754131836933506e-09
+UserC,h20_mw02,Storage EE,0.0
 UserC,h20_mw02,Gas Boiler,0.0
 UserC,h20_mw02,HP,0.0
 UserC,h20_mw02,AC,0.0
@@ -40873,7 +40873,7 @@ UserC,h20_mw02,Gas stove,0.0
 UserC,h20_mw02,Gas National Grid,0.0
 UserC,h21_mw02,PV sys,0.0
 UserC,h21_mw02,National Grid EE,0.0
-UserC,h21_mw02,Storage EE,-1.754131836933506e-09
+UserC,h21_mw02,Storage EE,0.0
 UserC,h21_mw02,Gas Boiler,0.0
 UserC,h21_mw02,HP,0.0
 UserC,h21_mw02,AC,0.0
@@ -40885,7 +40885,7 @@ UserC,h21_mw02,Gas stove,0.0
 UserC,h21_mw02,Gas National Grid,0.0
 UserC,h22_mw02,PV sys,0.0
 UserC,h22_mw02,National Grid EE,0.0
-UserC,h22_mw02,Storage EE,-1.754131836933506e-09
+UserC,h22_mw02,Storage EE,0.0
 UserC,h22_mw02,Gas Boiler,0.0
 UserC,h22_mw02,HP,0.0
 UserC,h22_mw02,AC,0.0
@@ -40897,7 +40897,7 @@ UserC,h22_mw02,Gas stove,0.0
 UserC,h22_mw02,Gas National Grid,0.0
 UserC,h23_mw02,PV sys,0.0
 UserC,h23_mw02,National Grid EE,0.0
-UserC,h23_mw02,Storage EE,-1.754131836933506e-09
+UserC,h23_mw02,Storage EE,0.0
 UserC,h23_mw02,Gas Boiler,0.0
 UserC,h23_mw02,HP,0.0
 UserC,h23_mw02,AC,0.0
@@ -40909,7 +40909,7 @@ UserC,h23_mw02,Gas stove,0.0
 UserC,h23_mw02,Gas National Grid,0.0
 UserC,h24_mw02,PV sys,0.0
 UserC,h24_mw02,National Grid EE,0.0
-UserC,h24_mw02,Storage EE,-1.754131836933506e-09
+UserC,h24_mw02,Storage EE,0.0
 UserC,h24_mw02,Gas Boiler,0.0
 UserC,h24_mw02,HP,0.0
 UserC,h24_mw02,AC,0.0
@@ -40921,7 +40921,7 @@ UserC,h24_mw02,Gas stove,0.0
 UserC,h24_mw02,Gas National Grid,0.0
 UserC,h01_mw03,PV sys,0.0
 UserC,h01_mw03,National Grid EE,0.0
-UserC,h01_mw03,Storage EE,-1.754131836933506e-09
+UserC,h01_mw03,Storage EE,0.0
 UserC,h01_mw03,Gas Boiler,0.0
 UserC,h01_mw03,HP,0.0
 UserC,h01_mw03,AC,0.0
@@ -40933,7 +40933,7 @@ UserC,h01_mw03,Gas stove,0.0
 UserC,h01_mw03,Gas National Grid,0.0
 UserC,h02_mw03,PV sys,0.0
 UserC,h02_mw03,National Grid EE,0.0
-UserC,h02_mw03,Storage EE,-1.754131836933506e-09
+UserC,h02_mw03,Storage EE,0.0
 UserC,h02_mw03,Gas Boiler,0.0
 UserC,h02_mw03,HP,0.0
 UserC,h02_mw03,AC,0.0
@@ -40945,7 +40945,7 @@ UserC,h02_mw03,Gas stove,0.0
 UserC,h02_mw03,Gas National Grid,0.0
 UserC,h03_mw03,PV sys,0.0
 UserC,h03_mw03,National Grid EE,0.0
-UserC,h03_mw03,Storage EE,-1.754131836933506e-09
+UserC,h03_mw03,Storage EE,0.0
 UserC,h03_mw03,Gas Boiler,0.0
 UserC,h03_mw03,HP,0.0
 UserC,h03_mw03,AC,0.0
@@ -40957,7 +40957,7 @@ UserC,h03_mw03,Gas stove,0.0
 UserC,h03_mw03,Gas National Grid,0.0
 UserC,h04_mw03,PV sys,0.0
 UserC,h04_mw03,National Grid EE,0.0
-UserC,h04_mw03,Storage EE,-1.754131836933506e-09
+UserC,h04_mw03,Storage EE,0.0
 UserC,h04_mw03,Gas Boiler,0.0
 UserC,h04_mw03,HP,0.0
 UserC,h04_mw03,AC,0.0
@@ -40969,7 +40969,7 @@ UserC,h04_mw03,Gas stove,0.0
 UserC,h04_mw03,Gas National Grid,0.0
 UserC,h05_mw03,PV sys,0.0
 UserC,h05_mw03,National Grid EE,0.0
-UserC,h05_mw03,Storage EE,-1.754131836933506e-09
+UserC,h05_mw03,Storage EE,0.0
 UserC,h05_mw03,Gas Boiler,0.0
 UserC,h05_mw03,HP,0.0
 UserC,h05_mw03,AC,0.0
@@ -40981,7 +40981,7 @@ UserC,h05_mw03,Gas stove,0.0
 UserC,h05_mw03,Gas National Grid,0.0
 UserC,h06_mw03,PV sys,0.0
 UserC,h06_mw03,National Grid EE,0.0
-UserC,h06_mw03,Storage EE,-1.754131836933506e-09
+UserC,h06_mw03,Storage EE,0.0
 UserC,h06_mw03,Gas Boiler,0.0
 UserC,h06_mw03,HP,0.0
 UserC,h06_mw03,AC,0.0
@@ -40993,7 +40993,7 @@ UserC,h06_mw03,Gas stove,0.0
 UserC,h06_mw03,Gas National Grid,0.0
 UserC,h07_mw03,PV sys,0.0
 UserC,h07_mw03,National Grid EE,0.0
-UserC,h07_mw03,Storage EE,-3.252590497478824e-09
+UserC,h07_mw03,Storage EE,0.0
 UserC,h07_mw03,Gas Boiler,0.0
 UserC,h07_mw03,HP,0.0
 UserC,h07_mw03,AC,0.0
@@ -41029,7 +41029,7 @@ UserC,h09_mw03,Gas stove,0.0
 UserC,h09_mw03,Gas National Grid,0.0
 UserC,h10_mw03,PV sys,0.0
 UserC,h10_mw03,National Grid EE,0.0
-UserC,h10_mw03,Storage EE,2.9235123349957703e-10
+UserC,h10_mw03,Storage EE,0.0
 UserC,h10_mw03,Gas Boiler,0.0
 UserC,h10_mw03,HP,0.0
 UserC,h10_mw03,AC,0.0
@@ -41221,7 +41221,7 @@ UserC,h01_mw04,Gas stove,0.0
 UserC,h01_mw04,Gas National Grid,0.0
 UserC,h02_mw04,PV sys,0.0
 UserC,h02_mw04,National Grid EE,0.0
-UserC,h02_mw04,Storage EE,1.0254328497438792e-09
+UserC,h02_mw04,Storage EE,0.0
 UserC,h02_mw04,Gas Boiler,0.0
 UserC,h02_mw04,HP,0.0
 UserC,h02_mw04,AC,0.0
@@ -41233,7 +41233,7 @@ UserC,h02_mw04,Gas stove,0.0
 UserC,h02_mw04,Gas National Grid,0.0
 UserC,h03_mw04,PV sys,0.0
 UserC,h03_mw04,National Grid EE,0.0
-UserC,h03_mw04,Storage EE,1.0254328497438792e-09
+UserC,h03_mw04,Storage EE,0.0
 UserC,h03_mw04,Gas Boiler,0.0
 UserC,h03_mw04,HP,0.0
 UserC,h03_mw04,AC,0.0
@@ -41245,7 +41245,7 @@ UserC,h03_mw04,Gas stove,0.0
 UserC,h03_mw04,Gas National Grid,0.0
 UserC,h04_mw04,PV sys,0.0
 UserC,h04_mw04,National Grid EE,0.0
-UserC,h04_mw04,Storage EE,1.0254328497438792e-09
+UserC,h04_mw04,Storage EE,0.0
 UserC,h04_mw04,Gas Boiler,0.0
 UserC,h04_mw04,HP,0.0
 UserC,h04_mw04,AC,0.0
@@ -41257,7 +41257,7 @@ UserC,h04_mw04,Gas stove,0.0
 UserC,h04_mw04,Gas National Grid,0.0
 UserC,h05_mw04,PV sys,0.0
 UserC,h05_mw04,National Grid EE,0.0
-UserC,h05_mw04,Storage EE,1.0254328497438792e-09
+UserC,h05_mw04,Storage EE,0.0
 UserC,h05_mw04,Gas Boiler,0.0
 UserC,h05_mw04,HP,0.0
 UserC,h05_mw04,AC,0.0
@@ -41269,7 +41269,7 @@ UserC,h05_mw04,Gas stove,0.0
 UserC,h05_mw04,Gas National Grid,0.0
 UserC,h06_mw04,PV sys,0.0
 UserC,h06_mw04,National Grid EE,0.0
-UserC,h06_mw04,Storage EE,1.0254328497438792e-09
+UserC,h06_mw04,Storage EE,0.0
 UserC,h06_mw04,Gas Boiler,0.0
 UserC,h06_mw04,HP,0.0
 UserC,h06_mw04,AC,0.0
@@ -42133,7 +42133,7 @@ UserC,h05_mw07,Gas stove,0.0
 UserC,h05_mw07,Gas National Grid,0.0
 UserC,h06_mw07,PV sys,0.0
 UserC,h06_mw07,National Grid EE,0.0
-UserC,h06_mw07,Storage EE,-2.516314762698694e-10
+UserC,h06_mw07,Storage EE,0.0
 UserC,h06_mw07,Gas Boiler,0.0
 UserC,h06_mw07,HP,0.0
 UserC,h06_mw07,AC,0.0
@@ -42265,7 +42265,7 @@ UserC,h16_mw07,Gas stove,0.0
 UserC,h16_mw07,Gas National Grid,0.0
 UserC,h17_mw07,PV sys,0.0
 UserC,h17_mw07,National Grid EE,0.0
-UserC,h17_mw07,Storage EE,-1.3529399822687083e-10
+UserC,h17_mw07,Storage EE,0.0
 UserC,h17_mw07,Gas Boiler,0.0
 UserC,h17_mw07,HP,0.0
 UserC,h17_mw07,AC,0.0
@@ -42313,7 +42313,7 @@ UserC,h20_mw07,Gas stove,0.0
 UserC,h20_mw07,Gas National Grid,0.0
 UserC,h21_mw07,PV sys,0.0
 UserC,h21_mw07,National Grid EE,0.0
-UserC,h21_mw07,Storage EE,-7.338370024481128e-09
+UserC,h21_mw07,Storage EE,0.0
 UserC,h21_mw07,Gas Boiler,0.0
 UserC,h21_mw07,HP,0.0
 UserC,h21_mw07,AC,0.0
@@ -42325,7 +42325,7 @@ UserC,h21_mw07,Gas stove,0.0
 UserC,h21_mw07,Gas National Grid,0.0
 UserC,h22_mw07,PV sys,0.0
 UserC,h22_mw07,National Grid EE,0.0
-UserC,h22_mw07,Storage EE,-7.338370024481128e-09
+UserC,h22_mw07,Storage EE,0.0
 UserC,h22_mw07,Gas Boiler,0.0
 UserC,h22_mw07,HP,0.0
 UserC,h22_mw07,AC,0.0
@@ -42529,7 +42529,7 @@ UserC,h14_mw08,Gas stove,0.0
 UserC,h14_mw08,Gas National Grid,0.0
 UserC,h15_mw08,PV sys,0.0
 UserC,h15_mw08,National Grid EE,0.0
-UserC,h15_mw08,Storage EE,2.0193717508977034e-07
+UserC,h15_mw08,Storage EE,0.0
 UserC,h15_mw08,Gas Boiler,0.0
 UserC,h15_mw08,HP,0.0
 UserC,h15_mw08,AC,0.0
@@ -42541,7 +42541,7 @@ UserC,h15_mw08,Gas stove,0.0
 UserC,h15_mw08,Gas National Grid,0.0
 UserC,h16_mw08,PV sys,0.0
 UserC,h16_mw08,National Grid EE,0.0
-UserC,h16_mw08,Storage EE,1.8159327900369599e-09
+UserC,h16_mw08,Storage EE,0.0
 UserC,h16_mw08,Gas Boiler,0.0
 UserC,h16_mw08,HP,0.0
 UserC,h16_mw08,AC,0.0
@@ -42553,7 +42553,7 @@ UserC,h16_mw08,Gas stove,0.0
 UserC,h16_mw08,Gas National Grid,0.0
 UserC,h17_mw08,PV sys,0.0
 UserC,h17_mw08,National Grid EE,0.0
-UserC,h17_mw08,Storage EE,9.917056035347466e-10
+UserC,h17_mw08,Storage EE,0.0
 UserC,h17_mw08,Gas Boiler,0.0
 UserC,h17_mw08,HP,0.0
 UserC,h17_mw08,AC,0.0
@@ -42565,7 +42565,7 @@ UserC,h17_mw08,Gas stove,0.0
 UserC,h17_mw08,Gas National Grid,0.0
 UserC,h18_mw08,PV sys,0.0
 UserC,h18_mw08,National Grid EE,0.0
-UserC,h18_mw08,Storage EE,9.917056035347466e-10
+UserC,h18_mw08,Storage EE,0.0
 UserC,h18_mw08,Gas Boiler,0.0
 UserC,h18_mw08,HP,0.0
 UserC,h18_mw08,AC,0.0
@@ -42577,7 +42577,7 @@ UserC,h18_mw08,Gas stove,0.0
 UserC,h18_mw08,Gas National Grid,0.0
 UserC,h19_mw08,PV sys,0.0
 UserC,h19_mw08,National Grid EE,0.0
-UserC,h19_mw08,Storage EE,9.917056035347466e-10
+UserC,h19_mw08,Storage EE,0.0
 UserC,h19_mw08,Gas Boiler,0.0
 UserC,h19_mw08,HP,0.0
 UserC,h19_mw08,AC,0.0
@@ -42589,7 +42589,7 @@ UserC,h19_mw08,Gas stove,0.0
 UserC,h19_mw08,Gas National Grid,0.0
 UserC,h20_mw08,PV sys,0.0
 UserC,h20_mw08,National Grid EE,0.0
-UserC,h20_mw08,Storage EE,9.917056035347466e-10
+UserC,h20_mw08,Storage EE,0.0
 UserC,h20_mw08,Gas Boiler,0.0
 UserC,h20_mw08,HP,0.0
 UserC,h20_mw08,AC,0.0
@@ -42601,7 +42601,7 @@ UserC,h20_mw08,Gas stove,0.0
 UserC,h20_mw08,Gas National Grid,0.0
 UserC,h21_mw08,PV sys,0.0
 UserC,h21_mw08,National Grid EE,0.0
-UserC,h21_mw08,Storage EE,9.917056035347466e-10
+UserC,h21_mw08,Storage EE,0.0
 UserC,h21_mw08,Gas Boiler,0.0
 UserC,h21_mw08,HP,0.0
 UserC,h21_mw08,AC,0.0
@@ -42613,7 +42613,7 @@ UserC,h21_mw08,Gas stove,0.0
 UserC,h21_mw08,Gas National Grid,0.0
 UserC,h22_mw08,PV sys,0.0
 UserC,h22_mw08,National Grid EE,0.0
-UserC,h22_mw08,Storage EE,9.917056035347466e-10
+UserC,h22_mw08,Storage EE,0.0
 UserC,h22_mw08,Gas Boiler,0.0
 UserC,h22_mw08,HP,0.0
 UserC,h22_mw08,AC,0.0
@@ -42625,7 +42625,7 @@ UserC,h22_mw08,Gas stove,0.0
 UserC,h22_mw08,Gas National Grid,0.0
 UserC,h23_mw08,PV sys,0.0
 UserC,h23_mw08,National Grid EE,0.0
-UserC,h23_mw08,Storage EE,-1.9794943462159154e-11
+UserC,h23_mw08,Storage EE,0.0
 UserC,h23_mw08,Gas Boiler,0.0
 UserC,h23_mw08,HP,0.0
 UserC,h23_mw08,AC,0.0
@@ -42745,7 +42745,7 @@ UserC,h08_mw09,Gas stove,0.0
 UserC,h08_mw09,Gas National Grid,0.0
 UserC,h09_mw09,PV sys,0.0
 UserC,h09_mw09,National Grid EE,0.0
-UserC,h09_mw09,Storage EE,-7.479850572256197e-09
+UserC,h09_mw09,Storage EE,0.0
 UserC,h09_mw09,Gas Boiler,0.0
 UserC,h09_mw09,HP,0.0
 UserC,h09_mw09,AC,0.0
@@ -43309,7 +43309,7 @@ UserC,h07_mw11,Gas stove,0.0
 UserC,h07_mw11,Gas National Grid,0.0
 UserC,h08_mw11,PV sys,0.0
 UserC,h08_mw11,National Grid EE,0.0
-UserC,h08_mw11,Storage EE,-1.1300225477720176e-11
+UserC,h08_mw11,Storage EE,0.0
 UserC,h08_mw11,Gas Boiler,0.0
 UserC,h08_mw11,HP,0.0
 UserC,h08_mw11,AC,0.0
@@ -43321,7 +43321,7 @@ UserC,h08_mw11,Gas stove,0.0
 UserC,h08_mw11,Gas National Grid,0.0
 UserC,h09_mw11,PV sys,0.0
 UserC,h09_mw11,National Grid EE,0.0
-UserC,h09_mw11,Storage EE,-1.1300225477720176e-11
+UserC,h09_mw11,Storage EE,0.0
 UserC,h09_mw11,Gas Boiler,0.0
 UserC,h09_mw11,HP,0.0
 UserC,h09_mw11,AC,0.0
@@ -43333,7 +43333,7 @@ UserC,h09_mw11,Gas stove,0.0
 UserC,h09_mw11,Gas National Grid,0.0
 UserC,h10_mw11,PV sys,0.0
 UserC,h10_mw11,National Grid EE,0.0
-UserC,h10_mw11,Storage EE,-1.1300225477720176e-11
+UserC,h10_mw11,Storage EE,0.0
 UserC,h10_mw11,Gas Boiler,0.0
 UserC,h10_mw11,HP,0.0
 UserC,h10_mw11,AC,0.0
@@ -43489,7 +43489,7 @@ UserC,h22_mw11,Gas stove,0.0
 UserC,h22_mw11,Gas National Grid,0.0
 UserC,h23_mw11,PV sys,0.0
 UserC,h23_mw11,National Grid EE,0.0
-UserC,h23_mw11,Storage EE,2.0535207621987394e-09
+UserC,h23_mw11,Storage EE,0.0
 UserC,h23_mw11,Gas Boiler,0.0
 UserC,h23_mw11,HP,0.0
 UserC,h23_mw11,AC,0.0
@@ -44605,7 +44605,7 @@ UserC,h19_su01,Gas stove,0.0
 UserC,h19_su01,Gas National Grid,0.0
 UserC,h20_su01,PV sys,0.0
 UserC,h20_su01,National Grid EE,0.0
-UserC,h20_su01,Storage EE,3.603339848723408e-12
+UserC,h20_su01,Storage EE,0.0
 UserC,h20_su01,Gas Boiler,0.0
 UserC,h20_su01,HP,0.0
 UserC,h20_su01,AC,0.0
@@ -44617,7 +44617,7 @@ UserC,h20_su01,Gas stove,0.0
 UserC,h20_su01,Gas National Grid,0.0
 UserC,h21_su01,PV sys,0.0
 UserC,h21_su01,National Grid EE,0.0
-UserC,h21_su01,Storage EE,3.603339848723408e-12
+UserC,h21_su01,Storage EE,0.0
 UserC,h21_su01,Gas Boiler,0.0
 UserC,h21_su01,HP,0.0
 UserC,h21_su01,AC,0.0
@@ -44629,7 +44629,7 @@ UserC,h21_su01,Gas stove,0.0
 UserC,h21_su01,Gas National Grid,0.0
 UserC,h22_su01,PV sys,0.0
 UserC,h22_su01,National Grid EE,0.0
-UserC,h22_su01,Storage EE,3.603339848723408e-12
+UserC,h22_su01,Storage EE,0.0
 UserC,h22_su01,Gas Boiler,0.0
 UserC,h22_su01,HP,0.0
 UserC,h22_su01,AC,0.0
@@ -44641,7 +44641,7 @@ UserC,h22_su01,Gas stove,0.0
 UserC,h22_su01,Gas National Grid,0.0
 UserC,h23_su01,PV sys,0.0
 UserC,h23_su01,National Grid EE,0.0
-UserC,h23_su01,Storage EE,3.603339848723408e-12
+UserC,h23_su01,Storage EE,0.0
 UserC,h23_su01,Gas Boiler,0.0
 UserC,h23_su01,HP,0.0
 UserC,h23_su01,AC,0.0
@@ -44653,7 +44653,7 @@ UserC,h23_su01,Gas stove,0.0
 UserC,h23_su01,Gas National Grid,0.0
 UserC,h24_su01,PV sys,0.0
 UserC,h24_su01,National Grid EE,0.0
-UserC,h24_su01,Storage EE,3.603339848723408e-12
+UserC,h24_su01,Storage EE,0.0
 UserC,h24_su01,Gas Boiler,0.0
 UserC,h24_su01,HP,0.0
 UserC,h24_su01,AC,0.0
@@ -44665,7 +44665,7 @@ UserC,h24_su01,Gas stove,0.0
 UserC,h24_su01,Gas National Grid,0.0
 UserC,h01_su02,PV sys,0.0
 UserC,h01_su02,National Grid EE,0.0
-UserC,h01_su02,Storage EE,3.603339848723408e-12
+UserC,h01_su02,Storage EE,0.0
 UserC,h01_su02,Gas Boiler,0.0
 UserC,h01_su02,HP,0.0
 UserC,h01_su02,AC,0.0
@@ -44689,7 +44689,7 @@ UserC,h02_su02,Gas stove,0.0
 UserC,h02_su02,Gas National Grid,0.0
 UserC,h03_su02,PV sys,0.0
 UserC,h03_su02,National Grid EE,0.0
-UserC,h03_su02,Storage EE,5.502936994972174e-11
+UserC,h03_su02,Storage EE,0.0
 UserC,h03_su02,Gas Boiler,0.0
 UserC,h03_su02,HP,0.0
 UserC,h03_su02,AC,0.0
@@ -44701,7 +44701,7 @@ UserC,h03_su02,Gas stove,0.0
 UserC,h03_su02,Gas National Grid,0.0
 UserC,h04_su02,PV sys,0.0
 UserC,h04_su02,National Grid EE,0.0
-UserC,h04_su02,Storage EE,5.502936994972174e-11
+UserC,h04_su02,Storage EE,0.0
 UserC,h04_su02,Gas Boiler,0.0
 UserC,h04_su02,HP,0.0
 UserC,h04_su02,AC,0.0
@@ -44713,7 +44713,7 @@ UserC,h04_su02,Gas stove,0.0
 UserC,h04_su02,Gas National Grid,0.0
 UserC,h05_su02,PV sys,0.0
 UserC,h05_su02,National Grid EE,0.0
-UserC,h05_su02,Storage EE,5.502936994972174e-11
+UserC,h05_su02,Storage EE,0.0
 UserC,h05_su02,Gas Boiler,0.0
 UserC,h05_su02,HP,0.0
 UserC,h05_su02,AC,0.0
@@ -44881,7 +44881,7 @@ UserC,h18_su02,Gas stove,0.0
 UserC,h18_su02,Gas National Grid,0.0
 UserC,h19_su02,PV sys,0.0
 UserC,h19_su02,National Grid EE,0.0
-UserC,h19_su02,Storage EE,-1.2542206833306416e-07
+UserC,h19_su02,Storage EE,0.0
 UserC,h19_su02,Gas Boiler,0.0
 UserC,h19_su02,HP,0.0
 UserC,h19_su02,AC,0.0
@@ -44893,7 +44893,7 @@ UserC,h19_su02,Gas stove,0.0
 UserC,h19_su02,Gas National Grid,0.0
 UserC,h20_su02,PV sys,0.0
 UserC,h20_su02,National Grid EE,0.0
-UserC,h20_su02,Storage EE,-1.2636638123871272e-07
+UserC,h20_su02,Storage EE,0.0
 UserC,h20_su02,Gas Boiler,0.0
 UserC,h20_su02,HP,0.0
 UserC,h20_su02,AC,0.0
@@ -44905,7 +44905,7 @@ UserC,h20_su02,Gas stove,0.0
 UserC,h20_su02,Gas National Grid,0.0
 UserC,h21_su02,PV sys,0.0
 UserC,h21_su02,National Grid EE,0.0
-UserC,h21_su02,Storage EE,-1.2722851293807672e-07
+UserC,h21_su02,Storage EE,0.0
 UserC,h21_su02,Gas Boiler,0.0
 UserC,h21_su02,HP,0.0
 UserC,h21_su02,AC,0.0
@@ -44917,7 +44917,7 @@ UserC,h21_su02,Gas stove,0.0
 UserC,h21_su02,Gas National Grid,0.0
 UserC,h22_su02,PV sys,0.0
 UserC,h22_su02,National Grid EE,0.0
-UserC,h22_su02,Storage EE,-1.0110245973748988e-12
+UserC,h22_su02,Storage EE,0.0
 UserC,h22_su02,Gas Boiler,0.0
 UserC,h22_su02,HP,0.0
 UserC,h22_su02,AC,0.0
@@ -44929,7 +44929,7 @@ UserC,h22_su02,Gas stove,0.0
 UserC,h22_su02,Gas National Grid,0.0
 UserC,h23_su02,PV sys,0.0
 UserC,h23_su02,National Grid EE,0.0
-UserC,h23_su02,Storage EE,-1.0110245973748988e-12
+UserC,h23_su02,Storage EE,0.0
 UserC,h23_su02,Gas Boiler,0.0
 UserC,h23_su02,HP,0.0
 UserC,h23_su02,AC,0.0
@@ -45145,7 +45145,7 @@ UserC,h16_su03,Gas stove,0.0
 UserC,h16_su03,Gas National Grid,0.0
 UserC,h17_su03,PV sys,0.0
 UserC,h17_su03,National Grid EE,0.0
-UserC,h17_su03,Storage EE,-8.623035063770601e-10
+UserC,h17_su03,Storage EE,0.0
 UserC,h17_su03,Gas Boiler,0.0
 UserC,h17_su03,HP,0.0
 UserC,h17_su03,AC,0.0
@@ -45157,7 +45157,7 @@ UserC,h17_su03,Gas stove,0.0
 UserC,h17_su03,Gas National Grid,0.0
 UserC,h18_su03,PV sys,0.0
 UserC,h18_su03,National Grid EE,0.0
-UserC,h18_su03,Storage EE,-8.623035063770601e-10
+UserC,h18_su03,Storage EE,0.0
 UserC,h18_su03,Gas Boiler,0.0
 UserC,h18_su03,HP,0.0
 UserC,h18_su03,AC,0.0
@@ -45169,7 +45169,7 @@ UserC,h18_su03,Gas stove,0.0
 UserC,h18_su03,Gas National Grid,0.0
 UserC,h19_su03,PV sys,0.0
 UserC,h19_su03,National Grid EE,0.0
-UserC,h19_su03,Storage EE,-8.623035063770601e-10
+UserC,h19_su03,Storage EE,0.0
 UserC,h19_su03,Gas Boiler,0.0
 UserC,h19_su03,HP,0.0
 UserC,h19_su03,AC,0.0
@@ -45181,7 +45181,7 @@ UserC,h19_su03,Gas stove,0.0
 UserC,h19_su03,Gas National Grid,0.0
 UserC,h20_su03,PV sys,0.0
 UserC,h20_su03,National Grid EE,0.0
-UserC,h20_su03,Storage EE,-8.623035063770601e-10
+UserC,h20_su03,Storage EE,0.0
 UserC,h20_su03,Gas Boiler,0.0
 UserC,h20_su03,HP,0.0
 UserC,h20_su03,AC,0.0
@@ -45193,7 +45193,7 @@ UserC,h20_su03,Gas stove,0.0
 UserC,h20_su03,Gas National Grid,0.0
 UserC,h21_su03,PV sys,0.0
 UserC,h21_su03,National Grid EE,0.0
-UserC,h21_su03,Storage EE,-8.83879255239946e-09
+UserC,h21_su03,Storage EE,0.0
 UserC,h21_su03,Gas Boiler,0.0
 UserC,h21_su03,HP,0.0
 UserC,h21_su03,AC,0.0
@@ -45205,7 +45205,7 @@ UserC,h21_su03,Gas stove,0.0
 UserC,h21_su03,Gas National Grid,0.0
 UserC,h22_su03,PV sys,0.0
 UserC,h22_su03,National Grid EE,0.0
-UserC,h22_su03,Storage EE,-8.83879255239946e-09
+UserC,h22_su03,Storage EE,0.0
 UserC,h22_su03,Gas Boiler,0.0
 UserC,h22_su03,HP,0.0
 UserC,h22_su03,AC,0.0
@@ -46105,7 +46105,7 @@ UserC,h24_su06,Gas stove,0.0
 UserC,h24_su06,Gas National Grid,0.0
 UserC,h01_su07,PV sys,0.0
 UserC,h01_su07,National Grid EE,0.0
-UserC,h01_su07,Storage EE,-6.693881116071054e-09
+UserC,h01_su07,Storage EE,0.0
 UserC,h01_su07,Gas Boiler,0.0
 UserC,h01_su07,HP,0.0
 UserC,h01_su07,AC,0.0
@@ -46117,7 +46117,7 @@ UserC,h01_su07,Gas stove,0.0
 UserC,h01_su07,Gas National Grid,0.0
 UserC,h02_su07,PV sys,0.0
 UserC,h02_su07,National Grid EE,0.0
-UserC,h02_su07,Storage EE,-1.3391365433212954e-08
+UserC,h02_su07,Storage EE,0.0
 UserC,h02_su07,Gas Boiler,0.0
 UserC,h02_su07,HP,0.0
 UserC,h02_su07,AC,0.0
@@ -46129,7 +46129,7 @@ UserC,h02_su07,Gas stove,0.0
 UserC,h02_su07,Gas National Grid,0.0
 UserC,h03_su07,PV sys,0.0
 UserC,h03_su07,National Grid EE,0.0
-UserC,h03_su07,Storage EE,-2.0085246438261706e-08
+UserC,h03_su07,Storage EE,0.0
 UserC,h03_su07,Gas Boiler,0.0
 UserC,h03_su07,HP,0.0
 UserC,h03_su07,AC,0.0
@@ -46141,7 +46141,7 @@ UserC,h03_su07,Gas stove,0.0
 UserC,h03_su07,Gas National Grid,0.0
 UserC,h04_su07,PV sys,0.0
 UserC,h04_su07,National Grid EE,0.0
-UserC,h04_su07,Storage EE,-2.6779127387799306e-08
+UserC,h04_su07,Storage EE,0.0
 UserC,h04_su07,Gas Boiler,0.0
 UserC,h04_su07,HP,0.0
 UserC,h04_su07,AC,0.0
@@ -46153,7 +46153,7 @@ UserC,h04_su07,Gas stove,0.0
 UserC,h04_su07,Gas National Grid,0.0
 UserC,h05_su07,PV sys,0.0
 UserC,h05_su07,National Grid EE,0.0
-UserC,h05_su07,Storage EE,8.731149137020111e-09
+UserC,h05_su07,Storage EE,0.0
 UserC,h05_su07,Gas Boiler,0.0
 UserC,h05_su07,HP,0.0
 UserC,h05_su07,AC,0.0
@@ -46177,7 +46177,7 @@ UserC,h06_su07,Gas stove,0.0
 UserC,h06_su07,Gas National Grid,0.0
 UserC,h07_su07,PV sys,0.0
 UserC,h07_su07,National Grid EE,0.0
-UserC,h07_su07,Storage EE,1.0913936421275139e-08
+UserC,h07_su07,Storage EE,0.0
 UserC,h07_su07,Gas Boiler,0.0
 UserC,h07_su07,HP,0.0
 UserC,h07_su07,AC,0.0
@@ -46189,7 +46189,7 @@ UserC,h07_su07,Gas stove,0.0
 UserC,h07_su07,Gas National Grid,0.0
 UserC,h08_su07,PV sys,0.0
 UserC,h08_su07,National Grid EE,0.0
-UserC,h08_su07,Storage EE,1.0913936421275139e-08
+UserC,h08_su07,Storage EE,0.0
 UserC,h08_su07,Gas Boiler,0.0
 UserC,h08_su07,HP,0.0
 UserC,h08_su07,AC,0.0
@@ -46201,7 +46201,7 @@ UserC,h08_su07,Gas stove,0.0
 UserC,h08_su07,Gas National Grid,0.0
 UserC,h09_su07,PV sys,0.0
 UserC,h09_su07,National Grid EE,0.0
-UserC,h09_su07,Storage EE,1.0913936421275139e-08
+UserC,h09_su07,Storage EE,0.0
 UserC,h09_su07,Gas Boiler,0.0
 UserC,h09_su07,HP,0.0
 UserC,h09_su07,AC,0.0
@@ -46429,7 +46429,7 @@ UserC,h03_su08,Gas stove,0.0
 UserC,h03_su08,Gas National Grid,0.0
 UserC,h04_su08,PV sys,0.0
 UserC,h04_su08,National Grid EE,0.0
-UserC,h04_su08,Storage EE,1.0084812457344938e-08
+UserC,h04_su08,Storage EE,0.0
 UserC,h04_su08,Gas Boiler,0.0
 UserC,h04_su08,HP,0.0
 UserC,h04_su08,AC,0.0
@@ -46441,7 +46441,7 @@ UserC,h04_su08,Gas stove,0.0
 UserC,h04_su08,Gas National Grid,0.0
 UserC,h05_su08,PV sys,0.0
 UserC,h05_su08,National Grid EE,0.0
-UserC,h05_su08,Storage EE,1.0011717677116394e-08
+UserC,h05_su08,Storage EE,0.0
 UserC,h05_su08,Gas Boiler,0.0
 UserC,h05_su08,HP,0.0
 UserC,h05_su08,AC,0.0
@@ -46453,7 +46453,7 @@ UserC,h05_su08,Gas stove,0.0
 UserC,h05_su08,Gas National Grid,0.0
 UserC,h06_su08,PV sys,0.0
 UserC,h06_su08,National Grid EE,0.0
-UserC,h06_su08,Storage EE,1.0011717677116394e-08
+UserC,h06_su08,Storage EE,0.0
 UserC,h06_su08,Gas Boiler,0.0
 UserC,h06_su08,HP,0.0
 UserC,h06_su08,AC,0.0
@@ -46465,7 +46465,7 @@ UserC,h06_su08,Gas stove,0.0
 UserC,h06_su08,Gas National Grid,0.0
 UserC,h07_su08,PV sys,0.0
 UserC,h07_su08,National Grid EE,0.0
-UserC,h07_su08,Storage EE,1.0011717677116394e-08
+UserC,h07_su08,Storage EE,0.0
 UserC,h07_su08,Gas Boiler,0.0
 UserC,h07_su08,HP,0.0
 UserC,h07_su08,AC,0.0
@@ -46477,7 +46477,7 @@ UserC,h07_su08,Gas stove,0.0
 UserC,h07_su08,Gas National Grid,0.0
 UserC,h08_su08,PV sys,0.0
 UserC,h08_su08,National Grid EE,0.0
-UserC,h08_su08,Storage EE,1.0011717677116394e-08
+UserC,h08_su08,Storage EE,0.0
 UserC,h08_su08,Gas Boiler,0.0
 UserC,h08_su08,HP,0.0
 UserC,h08_su08,AC,0.0
@@ -46549,7 +46549,7 @@ UserC,h13_su08,Gas stove,0.0
 UserC,h13_su08,Gas National Grid,0.0
 UserC,h14_su08,PV sys,0.0
 UserC,h14_su08,National Grid EE,0.0
-UserC,h14_su08,Storage EE,1.0148352372218445e-11
+UserC,h14_su08,Storage EE,0.0
 UserC,h14_su08,Gas Boiler,0.0
 UserC,h14_su08,HP,0.0
 UserC,h14_su08,AC,0.0
@@ -46561,7 +46561,7 @@ UserC,h14_su08,Gas stove,0.0
 UserC,h14_su08,Gas National Grid,0.0
 UserC,h15_su08,PV sys,0.0
 UserC,h15_su08,National Grid EE,0.0
-UserC,h15_su08,Storage EE,1.0148352372218461e-11
+UserC,h15_su08,Storage EE,0.0
 UserC,h15_su08,Gas Boiler,0.0
 UserC,h15_su08,HP,0.0
 UserC,h15_su08,AC,0.0
@@ -46573,7 +46573,7 @@ UserC,h15_su08,Gas stove,0.0
 UserC,h15_su08,Gas National Grid,0.0
 UserC,h16_su08,PV sys,0.0
 UserC,h16_su08,National Grid EE,0.0
-UserC,h16_su08,Storage EE,1.0148352372218461e-11
+UserC,h16_su08,Storage EE,0.0
 UserC,h16_su08,Gas Boiler,0.0
 UserC,h16_su08,HP,0.0
 UserC,h16_su08,AC,0.0
@@ -46585,7 +46585,7 @@ UserC,h16_su08,Gas stove,0.0
 UserC,h16_su08,Gas National Grid,0.0
 UserC,h17_su08,PV sys,0.0
 UserC,h17_su08,National Grid EE,0.0
-UserC,h17_su08,Storage EE,1.0148352372218461e-11
+UserC,h17_su08,Storage EE,0.0
 UserC,h17_su08,Gas Boiler,0.0
 UserC,h17_su08,HP,0.0
 UserC,h17_su08,AC,0.0
@@ -46597,7 +46597,7 @@ UserC,h17_su08,Gas stove,0.0
 UserC,h17_su08,Gas National Grid,0.0
 UserC,h18_su08,PV sys,0.0
 UserC,h18_su08,National Grid EE,0.0
-UserC,h18_su08,Storage EE,-8.53291090764109e-09
+UserC,h18_su08,Storage EE,0.0
 UserC,h18_su08,Gas Boiler,0.0
 UserC,h18_su08,HP,0.0
 UserC,h18_su08,AC,0.0
@@ -46609,7 +46609,7 @@ UserC,h18_su08,Gas stove,0.0
 UserC,h18_su08,Gas National Grid,0.0
 UserC,h19_su08,PV sys,0.0
 UserC,h19_su08,National Grid EE,0.0
-UserC,h19_su08,Storage EE,-1.3763874458847093e-08
+UserC,h19_su08,Storage EE,0.0
 UserC,h19_su08,Gas Boiler,0.0
 UserC,h19_su08,HP,0.0
 UserC,h19_su08,AC,0.0
@@ -46621,7 +46621,7 @@ UserC,h19_su08,Gas stove,0.0
 UserC,h19_su08,Gas National Grid,0.0
 UserC,h20_su08,PV sys,0.0
 UserC,h20_su08,National Grid EE,0.0
-UserC,h20_su08,Storage EE,1.3300044980353012e-09
+UserC,h20_su08,Storage EE,0.0
 UserC,h20_su08,Gas Boiler,0.0
 UserC,h20_su08,HP,0.0
 UserC,h20_su08,AC,0.0
@@ -46633,7 +46633,7 @@ UserC,h20_su08,Gas stove,0.0
 UserC,h20_su08,Gas National Grid,0.0
 UserC,h21_su08,PV sys,0.0
 UserC,h21_su08,National Grid EE,0.0
-UserC,h21_su08,Storage EE,5.52383974506491e-10
+UserC,h21_su08,Storage EE,0.0
 UserC,h21_su08,Gas Boiler,0.0
 UserC,h21_su08,HP,0.0
 UserC,h21_su08,AC,0.0
@@ -46645,7 +46645,7 @@ UserC,h21_su08,Gas stove,0.0
 UserC,h21_su08,Gas National Grid,0.0
 UserC,h22_su08,PV sys,0.0
 UserC,h22_su08,National Grid EE,0.0
-UserC,h22_su08,Storage EE,3.4317827833704544e-10
+UserC,h22_su08,Storage EE,0.0
 UserC,h22_su08,Gas Boiler,0.0
 UserC,h22_su08,HP,0.0
 UserC,h22_su08,AC,0.0
@@ -46741,7 +46741,7 @@ UserC,h05_su09,Gas stove,0.0
 UserC,h05_su09,Gas National Grid,0.0
 UserC,h06_su09,PV sys,0.0
 UserC,h06_su09,National Grid EE,0.0
-UserC,h06_su09,Storage EE,-2.8238566682369783e-12
+UserC,h06_su09,Storage EE,0.0
 UserC,h06_su09,Gas Boiler,0.0
 UserC,h06_su09,HP,0.0
 UserC,h06_su09,AC,0.0
@@ -47149,7 +47149,7 @@ UserC,h15_su10,Gas stove,0.0
 UserC,h15_su10,Gas National Grid,0.0
 UserC,h16_su10,PV sys,0.0
 UserC,h16_su10,National Grid EE,0.0
-UserC,h16_su10,Storage EE,-1.6515919742943197e-09
+UserC,h16_su10,Storage EE,0.0
 UserC,h16_su10,Gas Boiler,0.0
 UserC,h16_su10,HP,0.0
 UserC,h16_su10,AC,0.0
@@ -47221,7 +47221,7 @@ UserC,h21_su10,Gas stove,0.0
 UserC,h21_su10,Gas National Grid,0.0
 UserC,h22_su10,PV sys,0.0
 UserC,h22_su10,National Grid EE,0.0
-UserC,h22_su10,Storage EE,4.7733882757243336e-11
+UserC,h22_su10,Storage EE,0.0
 UserC,h22_su10,Gas Boiler,0.0
 UserC,h22_su10,HP,0.0
 UserC,h22_su10,AC,0.0
@@ -47233,7 +47233,7 @@ UserC,h22_su10,Gas stove,0.0
 UserC,h22_su10,Gas National Grid,0.0
 UserC,h23_su10,PV sys,0.0
 UserC,h23_su10,National Grid EE,0.0
-UserC,h23_su10,Storage EE,4.7733882757243336e-11
+UserC,h23_su10,Storage EE,0.0
 UserC,h23_su10,Gas Boiler,0.0
 UserC,h23_su10,HP,0.0
 UserC,h23_su10,AC,0.0
@@ -47245,7 +47245,7 @@ UserC,h23_su10,Gas stove,0.0
 UserC,h23_su10,Gas National Grid,0.0
 UserC,h24_su10,PV sys,0.0
 UserC,h24_su10,National Grid EE,0.0
-UserC,h24_su10,Storage EE,5.5035187072673186e-11
+UserC,h24_su10,Storage EE,0.0
 UserC,h24_su10,Gas Boiler,0.0
 UserC,h24_su10,HP,0.0
 UserC,h24_su10,AC,0.0
@@ -47257,7 +47257,7 @@ UserC,h24_su10,Gas stove,0.0
 UserC,h24_su10,Gas National Grid,0.0
 UserC,h01_su11,PV sys,0.0
 UserC,h01_su11,National Grid EE,0.0
-UserC,h01_su11,Storage EE,5.5035187072673186e-11
+UserC,h01_su11,Storage EE,0.0
 UserC,h01_su11,Gas Boiler,0.0
 UserC,h01_su11,HP,0.0
 UserC,h01_su11,AC,0.0
@@ -47269,7 +47269,7 @@ UserC,h01_su11,Gas stove,0.0
 UserC,h01_su11,Gas National Grid,0.0
 UserC,h02_su11,PV sys,0.0
 UserC,h02_su11,National Grid EE,0.0
-UserC,h02_su11,Storage EE,5.5035187072673186e-11
+UserC,h02_su11,Storage EE,0.0
 UserC,h02_su11,Gas Boiler,0.0
 UserC,h02_su11,HP,0.0
 UserC,h02_su11,AC,0.0
@@ -47281,7 +47281,7 @@ UserC,h02_su11,Gas stove,0.0
 UserC,h02_su11,Gas National Grid,0.0
 UserC,h03_su11,PV sys,0.0
 UserC,h03_su11,National Grid EE,0.0
-UserC,h03_su11,Storage EE,5.5035187072673186e-11
+UserC,h03_su11,Storage EE,0.0
 UserC,h03_su11,Gas Boiler,0.0
 UserC,h03_su11,HP,0.0
 UserC,h03_su11,AC,0.0
@@ -47293,7 +47293,7 @@ UserC,h03_su11,Gas stove,0.0
 UserC,h03_su11,Gas National Grid,0.0
 UserC,h04_su11,PV sys,0.0
 UserC,h04_su11,National Grid EE,0.0
-UserC,h04_su11,Storage EE,5.5035187072673186e-11
+UserC,h04_su11,Storage EE,0.0
 UserC,h04_su11,Gas Boiler,0.0
 UserC,h04_su11,HP,0.0
 UserC,h04_su11,AC,0.0
@@ -47305,7 +47305,7 @@ UserC,h04_su11,Gas stove,0.0
 UserC,h04_su11,Gas National Grid,0.0
 UserC,h05_su11,PV sys,0.0
 UserC,h05_su11,National Grid EE,0.0
-UserC,h05_su11,Storage EE,5.5035187072673186e-11
+UserC,h05_su11,Storage EE,0.0
 UserC,h05_su11,Gas Boiler,0.0
 UserC,h05_su11,HP,0.0
 UserC,h05_su11,AC,0.0
@@ -47437,7 +47437,7 @@ UserC,h15_su11,Gas stove,0.0
 UserC,h15_su11,Gas National Grid,0.0
 UserC,h16_su11,PV sys,0.0
 UserC,h16_su11,National Grid EE,0.0
-UserC,h16_su11,Storage EE,1.4620715749202873e-10
+UserC,h16_su11,Storage EE,0.0
 UserC,h16_su11,Gas Boiler,0.0
 UserC,h16_su11,HP,0.0
 UserC,h16_su11,AC,0.0
@@ -47845,7 +47845,7 @@ UserC,h01_su13,Gas stove,0.0
 UserC,h01_su13,Gas National Grid,0.0
 UserC,h02_su13,PV sys,0.0
 UserC,h02_su13,National Grid EE,0.0
-UserC,h02_su13,Storage EE,-3.6033120931477924e-12
+UserC,h02_su13,Storage EE,0.0
 UserC,h02_su13,Gas Boiler,0.0
 UserC,h02_su13,HP,0.0
 UserC,h02_su13,AC,0.0
@@ -47857,7 +47857,7 @@ UserC,h02_su13,Gas stove,0.0
 UserC,h02_su13,Gas National Grid,0.0
 UserC,h03_su13,PV sys,0.0
 UserC,h03_su13,National Grid EE,0.0
-UserC,h03_su13,Storage EE,-3.6033120931477924e-12
+UserC,h03_su13,Storage EE,0.0
 UserC,h03_su13,Gas Boiler,0.0
 UserC,h03_su13,HP,0.0
 UserC,h03_su13,AC,0.0
@@ -47869,7 +47869,7 @@ UserC,h03_su13,Gas stove,0.0
 UserC,h03_su13,Gas National Grid,0.0
 UserC,h04_su13,PV sys,0.0
 UserC,h04_su13,National Grid EE,0.0
-UserC,h04_su13,Storage EE,-3.6033120931477924e-12
+UserC,h04_su13,Storage EE,0.0
 UserC,h04_su13,Gas Boiler,0.0
 UserC,h04_su13,HP,0.0
 UserC,h04_su13,AC,0.0
@@ -47881,7 +47881,7 @@ UserC,h04_su13,Gas stove,0.0
 UserC,h04_su13,Gas National Grid,0.0
 UserC,h05_su13,PV sys,0.0
 UserC,h05_su13,National Grid EE,0.0
-UserC,h05_su13,Storage EE,-3.6033120931477924e-12
+UserC,h05_su13,Storage EE,0.0
 UserC,h05_su13,Gas Boiler,0.0
 UserC,h05_su13,HP,0.0
 UserC,h05_su13,AC,0.0
@@ -48097,7 +48097,7 @@ UserC,h22_su13,Gas stove,0.0
 UserC,h22_su13,Gas National Grid,0.0
 UserC,h23_su13,PV sys,0.0
 UserC,h23_su13,National Grid EE,0.0
-UserC,h23_su13,Storage EE,-3.431783893593477e-10
+UserC,h23_su13,Storage EE,0.0
 UserC,h23_su13,Gas Boiler,0.0
 UserC,h23_su13,HP,0.0
 UserC,h23_su13,AC,0.0
@@ -48301,7 +48301,7 @@ UserC,h15_su14,Gas stove,0.0
 UserC,h15_su14,Gas National Grid,0.0
 UserC,h16_su14,PV sys,0.0
 UserC,h16_su14,National Grid EE,0.0
-UserC,h16_su14,Storage EE,4.177453383213958e-09
+UserC,h16_su14,Storage EE,0.0
 UserC,h16_su14,Gas Boiler,0.0
 UserC,h16_su14,HP,0.0
 UserC,h16_su14,AC,0.0
@@ -48313,7 +48313,7 @@ UserC,h16_su14,Gas stove,0.0
 UserC,h16_su14,Gas National Grid,0.0
 UserC,h17_su14,PV sys,0.0
 UserC,h17_su14,National Grid EE,0.0
-UserC,h17_su14,Storage EE,4.060999092558859e-09
+UserC,h17_su14,Storage EE,0.0
 UserC,h17_su14,Gas Boiler,0.0
 UserC,h17_su14,HP,0.0
 UserC,h17_su14,AC,0.0
@@ -48325,7 +48325,7 @@ UserC,h17_su14,Gas stove,0.0
 UserC,h17_su14,Gas National Grid,0.0
 UserC,h18_su14,PV sys,0.0
 UserC,h18_su14,National Grid EE,0.0
-UserC,h18_su14,Storage EE,4.060999092558859e-09
+UserC,h18_su14,Storage EE,0.0
 UserC,h18_su14,Gas Boiler,0.0
 UserC,h18_su14,HP,0.0
 UserC,h18_su14,AC,0.0
@@ -48505,7 +48505,7 @@ UserD,h07_wi01,Gas stove,0.0
 UserD,h07_wi01,Gas National Grid,0.0
 UserD,h08_wi01,PV sys,0.0
 UserD,h08_wi01,National Grid EE,0.0
-UserD,h08_wi01,Storage EE,0.0
+UserD,h08_wi01,Storage EE,1.1306200923395443e-07
 UserD,h08_wi01,Gas Boiler,0.0
 UserD,h08_wi01,HP,0.0
 UserD,h08_wi01,AC,0.0
@@ -48517,7 +48517,7 @@ UserD,h08_wi01,Gas stove,0.0
 UserD,h08_wi01,Gas National Grid,0.0
 UserD,h09_wi01,PV sys,0.0
 UserD,h09_wi01,National Grid EE,0.0
-UserD,h09_wi01,Storage EE,0.0
+UserD,h09_wi01,Storage EE,1.1306200923395443e-07
 UserD,h09_wi01,Gas Boiler,0.0
 UserD,h09_wi01,HP,0.0
 UserD,h09_wi01,AC,0.0
@@ -48529,7 +48529,7 @@ UserD,h09_wi01,Gas stove,0.0
 UserD,h09_wi01,Gas National Grid,0.0
 UserD,h10_wi01,PV sys,0.0
 UserD,h10_wi01,National Grid EE,0.0
-UserD,h10_wi01,Storage EE,0.0
+UserD,h10_wi01,Storage EE,5.6513165663030346e-08
 UserD,h10_wi01,Gas Boiler,0.0
 UserD,h10_wi01,HP,0.0
 UserD,h10_wi01,AC,0.0
@@ -48577,7 +48577,7 @@ UserD,h13_wi01,Gas stove,0.0
 UserD,h13_wi01,Gas National Grid,0.0
 UserD,h14_wi01,PV sys,0.0
 UserD,h14_wi01,National Grid EE,0.0
-UserD,h14_wi01,Storage EE,0.0
+UserD,h14_wi01,Storage EE,5.649439663950242e-08
 UserD,h14_wi01,Gas Boiler,0.0
 UserD,h14_wi01,HP,0.0
 UserD,h14_wi01,AC,0.0
@@ -48793,7 +48793,7 @@ UserD,h07_wi02,Gas stove,0.0
 UserD,h07_wi02,Gas National Grid,0.0
 UserD,h08_wi02,PV sys,0.0
 UserD,h08_wi02,National Grid EE,0.0
-UserD,h08_wi02,Storage EE,0.0
+UserD,h08_wi02,Storage EE,5.673148009068035e-08
 UserD,h08_wi02,Gas Boiler,0.0
 UserD,h08_wi02,HP,0.0
 UserD,h08_wi02,AC,0.0
@@ -48829,7 +48829,7 @@ UserD,h10_wi02,Gas stove,0.0
 UserD,h10_wi02,Gas National Grid,0.0
 UserD,h11_wi02,PV sys,0.0
 UserD,h11_wi02,National Grid EE,0.0
-UserD,h11_wi02,Storage EE,0.0
+UserD,h11_wi02,Storage EE,-5.6505621397951535e-08
 UserD,h11_wi02,Gas Boiler,0.0
 UserD,h11_wi02,HP,0.0
 UserD,h11_wi02,AC,0.0
@@ -48877,7 +48877,7 @@ UserD,h14_wi02,Gas stove,0.0
 UserD,h14_wi02,Gas National Grid,0.0
 UserD,h15_wi02,PV sys,0.0
 UserD,h15_wi02,National Grid EE,0.0
-UserD,h15_wi02,Storage EE,0.0
+UserD,h15_wi02,Storage EE,5.6490780497853166e-08
 UserD,h15_wi02,Gas Boiler,0.0
 UserD,h15_wi02,HP,0.0
 UserD,h15_wi02,AC,0.0
@@ -49081,7 +49081,7 @@ UserD,h07_wi03,Gas stove,0.0
 UserD,h07_wi03,Gas National Grid,0.0
 UserD,h08_wi03,PV sys,0.0
 UserD,h08_wi03,National Grid EE,0.0
-UserD,h08_wi03,Storage EE,0.0
+UserD,h08_wi03,Storage EE,-5.650846038057085e-08
 UserD,h08_wi03,Gas Boiler,0.0
 UserD,h08_wi03,HP,0.0
 UserD,h08_wi03,AC,0.0
@@ -49393,7 +49393,7 @@ UserD,h09_wi04,Gas stove,0.0
 UserD,h09_wi04,Gas National Grid,0.0
 UserD,h10_wi04,PV sys,0.0
 UserD,h10_wi04,National Grid EE,0.0
-UserD,h10_wi04,Storage EE,0.0
+UserD,h10_wi04,Storage EE,1.1303946961319681e-07
 UserD,h10_wi04,Gas Boiler,0.0
 UserD,h10_wi04,HP,0.0
 UserD,h10_wi04,AC,0.0
@@ -49405,7 +49405,7 @@ UserD,h10_wi04,Gas stove,0.0
 UserD,h10_wi04,Gas National Grid,0.0
 UserD,h11_wi04,PV sys,0.0
 UserD,h11_wi04,National Grid EE,0.0
-UserD,h11_wi04,Storage EE,0.0
+UserD,h11_wi04,Storage EE,5.6519769236547716e-08
 UserD,h11_wi04,Gas Boiler,0.0
 UserD,h11_wi04,HP,0.0
 UserD,h11_wi04,AC,0.0
@@ -49657,7 +49657,7 @@ UserD,h07_wi05,Gas stove,0.0
 UserD,h07_wi05,Gas National Grid,0.0
 UserD,h08_wi05,PV sys,0.0
 UserD,h08_wi05,National Grid EE,0.0
-UserD,h08_wi05,Storage EE,0.0
+UserD,h08_wi05,Storage EE,5.65198572388681e-08
 UserD,h08_wi05,Gas Boiler,0.0
 UserD,h08_wi05,HP,0.0
 UserD,h08_wi05,AC,0.0
@@ -49681,7 +49681,7 @@ UserD,h09_wi05,Gas stove,0.0
 UserD,h09_wi05,Gas National Grid,0.0
 UserD,h10_wi05,PV sys,0.0
 UserD,h10_wi05,National Grid EE,0.0
-UserD,h10_wi05,Storage EE,0.0
+UserD,h10_wi05,Storage EE,5.65051337132947e-08
 UserD,h10_wi05,Gas Boiler,0.0
 UserD,h10_wi05,HP,0.0
 UserD,h10_wi05,AC,0.0
@@ -49741,7 +49741,7 @@ UserD,h14_wi05,Gas stove,0.0
 UserD,h14_wi05,Gas National Grid,0.0
 UserD,h15_wi05,PV sys,0.0
 UserD,h15_wi05,National Grid EE,0.0
-UserD,h15_wi05,Storage EE,0.0
+UserD,h15_wi05,Storage EE,-5.65197487547951e-08
 UserD,h15_wi05,Gas Boiler,0.0
 UserD,h15_wi05,HP,0.0
 UserD,h15_wi05,AC,0.0
@@ -50005,7 +50005,7 @@ UserD,h12_wi06,Gas stove,0.0
 UserD,h12_wi06,Gas National Grid,0.0
 UserD,h13_wi06,PV sys,0.0
 UserD,h13_wi06,National Grid EE,0.0
-UserD,h13_wi06,Storage EE,0.0
+UserD,h13_wi06,Storage EE,-5.652044192234293e-08
 UserD,h13_wi06,Gas Boiler,0.0
 UserD,h13_wi06,HP,0.0
 UserD,h13_wi06,AC,0.0
@@ -50017,7 +50017,7 @@ UserD,h13_wi06,Gas stove,0.0
 UserD,h13_wi06,Gas National Grid,0.0
 UserD,h14_wi06,PV sys,0.0
 UserD,h14_wi06,National Grid EE,0.0
-UserD,h14_wi06,Storage EE,0.0
+UserD,h14_wi06,Storage EE,-1.1304082821180996e-07
 UserD,h14_wi06,Gas Boiler,0.0
 UserD,h14_wi06,HP,0.0
 UserD,h14_wi06,AC,0.0
@@ -50029,7 +50029,7 @@ UserD,h14_wi06,Gas stove,0.0
 UserD,h14_wi06,Gas National Grid,0.0
 UserD,h15_wi06,PV sys,0.0
 UserD,h15_wi06,National Grid EE,0.0
-UserD,h15_wi06,Storage EE,0.0
+UserD,h15_wi06,Storage EE,-1.6956433230980983e-07
 UserD,h15_wi06,Gas Boiler,0.0
 UserD,h15_wi06,HP,0.0
 UserD,h15_wi06,AC,0.0
@@ -50521,7 +50521,7 @@ UserD,h07_wi08,Gas stove,0.0
 UserD,h07_wi08,Gas National Grid,0.0
 UserD,h08_wi08,PV sys,0.0
 UserD,h08_wi08,National Grid EE,0.0
-UserD,h08_wi08,Storage EE,0.0
+UserD,h08_wi08,Storage EE,-5.635316565302013e-08
 UserD,h08_wi08,Gas Boiler,0.0
 UserD,h08_wi08,HP,0.0
 UserD,h08_wi08,AC,0.0
@@ -50809,7 +50809,7 @@ UserD,h07_wi09,Gas stove,0.0
 UserD,h07_wi09,Gas National Grid,0.0
 UserD,h08_wi09,PV sys,0.0
 UserD,h08_wi09,National Grid EE,0.0
-UserD,h08_wi09,Storage EE,0.0
+UserD,h08_wi09,Storage EE,-5.621614587137079e-08
 UserD,h08_wi09,Gas Boiler,0.0
 UserD,h08_wi09,HP,0.0
 UserD,h08_wi09,AC,0.0
@@ -50821,7 +50821,7 @@ UserD,h08_wi09,Gas stove,0.0
 UserD,h08_wi09,Gas National Grid,0.0
 UserD,h09_wi09,PV sys,0.0
 UserD,h09_wi09,National Grid EE,0.0
-UserD,h09_wi09,Storage EE,0.0
+UserD,h09_wi09,Storage EE,-5.621614587137079e-08
 UserD,h09_wi09,Gas Boiler,0.0
 UserD,h09_wi09,HP,0.0
 UserD,h09_wi09,AC,0.0
@@ -50833,7 +50833,7 @@ UserD,h09_wi09,Gas stove,0.0
 UserD,h09_wi09,Gas National Grid,0.0
 UserD,h10_wi09,PV sys,0.0
 UserD,h10_wi09,National Grid EE,0.0
-UserD,h10_wi09,Storage EE,0.0
+UserD,h10_wi09,Storage EE,-5.621614587137079e-08
 UserD,h10_wi09,Gas Boiler,0.0
 UserD,h10_wi09,HP,0.0
 UserD,h10_wi09,AC,0.0
@@ -50845,7 +50845,7 @@ UserD,h10_wi09,Gas stove,0.0
 UserD,h10_wi09,Gas National Grid,0.0
 UserD,h11_wi09,PV sys,0.0
 UserD,h11_wi09,National Grid EE,0.0
-UserD,h11_wi09,Storage EE,0.0
+UserD,h11_wi09,Storage EE,-1.1272129838218795e-07
 UserD,h11_wi09,Gas Boiler,0.0
 UserD,h11_wi09,HP,0.0
 UserD,h11_wi09,AC,0.0
@@ -50857,7 +50857,7 @@ UserD,h11_wi09,Gas stove,0.0
 UserD,h11_wi09,Gas National Grid,0.0
 UserD,h12_wi09,PV sys,0.0
 UserD,h12_wi09,National Grid EE,0.0
-UserD,h12_wi09,Storage EE,0.0
+UserD,h12_wi09,Storage EE,-1.1272129838218795e-07
 UserD,h12_wi09,Gas Boiler,0.0
 UserD,h12_wi09,HP,0.0
 UserD,h12_wi09,AC,0.0
@@ -50869,7 +50869,7 @@ UserD,h12_wi09,Gas stove,0.0
 UserD,h12_wi09,Gas National Grid,0.0
 UserD,h13_wi09,PV sys,0.0
 UserD,h13_wi09,National Grid EE,0.0
-UserD,h13_wi09,Storage EE,0.0
+UserD,h13_wi09,Storage EE,5.651970592934408e-08
 UserD,h13_wi09,Gas Boiler,0.0
 UserD,h13_wi09,HP,0.0
 UserD,h13_wi09,AC,0.0
@@ -50881,7 +50881,7 @@ UserD,h13_wi09,Gas stove,0.0
 UserD,h13_wi09,Gas National Grid,0.0
 UserD,h14_wi09,PV sys,0.0
 UserD,h14_wi09,National Grid EE,0.0
-UserD,h14_wi09,Storage EE,0.0
+UserD,h14_wi09,Storage EE,5.651970592934408e-08
 UserD,h14_wi09,Gas Boiler,0.0
 UserD,h14_wi09,HP,0.0
 UserD,h14_wi09,AC,0.0
@@ -51109,7 +51109,7 @@ UserD,h08_wi10,Gas stove,0.0
 UserD,h08_wi10,Gas National Grid,0.0
 UserD,h09_wi10,PV sys,0.0
 UserD,h09_wi10,National Grid EE,0.0
-UserD,h09_wi10,Storage EE,0.0
+UserD,h09_wi10,Storage EE,1.1304030089467518e-07
 UserD,h09_wi10,Gas Boiler,0.0
 UserD,h09_wi10,HP,0.0
 UserD,h09_wi10,AC,0.0
@@ -51121,7 +51121,7 @@ UserD,h09_wi10,Gas stove,0.0
 UserD,h09_wi10,Gas National Grid,0.0
 UserD,h10_wi10,PV sys,0.0
 UserD,h10_wi10,National Grid EE,0.0
-UserD,h10_wi10,Storage EE,0.0
+UserD,h10_wi10,Storage EE,5.652041623329837e-08
 UserD,h10_wi10,Gas Boiler,0.0
 UserD,h10_wi10,HP,0.0
 UserD,h10_wi10,AC,0.0
@@ -51421,7 +51421,7 @@ UserD,h10_wi11,Gas stove,0.0
 UserD,h10_wi11,Gas National Grid,0.0
 UserD,h11_wi11,PV sys,0.0
 UserD,h11_wi11,National Grid EE,0.0
-UserD,h11_wi11,Storage EE,0.0
+UserD,h11_wi11,Storage EE,-5.6505141433125186e-08
 UserD,h11_wi11,Gas Boiler,0.0
 UserD,h11_wi11,HP,0.0
 UserD,h11_wi11,AC,0.0
@@ -51433,7 +51433,7 @@ UserD,h11_wi11,Gas stove,0.0
 UserD,h11_wi11,Gas National Grid,0.0
 UserD,h12_wi11,PV sys,0.0
 UserD,h12_wi11,National Grid EE,0.0
-UserD,h12_wi11,Storage EE,0.0
+UserD,h12_wi11,Storage EE,-1.1301420725069661e-07
 UserD,h12_wi11,Gas Boiler,0.0
 UserD,h12_wi11,HP,0.0
 UserD,h12_wi11,AC,0.0
@@ -52009,7 +52009,7 @@ UserD,h11_wi13,Gas stove,0.0
 UserD,h11_wi13,Gas National Grid,0.0
 UserD,h12_wi13,PV sys,0.0
 UserD,h12_wi13,National Grid EE,0.0
-UserD,h12_wi13,Storage EE,0.0
+UserD,h12_wi13,Storage EE,1.6956120895863852e-07
 UserD,h12_wi13,Gas Boiler,0.0
 UserD,h12_wi13,HP,0.0
 UserD,h12_wi13,AC,0.0
@@ -52021,7 +52021,7 @@ UserD,h12_wi13,Gas stove,0.0
 UserD,h12_wi13,Gas National Grid,0.0
 UserD,h13_wi13,PV sys,0.0
 UserD,h13_wi13,National Grid EE,0.0
-UserD,h13_wi13,Storage EE,0.0
+UserD,h13_wi13,Storage EE,1.1304076703629559e-07
 UserD,h13_wi13,Gas Boiler,0.0
 UserD,h13_wi13,HP,0.0
 UserD,h13_wi13,AC,0.0
@@ -52033,7 +52033,7 @@ UserD,h13_wi13,Gas stove,0.0
 UserD,h13_wi13,Gas National Grid,0.0
 UserD,h14_wi13,PV sys,0.0
 UserD,h14_wi13,National Grid EE,0.0
-UserD,h14_wi13,Storage EE,0.0
+UserD,h14_wi13,Storage EE,5.652038074682856e-08
 UserD,h14_wi13,Gas Boiler,0.0
 UserD,h14_wi13,HP,0.0
 UserD,h14_wi13,AC,0.0
@@ -52549,7 +52549,7 @@ UserD,h08_mc01,Gas stove,0.0
 UserD,h08_mc01,Gas National Grid,0.0
 UserD,h09_mc01,PV sys,0.0
 UserD,h09_mc01,National Grid EE,0.0
-UserD,h09_mc01,Storage EE,0.0
+UserD,h09_mc01,Storage EE,1.695825886902591e-07
 UserD,h09_mc01,Gas Boiler,0.0
 UserD,h09_mc01,HP,0.0
 UserD,h09_mc01,AC,0.0
@@ -52561,7 +52561,7 @@ UserD,h09_mc01,Gas stove,0.0
 UserD,h09_mc01,Gas National Grid,0.0
 UserD,h10_mc01,PV sys,0.0
 UserD,h10_mc01,National Grid EE,0.0
-UserD,h10_mc01,Storage EE,0.0
+UserD,h10_mc01,Storage EE,1.1304029485754469e-07
 UserD,h10_mc01,Gas Boiler,0.0
 UserD,h10_mc01,HP,0.0
 UserD,h10_mc01,AC,0.0
@@ -52573,7 +52573,7 @@ UserD,h10_mc01,Gas stove,0.0
 UserD,h10_mc01,Gas National Grid,0.0
 UserD,h11_mc01,PV sys,0.0
 UserD,h11_mc01,National Grid EE,0.0
-UserD,h11_mc01,Storage EE,0.0
+UserD,h11_mc01,Storage EE,5.6520437563165435e-08
 UserD,h11_mc01,Gas Boiler,0.0
 UserD,h11_mc01,HP,0.0
 UserD,h11_mc01,AC,0.0
@@ -52621,7 +52621,7 @@ UserD,h14_mc01,Gas stove,0.0
 UserD,h14_mc01,Gas National Grid,0.0
 UserD,h15_mc01,PV sys,0.0
 UserD,h15_mc01,National Grid EE,0.0
-UserD,h15_mc01,Storage EE,0.0
+UserD,h15_mc01,Storage EE,5.6450062452867005e-08
 UserD,h15_mc01,Gas Boiler,0.0
 UserD,h15_mc01,HP,0.0
 UserD,h15_mc01,AC,0.0
@@ -52837,7 +52837,7 @@ UserD,h08_mc02,Gas stove,0.0
 UserD,h08_mc02,Gas National Grid,0.0
 UserD,h09_mc02,PV sys,0.0
 UserD,h09_mc02,National Grid EE,0.0
-UserD,h09_mc02,Storage EE,0.0
+UserD,h09_mc02,Storage EE,-5.652737013912418e-08
 UserD,h09_mc02,Gas Boiler,0.0
 UserD,h09_mc02,HP,0.0
 UserD,h09_mc02,AC,0.0
@@ -52849,7 +52849,7 @@ UserD,h09_mc02,Gas stove,0.0
 UserD,h09_mc02,Gas National Grid,0.0
 UserD,h10_mc02,PV sys,0.0
 UserD,h10_mc02,National Grid EE,0.0
-UserD,h10_mc02,Storage EE,0.0
+UserD,h10_mc02,Storage EE,-5.652737013912418e-08
 UserD,h10_mc02,Gas Boiler,0.0
 UserD,h10_mc02,HP,0.0
 UserD,h10_mc02,AC,0.0
@@ -52861,7 +52861,7 @@ UserD,h10_mc02,Gas stove,0.0
 UserD,h10_mc02,Gas National Grid,0.0
 UserD,h11_mc02,PV sys,0.0
 UserD,h11_mc02,National Grid EE,0.0
-UserD,h11_mc02,Storage EE,0.0
+UserD,h11_mc02,Storage EE,-1.1303251532258497e-07
 UserD,h11_mc02,Gas Boiler,0.0
 UserD,h11_mc02,HP,0.0
 UserD,h11_mc02,AC,0.0
@@ -52873,7 +52873,7 @@ UserD,h11_mc02,Gas stove,0.0
 UserD,h11_mc02,Gas National Grid,0.0
 UserD,h12_mc02,PV sys,0.0
 UserD,h12_mc02,National Grid EE,0.0
-UserD,h12_mc02,Storage EE,0.0
+UserD,h12_mc02,Storage EE,5.6519864328063976e-08
 UserD,h12_mc02,Gas Boiler,0.0
 UserD,h12_mc02,HP,0.0
 UserD,h12_mc02,AC,0.0
@@ -53161,7 +53161,7 @@ UserD,h11_mc03,Gas stove,0.0
 UserD,h11_mc03,Gas National Grid,0.0
 UserD,h12_mc03,PV sys,0.0
 UserD,h12_mc03,National Grid EE,0.0
-UserD,h12_mc03,Storage EE,0.0
+UserD,h12_mc03,Storage EE,-5.651486385171669e-08
 UserD,h12_mc03,Gas Boiler,0.0
 UserD,h12_mc03,HP,0.0
 UserD,h12_mc03,AC,0.0
@@ -53185,7 +53185,7 @@ UserD,h13_mc03,Gas stove,0.0
 UserD,h13_mc03,Gas National Grid,0.0
 UserD,h14_mc03,PV sys,0.0
 UserD,h14_mc03,National Grid EE,0.0
-UserD,h14_mc03,Storage EE,0.0
+UserD,h14_mc03,Storage EE,5.652045278766051e-08
 UserD,h14_mc03,Gas Boiler,0.0
 UserD,h14_mc03,HP,0.0
 UserD,h14_mc03,AC,0.0
@@ -53197,7 +53197,7 @@ UserD,h14_mc03,Gas stove,0.0
 UserD,h14_mc03,Gas National Grid,0.0
 UserD,h15_mc03,PV sys,0.0
 UserD,h15_mc03,National Grid EE,0.0
-UserD,h15_mc03,Storage EE,0.0
+UserD,h15_mc03,Storage EE,5.652045278766051e-08
 UserD,h15_mc03,Gas Boiler,0.0
 UserD,h15_mc03,HP,0.0
 UserD,h15_mc03,AC,0.0
@@ -53401,7 +53401,7 @@ UserD,h07_mc04,Gas stove,0.0
 UserD,h07_mc04,Gas National Grid,0.0
 UserD,h08_mc04,PV sys,0.0
 UserD,h08_mc04,National Grid EE,0.0
-UserD,h08_mc04,Storage EE,0.0
+UserD,h08_mc04,Storage EE,-5.651970341585682e-08
 UserD,h08_mc04,Gas Boiler,0.0
 UserD,h08_mc04,HP,0.0
 UserD,h08_mc04,AC,0.0
@@ -53413,7 +53413,7 @@ UserD,h08_mc04,Gas stove,0.0
 UserD,h08_mc04,Gas National Grid,0.0
 UserD,h09_mc04,PV sys,0.0
 UserD,h09_mc04,National Grid EE,0.0
-UserD,h09_mc04,Storage EE,0.0
+UserD,h09_mc04,Storage EE,-1.1304077666010725e-07
 UserD,h09_mc04,Gas Boiler,0.0
 UserD,h09_mc04,HP,0.0
 UserD,h09_mc04,AC,0.0
@@ -53473,7 +53473,7 @@ UserD,h13_mc04,Gas stove,0.0
 UserD,h13_mc04,Gas National Grid,0.0
 UserD,h14_mc04,PV sys,0.0
 UserD,h14_mc04,National Grid EE,0.0
-UserD,h14_mc04,Storage EE,0.0
+UserD,h14_mc04,Storage EE,5.65197050767774e-08
 UserD,h14_mc04,Gas Boiler,0.0
 UserD,h14_mc04,HP,0.0
 UserD,h14_mc04,AC,0.0
@@ -53701,7 +53701,7 @@ UserD,h08_mc05,Gas stove,0.0
 UserD,h08_mc05,Gas National Grid,0.0
 UserD,h09_mc05,PV sys,0.0
 UserD,h09_mc05,National Grid EE,0.0
-UserD,h09_mc05,Storage EE,0.0
+UserD,h09_mc05,Storage EE,5.6519909863439466e-08
 UserD,h09_mc05,Gas Boiler,0.0
 UserD,h09_mc05,HP,0.0
 UserD,h09_mc05,AC,0.0
@@ -53725,7 +53725,7 @@ UserD,h10_mc05,Gas stove,0.0
 UserD,h10_mc05,Gas National Grid,0.0
 UserD,h11_mc05,PV sys,0.0
 UserD,h11_mc05,National Grid EE,0.0
-UserD,h11_mc05,Storage EE,0.0
+UserD,h11_mc05,Storage EE,-5.650518942641638e-08
 UserD,h11_mc05,Gas Boiler,0.0
 UserD,h11_mc05,HP,0.0
 UserD,h11_mc05,AC,0.0
@@ -53749,7 +53749,7 @@ UserD,h12_mc05,Gas stove,0.0
 UserD,h12_mc05,Gas National Grid,0.0
 UserD,h13_mc05,PV sys,0.0
 UserD,h13_mc05,National Grid EE,0.0
-UserD,h13_mc05,Storage EE,0.0
+UserD,h13_mc05,Storage EE,5.653447490347882e-08
 UserD,h13_mc05,Gas Boiler,0.0
 UserD,h13_mc05,HP,0.0
 UserD,h13_mc05,AC,0.0
@@ -53761,7 +53761,7 @@ UserD,h13_mc05,Gas stove,0.0
 UserD,h13_mc05,Gas National Grid,0.0
 UserD,h14_mc05,PV sys,0.0
 UserD,h14_mc05,National Grid EE,0.0
-UserD,h14_mc05,Storage EE,0.0
+UserD,h14_mc05,Storage EE,5.653447490347882e-08
 UserD,h14_mc05,Gas Boiler,0.0
 UserD,h14_mc05,HP,0.0
 UserD,h14_mc05,AC,0.0
@@ -53953,7 +53953,7 @@ UserD,h05_mc06,Gas stove,0.0
 UserD,h05_mc06,Gas National Grid,0.0
 UserD,h06_mc06,PV sys,0.0
 UserD,h06_mc06,National Grid EE,0.0
-UserD,h06_mc06,Storage EE,0.0
+UserD,h06_mc06,Storage EE,5.662752451628892e-08
 UserD,h06_mc06,Gas Boiler,0.0
 UserD,h06_mc06,HP,0.0
 UserD,h06_mc06,AC,0.0
@@ -53977,7 +53977,7 @@ UserD,h07_mc06,Gas stove,0.0
 UserD,h07_mc06,Gas National Grid,0.0
 UserD,h08_mc06,PV sys,0.0
 UserD,h08_mc06,National Grid EE,0.0
-UserD,h08_mc06,Storage EE,0.0
+UserD,h08_mc06,Storage EE,-5.651969772139358e-08
 UserD,h08_mc06,Gas Boiler,0.0
 UserD,h08_mc06,HP,0.0
 UserD,h08_mc06,AC,0.0
@@ -53989,7 +53989,7 @@ UserD,h08_mc06,Gas stove,0.0
 UserD,h08_mc06,Gas National Grid,0.0
 UserD,h09_mc06,PV sys,0.0
 UserD,h09_mc06,National Grid EE,0.0
-UserD,h09_mc06,Storage EE,0.0
+UserD,h09_mc06,Storage EE,-5.651969772139358e-08
 UserD,h09_mc06,Gas Boiler,0.0
 UserD,h09_mc06,HP,0.0
 UserD,h09_mc06,AC,0.0
@@ -54013,7 +54013,7 @@ UserD,h10_mc06,Gas stove,0.0
 UserD,h10_mc06,Gas National Grid,0.0
 UserD,h11_mc06,PV sys,0.0
 UserD,h11_mc06,National Grid EE,0.0
-UserD,h11_mc06,Storage EE,0.0
+UserD,h11_mc06,Storage EE,5.650514534483804e-08
 UserD,h11_mc06,Gas Boiler,0.0
 UserD,h11_mc06,HP,0.0
 UserD,h11_mc06,AC,0.0
@@ -54253,7 +54253,7 @@ UserD,h06_mc07,Gas stove,0.0
 UserD,h06_mc07,Gas National Grid,0.0
 UserD,h07_mc07,PV sys,0.0
 UserD,h07_mc07,National Grid EE,0.0
-UserD,h07_mc07,Storage EE,0.0
+UserD,h07_mc07,Storage EE,5.652042811554736e-08
 UserD,h07_mc07,Gas Boiler,0.0
 UserD,h07_mc07,HP,0.0
 UserD,h07_mc07,AC,0.0
@@ -54265,7 +54265,7 @@ UserD,h07_mc07,Gas stove,0.0
 UserD,h07_mc07,Gas National Grid,0.0
 UserD,h08_mc07,PV sys,0.0
 UserD,h08_mc07,National Grid EE,0.0
-UserD,h08_mc07,Storage EE,0.0
+UserD,h08_mc07,Storage EE,5.652042811554736e-08
 UserD,h08_mc07,Gas Boiler,0.0
 UserD,h08_mc07,HP,0.0
 UserD,h08_mc07,AC,0.0
@@ -54277,7 +54277,7 @@ UserD,h08_mc07,Gas stove,0.0
 UserD,h08_mc07,Gas National Grid,0.0
 UserD,h09_mc07,PV sys,0.0
 UserD,h09_mc07,National Grid EE,0.0
-UserD,h09_mc07,Storage EE,0.0
+UserD,h09_mc07,Storage EE,5.652042811554736e-08
 UserD,h09_mc07,Gas Boiler,0.0
 UserD,h09_mc07,HP,0.0
 UserD,h09_mc07,AC,0.0
@@ -54301,7 +54301,7 @@ UserD,h10_mc07,Gas stove,0.0
 UserD,h10_mc07,Gas National Grid,0.0
 UserD,h11_mc07,PV sys,0.0
 UserD,h11_mc07,National Grid EE,0.0
-UserD,h11_mc07,Storage EE,0.0
+UserD,h11_mc07,Storage EE,5.6519696672940586e-08
 UserD,h11_mc07,Gas Boiler,0.0
 UserD,h11_mc07,HP,0.0
 UserD,h11_mc07,AC,0.0
@@ -55165,7 +55165,7 @@ UserD,h10_mc10,Gas stove,0.0
 UserD,h10_mc10,Gas National Grid,0.0
 UserD,h11_mc10,PV sys,0.0
 UserD,h11_mc10,National Grid EE,0.0
-UserD,h11_mc10,Storage EE,0.0
+UserD,h11_mc10,Storage EE,5.650514899259372e-08
 UserD,h11_mc10,Gas Boiler,0.0
 UserD,h11_mc10,HP,0.0
 UserD,h11_mc10,AC,0.0
@@ -55201,7 +55201,7 @@ UserD,h13_mc10,Gas stove,0.0
 UserD,h13_mc10,Gas National Grid,0.0
 UserD,h14_mc10,PV sys,0.0
 UserD,h14_mc10,National Grid EE,0.0
-UserD,h14_mc10,Storage EE,0.0
+UserD,h14_mc10,Storage EE,1.1304015949510307e-07
 UserD,h14_mc10,Gas Boiler,0.0
 UserD,h14_mc10,HP,0.0
 UserD,h14_mc10,AC,0.0
@@ -55213,7 +55213,7 @@ UserD,h14_mc10,Gas stove,0.0
 UserD,h14_mc10,Gas National Grid,0.0
 UserD,h15_mc10,PV sys,0.0
 UserD,h15_mc10,National Grid EE,0.0
-UserD,h15_mc10,Storage EE,0.0
+UserD,h15_mc10,Storage EE,5.6520452786017006e-08
 UserD,h15_mc10,Gas Boiler,0.0
 UserD,h15_mc10,HP,0.0
 UserD,h15_mc10,AC,0.0
@@ -55441,7 +55441,7 @@ UserD,h09_mc11,Gas stove,0.0
 UserD,h09_mc11,Gas National Grid,0.0
 UserD,h10_mc11,PV sys,0.0
 UserD,h10_mc11,National Grid EE,0.0
-UserD,h10_mc11,Storage EE,0.0
+UserD,h10_mc11,Storage EE,-5.6519931013188085e-08
 UserD,h10_mc11,Gas Boiler,0.0
 UserD,h10_mc11,HP,0.0
 UserD,h10_mc11,AC,0.0
@@ -55717,7 +55717,7 @@ UserD,h08_mc12,Gas stove,0.0
 UserD,h08_mc12,Gas National Grid,0.0
 UserD,h09_mc12,PV sys,0.0
 UserD,h09_mc12,National Grid EE,0.0
-UserD,h09_mc12,Storage EE,0.0
+UserD,h09_mc12,Storage EE,-5.6519861568737895e-08
 UserD,h09_mc12,Gas Boiler,0.0
 UserD,h09_mc12,HP,0.0
 UserD,h09_mc12,AC,0.0
@@ -55741,7 +55741,7 @@ UserD,h10_mc12,Gas stove,0.0
 UserD,h10_mc12,Gas National Grid,0.0
 UserD,h11_mc12,PV sys,0.0
 UserD,h11_mc12,National Grid EE,0.0
-UserD,h11_mc12,Storage EE,0.0
+UserD,h11_mc12,Storage EE,5.65335234514317e-08
 UserD,h11_mc12,Gas Boiler,0.0
 UserD,h11_mc12,HP,0.0
 UserD,h11_mc12,AC,0.0
@@ -55753,7 +55753,7 @@ UserD,h11_mc12,Gas stove,0.0
 UserD,h11_mc12,Gas National Grid,0.0
 UserD,h12_mc12,PV sys,0.0
 UserD,h12_mc12,National Grid EE,0.0
-UserD,h12_mc12,Storage EE,0.0
+UserD,h12_mc12,Storage EE,5.6531267299015807e-08
 UserD,h12_mc12,Gas Boiler,0.0
 UserD,h12_mc12,HP,0.0
 UserD,h12_mc12,AC,0.0
@@ -55777,7 +55777,7 @@ UserD,h13_mc12,Gas stove,0.0
 UserD,h13_mc12,Gas National Grid,0.0
 UserD,h14_mc12,PV sys,0.0
 UserD,h14_mc12,National Grid EE,0.0
-UserD,h14_mc12,Storage EE,0.0
+UserD,h14_mc12,Storage EE,-5.651989198884877e-08
 UserD,h14_mc12,Gas Boiler,0.0
 UserD,h14_mc12,HP,0.0
 UserD,h14_mc12,AC,0.0
@@ -56005,7 +56005,7 @@ UserD,h08_mc13,Gas stove,0.0
 UserD,h08_mc13,Gas National Grid,0.0
 UserD,h09_mc13,PV sys,0.0
 UserD,h09_mc13,National Grid EE,0.0
-UserD,h09_mc13,Storage EE,0.0
+UserD,h09_mc13,Storage EE,-5.6519740151114836e-08
 UserD,h09_mc13,Gas Boiler,0.0
 UserD,h09_mc13,HP,0.0
 UserD,h09_mc13,AC,0.0
@@ -56017,7 +56017,7 @@ UserD,h09_mc13,Gas stove,0.0
 UserD,h09_mc13,Gas National Grid,0.0
 UserD,h10_mc13,PV sys,0.0
 UserD,h10_mc13,National Grid EE,0.0
-UserD,h10_mc13,Storage EE,0.0
+UserD,h10_mc13,Storage EE,-5.6519740151114836e-08
 UserD,h10_mc13,Gas Boiler,0.0
 UserD,h10_mc13,HP,0.0
 UserD,h10_mc13,AC,0.0
@@ -56041,7 +56041,7 @@ UserD,h11_mc13,Gas stove,0.0
 UserD,h11_mc13,Gas National Grid,0.0
 UserD,h12_mc13,PV sys,0.0
 UserD,h12_mc13,National Grid EE,0.0
-UserD,h12_mc13,Storage EE,0.0
+UserD,h12_mc13,Storage EE,5.650519005667757e-08
 UserD,h12_mc13,Gas Boiler,0.0
 UserD,h12_mc13,HP,0.0
 UserD,h12_mc13,AC,0.0
@@ -56077,7 +56077,7 @@ UserD,h14_mc13,Gas stove,0.0
 UserD,h14_mc13,Gas National Grid,0.0
 UserD,h15_mc13,PV sys,0.0
 UserD,h15_mc13,National Grid EE,0.0
-UserD,h15_mc13,Storage EE,0.0
+UserD,h15_mc13,Storage EE,-5.653439909076939e-08
 UserD,h15_mc13,Gas Boiler,0.0
 UserD,h15_mc13,HP,0.0
 UserD,h15_mc13,AC,0.0
@@ -56089,7 +56089,7 @@ UserD,h15_mc13,Gas stove,0.0
 UserD,h15_mc13,Gas National Grid,0.0
 UserD,h16_mc13,PV sys,0.0
 UserD,h16_mc13,National Grid EE,0.0
-UserD,h16_mc13,Storage EE,0.0
+UserD,h16_mc13,Storage EE,-5.653439909076939e-08
 UserD,h16_mc13,Gas Boiler,0.0
 UserD,h16_mc13,HP,0.0
 UserD,h16_mc13,AC,0.0
@@ -56101,7 +56101,7 @@ UserD,h16_mc13,Gas stove,0.0
 UserD,h16_mc13,Gas National Grid,0.0
 UserD,h17_mc13,PV sys,0.0
 UserD,h17_mc13,National Grid EE,0.0
-UserD,h17_mc13,Storage EE,0.0
+UserD,h17_mc13,Storage EE,-5.653439909076939e-08
 UserD,h17_mc13,Gas Boiler,0.0
 UserD,h17_mc13,HP,0.0
 UserD,h17_mc13,AC,0.0
@@ -56113,7 +56113,7 @@ UserD,h17_mc13,Gas stove,0.0
 UserD,h17_mc13,Gas National Grid,0.0
 UserD,h18_mc13,PV sys,0.0
 UserD,h18_mc13,National Grid EE,0.0
-UserD,h18_mc13,Storage EE,0.0
+UserD,h18_mc13,Storage EE,-5.653439909076939e-08
 UserD,h18_mc13,Gas Boiler,0.0
 UserD,h18_mc13,HP,0.0
 UserD,h18_mc13,AC,0.0
@@ -56125,7 +56125,7 @@ UserD,h18_mc13,Gas stove,0.0
 UserD,h18_mc13,Gas National Grid,0.0
 UserD,h19_mc13,PV sys,0.0
 UserD,h19_mc13,National Grid EE,0.0
-UserD,h19_mc13,Storage EE,0.0
+UserD,h19_mc13,Storage EE,-5.653439909076939e-08
 UserD,h19_mc13,Gas Boiler,0.0
 UserD,h19_mc13,HP,0.0
 UserD,h19_mc13,AC,0.0
@@ -56137,7 +56137,7 @@ UserD,h19_mc13,Gas stove,0.0
 UserD,h19_mc13,Gas National Grid,0.0
 UserD,h20_mc13,PV sys,0.0
 UserD,h20_mc13,National Grid EE,0.0
-UserD,h20_mc13,Storage EE,0.0
+UserD,h20_mc13,Storage EE,-5.653209992990769e-08
 UserD,h20_mc13,Gas Boiler,0.0
 UserD,h20_mc13,HP,0.0
 UserD,h20_mc13,AC,0.0
@@ -56149,7 +56149,7 @@ UserD,h20_mc13,Gas stove,0.0
 UserD,h20_mc13,Gas National Grid,0.0
 UserD,h21_mc13,PV sys,0.0
 UserD,h21_mc13,National Grid EE,0.0
-UserD,h21_mc13,Storage EE,0.0
+UserD,h21_mc13,Storage EE,-5.653209992990769e-08
 UserD,h21_mc13,Gas Boiler,0.0
 UserD,h21_mc13,HP,0.0
 UserD,h21_mc13,AC,0.0
@@ -56161,7 +56161,7 @@ UserD,h21_mc13,Gas stove,0.0
 UserD,h21_mc13,Gas National Grid,0.0
 UserD,h22_mc13,PV sys,0.0
 UserD,h22_mc13,National Grid EE,0.0
-UserD,h22_mc13,Storage EE,0.0
+UserD,h22_mc13,Storage EE,-5.653209992990769e-08
 UserD,h22_mc13,Gas Boiler,0.0
 UserD,h22_mc13,HP,0.0
 UserD,h22_mc13,AC,0.0
@@ -56173,7 +56173,7 @@ UserD,h22_mc13,Gas stove,0.0
 UserD,h22_mc13,Gas National Grid,0.0
 UserD,h23_mc13,PV sys,0.0
 UserD,h23_mc13,National Grid EE,0.0
-UserD,h23_mc13,Storage EE,0.0
+UserD,h23_mc13,Storage EE,-5.653209992990769e-08
 UserD,h23_mc13,Gas Boiler,0.0
 UserD,h23_mc13,HP,0.0
 UserD,h23_mc13,AC,0.0
@@ -56593,7 +56593,7 @@ UserD,h09_mw01,Gas stove,0.0
 UserD,h09_mw01,Gas National Grid,0.0
 UserD,h10_mw01,PV sys,0.0
 UserD,h10_mw01,National Grid EE,0.0
-UserD,h10_mw01,Storage EE,0.0
+UserD,h10_mw01,Storage EE,-5.6542265598662194e-08
 UserD,h10_mw01,Gas Boiler,0.0
 UserD,h10_mw01,HP,0.0
 UserD,h10_mw01,AC,0.0
@@ -56617,7 +56617,7 @@ UserD,h11_mw01,Gas stove,0.0
 UserD,h11_mw01,Gas National Grid,0.0
 UserD,h12_mw01,PV sys,0.0
 UserD,h12_mw01,National Grid EE,0.0
-UserD,h12_mw01,Storage EE,0.0
+UserD,h12_mw01,Storage EE,-5.6520202522156747e-08
 UserD,h12_mw01,Gas Boiler,0.0
 UserD,h12_mw01,HP,0.0
 UserD,h12_mw01,AC,0.0
@@ -56629,7 +56629,7 @@ UserD,h12_mw01,Gas stove,0.0
 UserD,h12_mw01,Gas National Grid,0.0
 UserD,h13_mw01,PV sys,0.0
 UserD,h13_mw01,National Grid EE,0.0
-UserD,h13_mw01,Storage EE,0.0
+UserD,h13_mw01,Storage EE,-1.1304045370100445e-07
 UserD,h13_mw01,Gas Boiler,0.0
 UserD,h13_mw01,HP,0.0
 UserD,h13_mw01,AC,0.0
@@ -56641,7 +56641,7 @@ UserD,h13_mw01,Gas stove,0.0
 UserD,h13_mw01,Gas National Grid,0.0
 UserD,h14_mw01,PV sys,0.0
 UserD,h14_mw01,National Grid EE,0.0
-UserD,h14_mw01,Storage EE,0.0
+UserD,h14_mw01,Storage EE,-1.6956015140097935e-07
 UserD,h14_mw01,Gas Boiler,0.0
 UserD,h14_mw01,HP,0.0
 UserD,h14_mw01,AC,0.0
@@ -56653,7 +56653,7 @@ UserD,h14_mw01,Gas stove,0.0
 UserD,h14_mw01,Gas National Grid,0.0
 UserD,h15_mw01,PV sys,0.0
 UserD,h15_mw01,National Grid EE,0.0
-UserD,h15_mw01,Storage EE,0.0
+UserD,h15_mw01,Storage EE,-2.2606529675005328e-07
 UserD,h15_mw01,Gas Boiler,0.0
 UserD,h15_mw01,HP,0.0
 UserD,h15_mw01,AC,0.0
@@ -56665,7 +56665,7 @@ UserD,h15_mw01,Gas stove,0.0
 UserD,h15_mw01,Gas National Grid,0.0
 UserD,h16_mw01,PV sys,0.0
 UserD,h16_mw01,National Grid EE,0.0
-UserD,h16_mw01,Storage EE,0.0
+UserD,h16_mw01,Storage EE,-2.825049581754689e-07
 UserD,h16_mw01,Gas Boiler,0.0
 UserD,h16_mw01,HP,0.0
 UserD,h16_mw01,AC,0.0
@@ -56821,7 +56821,7 @@ UserD,h04_mw02,Gas stove,0.0
 UserD,h04_mw02,Gas National Grid,0.0
 UserD,h05_mw02,PV sys,0.0
 UserD,h05_mw02,National Grid EE,0.0
-UserD,h05_mw02,Storage EE,0.0
+UserD,h05_mw02,Storage EE,5.649787174211163e-08
 UserD,h05_mw02,Gas Boiler,0.0
 UserD,h05_mw02,HP,0.0
 UserD,h05_mw02,AC,0.0
@@ -56833,7 +56833,7 @@ UserD,h05_mw02,Gas stove,0.0
 UserD,h05_mw02,Gas National Grid,0.0
 UserD,h06_mw02,PV sys,0.0
 UserD,h06_mw02,National Grid EE,0.0
-UserD,h06_mw02,Storage EE,0.0
+UserD,h06_mw02,Storage EE,5.649787174211163e-08
 UserD,h06_mw02,Gas Boiler,0.0
 UserD,h06_mw02,HP,0.0
 UserD,h06_mw02,AC,0.0
@@ -56857,7 +56857,7 @@ UserD,h07_mw02,Gas stove,0.0
 UserD,h07_mw02,Gas National Grid,0.0
 UserD,h08_mw02,PV sys,0.0
 UserD,h08_mw02,National Grid EE,0.0
-UserD,h08_mw02,Storage EE,0.0
+UserD,h08_mw02,Storage EE,1.130210734144679e-07
 UserD,h08_mw02,Gas Boiler,0.0
 UserD,h08_mw02,HP,0.0
 UserD,h08_mw02,AC,0.0
@@ -56869,7 +56869,7 @@ UserD,h08_mw02,Gas stove,0.0
 UserD,h08_mw02,Gas National Grid,0.0
 UserD,h09_mw02,PV sys,0.0
 UserD,h09_mw02,National Grid EE,0.0
-UserD,h09_mw02,Storage EE,0.0
+UserD,h09_mw02,Storage EE,5.650394286402749e-08
 UserD,h09_mw02,Gas Boiler,0.0
 UserD,h09_mw02,HP,0.0
 UserD,h09_mw02,AC,0.0
@@ -57445,7 +57445,7 @@ UserD,h08_mw04,Gas stove,0.0
 UserD,h08_mw04,Gas National Grid,0.0
 UserD,h09_mw04,PV sys,0.0
 UserD,h09_mw04,National Grid EE,0.0
-UserD,h09_mw04,Storage EE,0.0
+UserD,h09_mw04,Storage EE,5.6505130463513353e-08
 UserD,h09_mw04,Gas Boiler,0.0
 UserD,h09_mw04,HP,0.0
 UserD,h09_mw04,AC,0.0
@@ -57469,7 +57469,7 @@ UserD,h10_mw04,Gas stove,0.0
 UserD,h10_mw04,Gas National Grid,0.0
 UserD,h11_mw04,PV sys,0.0
 UserD,h11_mw04,National Grid EE,0.0
-UserD,h11_mw04,Storage EE,0.0
+UserD,h11_mw04,Storage EE,-5.650508686525761e-08
 UserD,h11_mw04,Gas Boiler,0.0
 UserD,h11_mw04,HP,0.0
 UserD,h11_mw04,AC,0.0
@@ -57481,7 +57481,7 @@ UserD,h11_mw04,Gas stove,0.0
 UserD,h11_mw04,Gas National Grid,0.0
 UserD,h12_mw04,PV sys,0.0
 UserD,h12_mw04,National Grid EE,0.0
-UserD,h12_mw04,Storage EE,0.0
+UserD,h12_mw04,Storage EE,-5.650508686525761e-08
 UserD,h12_mw04,Gas Boiler,0.0
 UserD,h12_mw04,HP,0.0
 UserD,h12_mw04,AC,0.0
@@ -57493,7 +57493,7 @@ UserD,h12_mw04,Gas stove,0.0
 UserD,h12_mw04,Gas National Grid,0.0
 UserD,h13_mw04,PV sys,0.0
 UserD,h13_mw04,National Grid EE,0.0
-UserD,h13_mw04,Storage EE,0.0
+UserD,h13_mw04,Storage EE,-5.650508686525761e-08
 UserD,h13_mw04,Gas Boiler,0.0
 UserD,h13_mw04,HP,0.0
 UserD,h13_mw04,AC,0.0
@@ -57505,7 +57505,7 @@ UserD,h13_mw04,Gas stove,0.0
 UserD,h13_mw04,Gas National Grid,0.0
 UserD,h14_mw04,PV sys,0.0
 UserD,h14_mw04,National Grid EE,0.0
-UserD,h14_mw04,Storage EE,0.0
+UserD,h14_mw04,Storage EE,-1.1302476564015353e-07
 UserD,h14_mw04,Gas Boiler,0.0
 UserD,h14_mw04,HP,0.0
 UserD,h14_mw04,AC,0.0
@@ -57721,7 +57721,7 @@ UserD,h07_mw05,Gas stove,0.0
 UserD,h07_mw05,Gas National Grid,0.0
 UserD,h08_mw05,PV sys,0.0
 UserD,h08_mw05,National Grid EE,0.0
-UserD,h08_mw05,Storage EE,0.0
+UserD,h08_mw05,Storage EE,-5.644982083337788e-08
 UserD,h08_mw05,Gas Boiler,0.0
 UserD,h08_mw05,HP,0.0
 UserD,h08_mw05,AC,0.0
@@ -57733,7 +57733,7 @@ UserD,h08_mw05,Gas stove,0.0
 UserD,h08_mw05,Gas National Grid,0.0
 UserD,h09_mw05,PV sys,0.0
 UserD,h09_mw05,National Grid EE,0.0
-UserD,h09_mw05,Storage EE,0.0
+UserD,h09_mw05,Storage EE,-1.1296952281520015e-07
 UserD,h09_mw05,Gas Boiler,0.0
 UserD,h09_mw05,HP,0.0
 UserD,h09_mw05,AC,0.0
@@ -57745,7 +57745,7 @@ UserD,h09_mw05,Gas stove,0.0
 UserD,h09_mw05,Gas National Grid,0.0
 UserD,h10_mw05,PV sys,0.0
 UserD,h10_mw05,National Grid EE,0.0
-UserD,h10_mw05,Storage EE,0.0
+UserD,h10_mw05,Storage EE,5.652393050291339e-08
 UserD,h10_mw05,Gas Boiler,0.0
 UserD,h10_mw05,HP,0.0
 UserD,h10_mw05,AC,0.0
@@ -57769,7 +57769,7 @@ UserD,h11_mw05,Gas stove,0.0
 UserD,h11_mw05,Gas National Grid,0.0
 UserD,h12_mw05,PV sys,0.0
 UserD,h12_mw05,National Grid EE,0.0
-UserD,h12_mw05,Storage EE,0.0
+UserD,h12_mw05,Storage EE,-5.651987760566496e-08
 UserD,h12_mw05,Gas Boiler,0.0
 UserD,h12_mw05,HP,0.0
 UserD,h12_mw05,AC,0.0
@@ -57781,7 +57781,7 @@ UserD,h12_mw05,Gas stove,0.0
 UserD,h12_mw05,Gas National Grid,0.0
 UserD,h13_mw05,PV sys,0.0
 UserD,h13_mw05,National Grid EE,0.0
-UserD,h13_mw05,Storage EE,0.0
+UserD,h13_mw05,Storage EE,-5.651987760566496e-08
 UserD,h13_mw05,Gas Boiler,0.0
 UserD,h13_mw05,HP,0.0
 UserD,h13_mw05,AC,0.0
@@ -58033,7 +58033,7 @@ UserD,h09_mw06,Gas stove,0.0
 UserD,h09_mw06,Gas National Grid,0.0
 UserD,h10_mw06,PV sys,0.0
 UserD,h10_mw06,National Grid EE,0.0
-UserD,h10_mw06,Storage EE,0.0
+UserD,h10_mw06,Storage EE,5.651970617929331e-08
 UserD,h10_mw06,Gas Boiler,0.0
 UserD,h10_mw06,HP,0.0
 UserD,h10_mw06,AC,0.0
@@ -58045,7 +58045,7 @@ UserD,h10_mw06,Gas stove,0.0
 UserD,h10_mw06,Gas National Grid,0.0
 UserD,h11_mw06,PV sys,0.0
 UserD,h11_mw06,National Grid EE,0.0
-UserD,h11_mw06,Storage EE,0.0
+UserD,h11_mw06,Storage EE,5.651970617929331e-08
 UserD,h11_mw06,Gas Boiler,0.0
 UserD,h11_mw06,HP,0.0
 UserD,h11_mw06,AC,0.0
@@ -58285,7 +58285,7 @@ UserD,h06_mw07,Gas stove,0.0
 UserD,h06_mw07,Gas National Grid,0.0
 UserD,h07_mw07,PV sys,0.0
 UserD,h07_mw07,National Grid EE,0.0
-UserD,h07_mw07,Storage EE,0.0
+UserD,h07_mw07,Storage EE,5.651627177361007e-08
 UserD,h07_mw07,Gas Boiler,0.0
 UserD,h07_mw07,HP,0.0
 UserD,h07_mw07,AC,0.0
@@ -58297,7 +58297,7 @@ UserD,h07_mw07,Gas stove,0.0
 UserD,h07_mw07,Gas National Grid,0.0
 UserD,h08_mw07,PV sys,0.0
 UserD,h08_mw07,National Grid EE,0.0
-UserD,h08_mw07,Storage EE,0.0
+UserD,h08_mw07,Storage EE,5.6519704194624154e-08
 UserD,h08_mw07,Gas Boiler,0.0
 UserD,h08_mw07,HP,0.0
 UserD,h08_mw07,AC,0.0
@@ -58321,7 +58321,7 @@ UserD,h09_mw07,Gas stove,0.0
 UserD,h09_mw07,Gas National Grid,0.0
 UserD,h10_mw07,PV sys,0.0
 UserD,h10_mw07,National Grid EE,0.0
-UserD,h10_mw07,Storage EE,0.0
+UserD,h10_mw07,Storage EE,5.652038292947026e-08
 UserD,h10_mw07,Gas Boiler,0.0
 UserD,h10_mw07,HP,0.0
 UserD,h10_mw07,AC,0.0
@@ -58345,7 +58345,7 @@ UserD,h11_mw07,Gas stove,0.0
 UserD,h11_mw07,Gas National Grid,0.0
 UserD,h12_mw07,PV sys,0.0
 UserD,h12_mw07,National Grid EE,0.0
-UserD,h12_mw07,Storage EE,0.0
+UserD,h12_mw07,Storage EE,-5.6519702749851226e-08
 UserD,h12_mw07,Gas Boiler,0.0
 UserD,h12_mw07,HP,0.0
 UserD,h12_mw07,AC,0.0
@@ -58381,7 +58381,7 @@ UserD,h14_mw07,Gas stove,0.0
 UserD,h14_mw07,Gas National Grid,0.0
 UserD,h15_mw07,PV sys,0.0
 UserD,h15_mw07,National Grid EE,0.0
-UserD,h15_mw07,Storage EE,0.0
+UserD,h15_mw07,Storage EE,-5.651970666932485e-08
 UserD,h15_mw07,Gas Boiler,0.0
 UserD,h15_mw07,HP,0.0
 UserD,h15_mw07,AC,0.0
@@ -58393,7 +58393,7 @@ UserD,h15_mw07,Gas stove,0.0
 UserD,h15_mw07,Gas National Grid,0.0
 UserD,h16_mw07,PV sys,0.0
 UserD,h16_mw07,National Grid EE,0.0
-UserD,h16_mw07,Storage EE,0.0
+UserD,h16_mw07,Storage EE,-5.651970666932485e-08
 UserD,h16_mw07,Gas Boiler,0.0
 UserD,h16_mw07,HP,0.0
 UserD,h16_mw07,AC,0.0
@@ -58609,7 +58609,7 @@ UserD,h09_mw08,Gas stove,0.0
 UserD,h09_mw08,Gas National Grid,0.0
 UserD,h10_mw08,PV sys,0.0
 UserD,h10_mw08,National Grid EE,0.0
-UserD,h10_mw08,Storage EE,0.0
+UserD,h10_mw08,Storage EE,5.6519697422263704e-08
 UserD,h10_mw08,Gas Boiler,0.0
 UserD,h10_mw08,HP,0.0
 UserD,h10_mw08,AC,0.0
@@ -58921,7 +58921,7 @@ UserD,h11_mw09,Gas stove,0.0
 UserD,h11_mw09,Gas National Grid,0.0
 UserD,h12_mw09,PV sys,0.0
 UserD,h12_mw09,National Grid EE,0.0
-UserD,h12_mw09,Storage EE,0.0
+UserD,h12_mw09,Storage EE,-5.6525095687001714e-08
 UserD,h12_mw09,Gas Boiler,0.0
 UserD,h12_mw09,HP,0.0
 UserD,h12_mw09,AC,0.0
@@ -58933,7 +58933,7 @@ UserD,h12_mw09,Gas stove,0.0
 UserD,h12_mw09,Gas National Grid,0.0
 UserD,h13_mw09,PV sys,0.0
 UserD,h13_mw09,National Grid EE,0.0
-UserD,h13_mw09,Storage EE,0.0
+UserD,h13_mw09,Storage EE,1.1303975546350393e-07
 UserD,h13_mw09,Gas Boiler,0.0
 UserD,h13_mw09,HP,0.0
 UserD,h13_mw09,AC,0.0
@@ -58945,7 +58945,7 @@ UserD,h13_mw09,Gas stove,0.0
 UserD,h13_mw09,Gas National Grid,0.0
 UserD,h14_mw09,PV sys,0.0
 UserD,h14_mw09,National Grid EE,0.0
-UserD,h14_mw09,Storage EE,0.0
+UserD,h14_mw09,Storage EE,5.651989092490265e-08
 UserD,h14_mw09,Gas Boiler,0.0
 UserD,h14_mw09,HP,0.0
 UserD,h14_mw09,AC,0.0
@@ -59149,7 +59149,7 @@ UserD,h06_mw10,Gas stove,0.0
 UserD,h06_mw10,Gas National Grid,0.0
 UserD,h07_mw10,PV sys,0.0
 UserD,h07_mw10,National Grid EE,0.0
-UserD,h07_mw10,Storage EE,0.0
+UserD,h07_mw10,Storage EE,5.6511730408991496e-08
 UserD,h07_mw10,Gas Boiler,0.0
 UserD,h07_mw10,HP,0.0
 UserD,h07_mw10,AC,0.0
@@ -59161,7 +59161,7 @@ UserD,h07_mw10,Gas stove,0.0
 UserD,h07_mw10,Gas National Grid,0.0
 UserD,h08_mw10,PV sys,0.0
 UserD,h08_mw10,National Grid EE,0.0
-UserD,h08_mw10,Storage EE,0.0
+UserD,h08_mw10,Storage EE,5.6511730408991496e-08
 UserD,h08_mw10,Gas Boiler,0.0
 UserD,h08_mw10,HP,0.0
 UserD,h08_mw10,AC,0.0
@@ -59437,7 +59437,7 @@ UserD,h06_mw11,Gas stove,0.0
 UserD,h06_mw11,Gas National Grid,0.0
 UserD,h07_mw11,PV sys,0.0
 UserD,h07_mw11,National Grid EE,0.0
-UserD,h07_mw11,Storage EE,0.0
+UserD,h07_mw11,Storage EE,5.651968465469892e-08
 UserD,h07_mw11,Gas Boiler,0.0
 UserD,h07_mw11,HP,0.0
 UserD,h07_mw11,AC,0.0
@@ -59461,7 +59461,7 @@ UserD,h08_mw11,Gas stove,0.0
 UserD,h08_mw11,Gas National Grid,0.0
 UserD,h09_mw11,PV sys,0.0
 UserD,h09_mw11,National Grid EE,0.0
-UserD,h09_mw11,Storage EE,0.0
+UserD,h09_mw11,Storage EE,5.6516563708564546e-08
 UserD,h09_mw11,Gas Boiler,0.0
 UserD,h09_mw11,HP,0.0
 UserD,h09_mw11,AC,0.0
@@ -59485,7 +59485,7 @@ UserD,h10_mw11,Gas stove,0.0
 UserD,h10_mw11,Gas National Grid,0.0
 UserD,h11_mw11,PV sys,0.0
 UserD,h11_mw11,National Grid EE,0.0
-UserD,h11_mw11,Storage EE,0.0
+UserD,h11_mw11,Storage EE,-5.650513328150115e-08
 UserD,h11_mw11,Gas Boiler,0.0
 UserD,h11_mw11,HP,0.0
 UserD,h11_mw11,AC,0.0
@@ -59497,7 +59497,7 @@ UserD,h11_mw11,Gas stove,0.0
 UserD,h11_mw11,Gas National Grid,0.0
 UserD,h12_mw11,PV sys,0.0
 UserD,h12_mw11,National Grid EE,0.0
-UserD,h12_mw11,Storage EE,0.0
+UserD,h12_mw11,Storage EE,5.6519683512805956e-08
 UserD,h12_mw11,Gas Boiler,0.0
 UserD,h12_mw11,HP,0.0
 UserD,h12_mw11,AC,0.0
@@ -59509,7 +59509,7 @@ UserD,h12_mw11,Gas stove,0.0
 UserD,h12_mw11,Gas National Grid,0.0
 UserD,h13_mw11,PV sys,0.0
 UserD,h13_mw11,National Grid EE,0.0
-UserD,h13_mw11,Storage EE,0.0
+UserD,h13_mw11,Storage EE,5.6519683512805956e-08
 UserD,h13_mw11,Gas Boiler,0.0
 UserD,h13_mw11,HP,0.0
 UserD,h13_mw11,AC,0.0
@@ -59521,7 +59521,7 @@ UserD,h13_mw11,Gas stove,0.0
 UserD,h13_mw11,Gas National Grid,0.0
 UserD,h14_mw11,PV sys,0.0
 UserD,h14_mw11,National Grid EE,0.0
-UserD,h14_mw11,Storage EE,0.0
+UserD,h14_mw11,Storage EE,5.6519683512805956e-08
 UserD,h14_mw11,Gas Boiler,0.0
 UserD,h14_mw11,HP,0.0
 UserD,h14_mw11,AC,0.0
@@ -59545,7 +59545,7 @@ UserD,h15_mw11,Gas stove,0.0
 UserD,h15_mw11,Gas National Grid,0.0
 UserD,h16_mw11,PV sys,0.0
 UserD,h16_mw11,National Grid EE,0.0
-UserD,h16_mw11,Storage EE,0.0
+UserD,h16_mw11,Storage EE,-5.6519679159094936e-08
 UserD,h16_mw11,Gas Boiler,0.0
 UserD,h16_mw11,HP,0.0
 UserD,h16_mw11,AC,0.0
@@ -59737,7 +59737,7 @@ UserD,h07_mw12,Gas stove,0.0
 UserD,h07_mw12,Gas National Grid,0.0
 UserD,h08_mw12,PV sys,0.0
 UserD,h08_mw12,National Grid EE,0.0
-UserD,h08_mw12,Storage EE,0.0
+UserD,h08_mw12,Storage EE,-5.651970198633783e-08
 UserD,h08_mw12,Gas Boiler,0.0
 UserD,h08_mw12,HP,0.0
 UserD,h08_mw12,AC,0.0
@@ -59749,7 +59749,7 @@ UserD,h08_mw12,Gas stove,0.0
 UserD,h08_mw12,Gas National Grid,0.0
 UserD,h09_mw12,PV sys,0.0
 UserD,h09_mw12,National Grid EE,0.0
-UserD,h09_mw12,Storage EE,0.0
+UserD,h09_mw12,Storage EE,-1.1302485921810712e-07
 UserD,h09_mw12,Gas Boiler,0.0
 UserD,h09_mw12,HP,0.0
 UserD,h09_mw12,AC,0.0
@@ -59821,7 +59821,7 @@ UserD,h14_mw12,Gas stove,0.0
 UserD,h14_mw12,Gas National Grid,0.0
 UserD,h15_mw12,PV sys,0.0
 UserD,h15_mw12,National Grid EE,0.0
-UserD,h15_mw12,Storage EE,0.0
+UserD,h15_mw12,Storage EE,5.650530999733918e-08
 UserD,h15_mw12,Gas Boiler,0.0
 UserD,h15_mw12,HP,0.0
 UserD,h15_mw12,AC,0.0
@@ -60025,7 +60025,7 @@ UserD,h07_mw13,Gas stove,0.0
 UserD,h07_mw13,Gas National Grid,0.0
 UserD,h08_mw13,PV sys,0.0
 UserD,h08_mw13,National Grid EE,0.0
-UserD,h08_mw13,Storage EE,0.0
+UserD,h08_mw13,Storage EE,-5.6519701030488534e-08
 UserD,h08_mw13,Gas Boiler,0.0
 UserD,h08_mw13,HP,0.0
 UserD,h08_mw13,AC,0.0
@@ -60049,7 +60049,7 @@ UserD,h09_mw13,Gas stove,0.0
 UserD,h09_mw13,Gas National Grid,0.0
 UserD,h10_mw13,PV sys,0.0
 UserD,h10_mw13,National Grid EE,0.0
-UserD,h10_mw13,Storage EE,0.0
+UserD,h10_mw13,Storage EE,-5.650510108016959e-08
 UserD,h10_mw13,Gas Boiler,0.0
 UserD,h10_mw13,HP,0.0
 UserD,h10_mw13,AC,0.0
@@ -60061,7 +60061,7 @@ UserD,h10_mw13,Gas stove,0.0
 UserD,h10_mw13,Gas National Grid,0.0
 UserD,h11_mw13,PV sys,0.0
 UserD,h11_mw13,National Grid EE,0.0
-UserD,h11_mw13,Storage EE,0.0
+UserD,h11_mw13,Storage EE,5.6505740566537775e-08
 UserD,h11_mw13,Gas Boiler,0.0
 UserD,h11_mw13,HP,0.0
 UserD,h11_mw13,AC,0.0
@@ -60085,7 +60085,7 @@ UserD,h12_mw13,Gas stove,0.0
 UserD,h12_mw13,Gas National Grid,0.0
 UserD,h13_mw13,PV sys,0.0
 UserD,h13_mw13,National Grid EE,0.0
-UserD,h13_mw13,Storage EE,0.0
+UserD,h13_mw13,Storage EE,-5.650570744641925e-08
 UserD,h13_mw13,Gas Boiler,0.0
 UserD,h13_mw13,HP,0.0
 UserD,h13_mw13,AC,0.0
@@ -60097,7 +60097,7 @@ UserD,h13_mw13,Gas stove,0.0
 UserD,h13_mw13,Gas National Grid,0.0
 UserD,h14_mw13,PV sys,0.0
 UserD,h14_mw13,National Grid EE,0.0
-UserD,h14_mw13,Storage EE,0.0
+UserD,h14_mw13,Storage EE,1.1303943476739824e-07
 UserD,h14_mw13,Gas Boiler,0.0
 UserD,h14_mw13,HP,0.0
 UserD,h14_mw13,AC,0.0
@@ -60109,7 +60109,7 @@ UserD,h14_mw13,Gas stove,0.0
 UserD,h14_mw13,Gas National Grid,0.0
 UserD,h15_mw13,PV sys,0.0
 UserD,h15_mw13,National Grid EE,0.0
-UserD,h15_mw13,Storage EE,0.0
+UserD,h15_mw13,Storage EE,5.6519706138717684e-08
 UserD,h15_mw13,Gas Boiler,0.0
 UserD,h15_mw13,HP,0.0
 UserD,h15_mw13,AC,0.0
@@ -60325,7 +60325,7 @@ UserD,h08_mw14,Gas stove,0.0
 UserD,h08_mw14,Gas National Grid,0.0
 UserD,h09_mw14,PV sys,0.0
 UserD,h09_mw14,National Grid EE,0.0
-UserD,h09_mw14,Storage EE,0.0
+UserD,h09_mw14,Storage EE,-5.6519697089196796e-08
 UserD,h09_mw14,Gas Boiler,0.0
 UserD,h09_mw14,HP,0.0
 UserD,h09_mw14,AC,0.0
@@ -60337,7 +60337,7 @@ UserD,h09_mw14,Gas stove,0.0
 UserD,h09_mw14,Gas National Grid,0.0
 UserD,h10_mw14,PV sys,0.0
 UserD,h10_mw14,National Grid EE,0.0
-UserD,h10_mw14,Storage EE,0.0
+UserD,h10_mw14,Storage EE,-1.1304007570974473e-07
 UserD,h10_mw14,Gas Boiler,0.0
 UserD,h10_mw14,HP,0.0
 UserD,h10_mw14,AC,0.0
@@ -60361,7 +60361,7 @@ UserD,h11_mw14,Gas stove,0.0
 UserD,h11_mw14,Gas National Grid,0.0
 UserD,h12_mw14,PV sys,0.0
 UserD,h12_mw14,National Grid EE,0.0
-UserD,h12_mw14,Storage EE,0.0
+UserD,h12_mw14,Storage EE,-5.651980924673194e-08
 UserD,h12_mw14,Gas Boiler,0.0
 UserD,h12_mw14,HP,0.0
 UserD,h12_mw14,AC,0.0
@@ -60373,7 +60373,7 @@ UserD,h12_mw14,Gas stove,0.0
 UserD,h12_mw14,Gas National Grid,0.0
 UserD,h13_mw14,PV sys,0.0
 UserD,h13_mw14,National Grid EE,0.0
-UserD,h13_mw14,Storage EE,0.0
+UserD,h13_mw14,Storage EE,5.65196995603597e-08
 UserD,h13_mw14,Gas Boiler,0.0
 UserD,h13_mw14,HP,0.0
 UserD,h13_mw14,AC,0.0
@@ -60385,7 +60385,7 @@ UserD,h13_mw14,Gas stove,0.0
 UserD,h13_mw14,Gas National Grid,0.0
 UserD,h14_mw14,PV sys,0.0
 UserD,h14_mw14,National Grid EE,0.0
-UserD,h14_mw14,Storage EE,0.0
+UserD,h14_mw14,Storage EE,5.65196995603597e-08
 UserD,h14_mw14,Gas Boiler,0.0
 UserD,h14_mw14,HP,0.0
 UserD,h14_mw14,AC,0.0
@@ -60901,7 +60901,7 @@ UserD,h08_su02,Gas stove,0.0
 UserD,h08_su02,Gas National Grid,0.0
 UserD,h09_su02,PV sys,0.0
 UserD,h09_su02,National Grid EE,0.0
-UserD,h09_su02,Storage EE,0.0
+UserD,h09_su02,Storage EE,1.6950788149907777e-07
 UserD,h09_su02,Gas Boiler,0.0
 UserD,h09_su02,HP,0.0
 UserD,h09_su02,AC,0.0
@@ -60913,7 +60913,7 @@ UserD,h09_su02,Gas stove,0.0
 UserD,h09_su02,Gas National Grid,0.0
 UserD,h10_su02,PV sys,0.0
 UserD,h10_su02,National Grid EE,0.0
-UserD,h10_su02,Storage EE,0.0
+UserD,h10_su02,Storage EE,1.1300638521410353e-07
 UserD,h10_su02,Gas Boiler,0.0
 UserD,h10_su02,HP,0.0
 UserD,h10_su02,AC,0.0
@@ -60925,7 +60925,7 @@ UserD,h10_su02,Gas stove,0.0
 UserD,h10_su02,Gas National Grid,0.0
 UserD,h11_su02,PV sys,0.0
 UserD,h11_su02,National Grid EE,0.0
-UserD,h11_su02,Storage EE,0.0
+UserD,h11_su02,Storage EE,5.649427946052126e-08
 UserD,h11_su02,Gas Boiler,0.0
 UserD,h11_su02,HP,0.0
 UserD,h11_su02,AC,0.0
@@ -60961,7 +60961,7 @@ UserD,h13_su02,Gas stove,0.0
 UserD,h13_su02,Gas National Grid,0.0
 UserD,h14_su02,PV sys,0.0
 UserD,h14_su02,National Grid EE,0.0
-UserD,h14_su02,Storage EE,0.0
+UserD,h14_su02,Storage EE,5.6516101285171824e-08
 UserD,h14_su02,Gas Boiler,0.0
 UserD,h14_su02,HP,0.0
 UserD,h14_su02,AC,0.0
@@ -61237,7 +61237,7 @@ UserD,h12_su03,Gas stove,0.0
 UserD,h12_su03,Gas National Grid,0.0
 UserD,h13_su03,PV sys,0.0
 UserD,h13_su03,National Grid EE,0.0
-UserD,h13_su03,Storage EE,0.0
+UserD,h13_su03,Storage EE,5.652007001311077e-08
 UserD,h13_su03,Gas Boiler,0.0
 UserD,h13_su03,HP,0.0
 UserD,h13_su03,AC,0.0
@@ -61249,7 +61249,7 @@ UserD,h13_su03,Gas stove,0.0
 UserD,h13_su03,Gas National Grid,0.0
 UserD,h14_su03,PV sys,0.0
 UserD,h14_su03,National Grid EE,0.0
-UserD,h14_su03,Storage EE,0.0
+UserD,h14_su03,Storage EE,5.652007001311077e-08
 UserD,h14_su03,Gas Boiler,0.0
 UserD,h14_su03,HP,0.0
 UserD,h14_su03,AC,0.0
@@ -61477,7 +61477,7 @@ UserD,h08_su04,Gas stove,0.0
 UserD,h08_su04,Gas National Grid,0.0
 UserD,h09_su04,PV sys,0.0
 UserD,h09_su04,National Grid EE,0.0
-UserD,h09_su04,Storage EE,0.0
+UserD,h09_su04,Storage EE,-5.65148284161624e-08
 UserD,h09_su04,Gas Boiler,0.0
 UserD,h09_su04,HP,0.0
 UserD,h09_su04,AC,0.0
@@ -61489,7 +61489,7 @@ UserD,h09_su04,Gas stove,0.0
 UserD,h09_su04,Gas National Grid,0.0
 UserD,h10_su04,PV sys,0.0
 UserD,h10_su04,National Grid EE,0.0
-UserD,h10_su04,Storage EE,0.0
+UserD,h10_su04,Storage EE,1.1301697371918434e-07
 UserD,h10_su04,Gas Boiler,0.0
 UserD,h10_su04,HP,0.0
 UserD,h10_su04,AC,0.0
@@ -61501,7 +61501,7 @@ UserD,h10_su04,Gas stove,0.0
 UserD,h10_su04,Gas National Grid,0.0
 UserD,h11_su04,PV sys,0.0
 UserD,h11_su04,National Grid EE,0.0
-UserD,h11_su04,Storage EE,0.0
+UserD,h11_su04,Storage EE,5.6510749959493814e-08
 UserD,h11_su04,Gas Boiler,0.0
 UserD,h11_su04,HP,0.0
 UserD,h11_su04,AC,0.0
@@ -61753,7 +61753,7 @@ UserD,h07_su05,Gas stove,0.0
 UserD,h07_su05,Gas National Grid,0.0
 UserD,h08_su05,PV sys,0.0
 UserD,h08_su05,National Grid EE,0.0
-UserD,h08_su05,Storage EE,0.0
+UserD,h08_su05,Storage EE,5.653116318610637e-08
 UserD,h08_su05,Gas Boiler,0.0
 UserD,h08_su05,HP,0.0
 UserD,h08_su05,AC,0.0
@@ -61801,7 +61801,7 @@ UserD,h11_su05,Gas stove,0.0
 UserD,h11_su05,Gas National Grid,0.0
 UserD,h12_su05,PV sys,0.0
 UserD,h12_su05,National Grid EE,0.0
-UserD,h12_su05,Storage EE,0.0
+UserD,h12_su05,Storage EE,-5.6505303795503575e-08
 UserD,h12_su05,Gas Boiler,0.0
 UserD,h12_su05,HP,0.0
 UserD,h12_su05,AC,0.0
@@ -61825,7 +61825,7 @@ UserD,h13_su05,Gas stove,0.0
 UserD,h13_su05,Gas National Grid,0.0
 UserD,h14_su05,PV sys,0.0
 UserD,h14_su05,National Grid EE,0.0
-UserD,h14_su05,Storage EE,0.0
+UserD,h14_su05,Storage EE,-5.651972220799272e-08
 UserD,h14_su05,Gas Boiler,0.0
 UserD,h14_su05,HP,0.0
 UserD,h14_su05,AC,0.0
@@ -62065,7 +62065,7 @@ UserD,h09_su06,Gas stove,0.0
 UserD,h09_su06,Gas National Grid,0.0
 UserD,h10_su06,PV sys,0.0
 UserD,h10_su06,National Grid EE,0.0
-UserD,h10_su06,Storage EE,0.0
+UserD,h10_su06,Storage EE,5.6505178456011145e-08
 UserD,h10_su06,Gas Boiler,0.0
 UserD,h10_su06,HP,0.0
 UserD,h10_su06,AC,0.0
@@ -62329,7 +62329,7 @@ UserD,h07_su07,Gas stove,0.0
 UserD,h07_su07,Gas National Grid,0.0
 UserD,h08_su07,PV sys,0.0
 UserD,h08_su07,National Grid EE,0.0
-UserD,h08_su07,Storage EE,0.0
+UserD,h08_su07,Storage EE,-5.6459731093889805e-08
 UserD,h08_su07,Gas Boiler,0.0
 UserD,h08_su07,HP,0.0
 UserD,h08_su07,AC,0.0
@@ -62389,7 +62389,7 @@ UserD,h12_su07,Gas stove,0.0
 UserD,h12_su07,Gas National Grid,0.0
 UserD,h13_su07,PV sys,0.0
 UserD,h13_su07,National Grid EE,0.0
-UserD,h13_su07,Storage EE,0.0
+UserD,h13_su07,Storage EE,5.651135021837928e-08
 UserD,h13_su07,Gas Boiler,0.0
 UserD,h13_su07,HP,0.0
 UserD,h13_su07,AC,0.0
@@ -62401,7 +62401,7 @@ UserD,h13_su07,Gas stove,0.0
 UserD,h13_su07,Gas National Grid,0.0
 UserD,h14_su07,PV sys,0.0
 UserD,h14_su07,National Grid EE,0.0
-UserD,h14_su07,Storage EE,0.0
+UserD,h14_su07,Storage EE,5.651135021837928e-08
 UserD,h14_su07,Gas Boiler,0.0
 UserD,h14_su07,HP,0.0
 UserD,h14_su07,AC,0.0
@@ -62629,7 +62629,7 @@ UserD,h08_su08,Gas stove,0.0
 UserD,h08_su08,Gas National Grid,0.0
 UserD,h09_su08,PV sys,0.0
 UserD,h09_su08,National Grid EE,0.0
-UserD,h09_su08,Storage EE,0.0
+UserD,h09_su08,Storage EE,-5.651592619725345e-08
 UserD,h09_su08,Gas Boiler,0.0
 UserD,h09_su08,HP,0.0
 UserD,h09_su08,AC,0.0
@@ -62677,7 +62677,7 @@ UserD,h12_su08,Gas stove,0.0
 UserD,h12_su08,Gas National Grid,0.0
 UserD,h13_su08,PV sys,0.0
 UserD,h13_su08,National Grid EE,0.0
-UserD,h13_su08,Storage EE,0.0
+UserD,h13_su08,Storage EE,1.1302187847090357e-07
 UserD,h13_su08,Gas Boiler,0.0
 UserD,h13_su08,HP,0.0
 UserD,h13_su08,AC,0.0
@@ -62689,7 +62689,7 @@ UserD,h13_su08,Gas stove,0.0
 UserD,h13_su08,Gas National Grid,0.0
 UserD,h14_su08,PV sys,0.0
 UserD,h14_su08,National Grid EE,0.0
-UserD,h14_su08,Storage EE,0.0
+UserD,h14_su08,Storage EE,5.651668647327908e-08
 UserD,h14_su08,Gas Boiler,0.0
 UserD,h14_su08,HP,0.0
 UserD,h14_su08,AC,0.0
@@ -62713,7 +62713,7 @@ UserD,h15_su08,Gas stove,0.0
 UserD,h15_su08,Gas National Grid,0.0
 UserD,h16_su08,PV sys,0.0
 UserD,h16_su08,National Grid EE,0.0
-UserD,h16_su08,Storage EE,0.0
+UserD,h16_su08,Storage EE,-5.6505164519604634e-08
 UserD,h16_su08,Gas Boiler,0.0
 UserD,h16_su08,HP,0.0
 UserD,h16_su08,AC,0.0
@@ -62941,7 +62941,7 @@ UserD,h10_su09,Gas stove,0.0
 UserD,h10_su09,Gas National Grid,0.0
 UserD,h11_su09,PV sys,0.0
 UserD,h11_su09,National Grid EE,0.0
-UserD,h11_su09,Storage EE,0.0
+UserD,h11_su09,Storage EE,-5.6515844425549006e-08
 UserD,h11_su09,Gas Boiler,0.0
 UserD,h11_su09,HP,0.0
 UserD,h11_su09,AC,0.0
@@ -62953,7 +62953,7 @@ UserD,h11_su09,Gas stove,0.0
 UserD,h11_su09,Gas National Grid,0.0
 UserD,h12_su09,PV sys,0.0
 UserD,h12_su09,National Grid EE,0.0
-UserD,h12_su09,Storage EE,0.0
+UserD,h12_su09,Storage EE,-1.1302107296480363e-07
 UserD,h12_su09,Gas Boiler,0.0
 UserD,h12_su09,HP,0.0
 UserD,h12_su09,AC,0.0
@@ -62965,7 +62965,7 @@ UserD,h12_su09,Gas stove,0.0
 UserD,h12_su09,Gas National Grid,0.0
 UserD,h13_su09,PV sys,0.0
 UserD,h13_su09,National Grid EE,0.0
-UserD,h13_su09,Storage EE,0.0
+UserD,h13_su09,Storage EE,5.651681086542362e-08
 UserD,h13_su09,Gas Boiler,0.0
 UserD,h13_su09,HP,0.0
 UserD,h13_su09,AC,0.0
@@ -62977,7 +62977,7 @@ UserD,h13_su09,Gas stove,0.0
 UserD,h13_su09,Gas National Grid,0.0
 UserD,h14_su09,PV sys,0.0
 UserD,h14_su09,National Grid EE,0.0
-UserD,h14_su09,Storage EE,0.0
+UserD,h14_su09,Storage EE,5.651681086542362e-08
 UserD,h14_su09,Gas Boiler,0.0
 UserD,h14_su09,HP,0.0
 UserD,h14_su09,AC,0.0
@@ -63205,7 +63205,7 @@ UserD,h08_su10,Gas stove,0.0
 UserD,h08_su10,Gas National Grid,0.0
 UserD,h09_su10,PV sys,0.0
 UserD,h09_su10,National Grid EE,0.0
-UserD,h09_su10,Storage EE,0.0
+UserD,h09_su10,Storage EE,-5.651974379636761e-08
 UserD,h09_su10,Gas Boiler,0.0
 UserD,h09_su10,HP,0.0
 UserD,h09_su10,AC,0.0
@@ -63217,7 +63217,7 @@ UserD,h09_su10,Gas stove,0.0
 UserD,h09_su10,Gas National Grid,0.0
 UserD,h10_su10,PV sys,0.0
 UserD,h10_su10,National Grid EE,0.0
-UserD,h10_su10,Storage EE,0.0
+UserD,h10_su10,Storage EE,-5.651974379636761e-08
 UserD,h10_su10,Gas Boiler,0.0
 UserD,h10_su10,HP,0.0
 UserD,h10_su10,AC,0.0
@@ -63229,7 +63229,7 @@ UserD,h10_su10,Gas stove,0.0
 UserD,h10_su10,Gas National Grid,0.0
 UserD,h11_su10,PV sys,0.0
 UserD,h11_su10,National Grid EE,0.0
-UserD,h11_su10,Storage EE,0.0
+UserD,h11_su10,Storage EE,-1.1303474981390576e-07
 UserD,h11_su10,Gas Boiler,0.0
 UserD,h11_su10,HP,0.0
 UserD,h11_su10,AC,0.0
@@ -63277,7 +63277,7 @@ UserD,h14_su10,Gas stove,0.0
 UserD,h14_su10,Gas National Grid,0.0
 UserD,h15_su10,PV sys,0.0
 UserD,h15_su10,National Grid EE,0.0
-UserD,h15_su10,Storage EE,0.0
+UserD,h15_su10,Storage EE,-5.652007001311077e-08
 UserD,h15_su10,Gas Boiler,0.0
 UserD,h15_su10,HP,0.0
 UserD,h15_su10,AC,0.0
@@ -63505,7 +63505,7 @@ UserD,h09_su11,Gas stove,0.0
 UserD,h09_su11,Gas National Grid,0.0
 UserD,h10_su11,PV sys,0.0
 UserD,h10_su11,National Grid EE,0.0
-UserD,h10_su11,Storage EE,0.0
+UserD,h10_su11,Storage EE,1.1301602353917076e-07
 UserD,h10_su11,Gas Boiler,0.0
 UserD,h10_su11,HP,0.0
 UserD,h10_su11,AC,0.0
@@ -63517,7 +63517,7 @@ UserD,h10_su11,Gas stove,0.0
 UserD,h10_su11,Gas National Grid,0.0
 UserD,h11_su11,PV sys,0.0
 UserD,h11_su11,National Grid EE,0.0
-UserD,h11_su11,Storage EE,0.0
+UserD,h11_su11,Storage EE,5.650515903447995e-08
 UserD,h11_su11,Gas Boiler,0.0
 UserD,h11_su11,HP,0.0
 UserD,h11_su11,AC,0.0
@@ -63553,7 +63553,7 @@ UserD,h13_su11,Gas stove,0.0
 UserD,h13_su11,Gas National Grid,0.0
 UserD,h14_su11,PV sys,0.0
 UserD,h14_su11,National Grid EE,0.0
-UserD,h14_su11,Storage EE,0.0
+UserD,h14_su11,Storage EE,5.6521839160186616e-08
 UserD,h14_su11,Gas Boiler,0.0
 UserD,h14_su11,HP,0.0
 UserD,h14_su11,AC,0.0
@@ -63577,7 +63577,7 @@ UserD,h15_su11,Gas stove,0.0
 UserD,h15_su11,Gas National Grid,0.0
 UserD,h16_su11,PV sys,0.0
 UserD,h16_su11,National Grid EE,0.0
-UserD,h16_su11,Storage EE,0.0
+UserD,h16_su11,Storage EE,-5.653427756491247e-08
 UserD,h16_su11,Gas Boiler,0.0
 UserD,h16_su11,HP,0.0
 UserD,h16_su11,AC,0.0
@@ -63853,7 +63853,7 @@ UserD,h14_su12,Gas stove,0.0
 UserD,h14_su12,Gas National Grid,0.0
 UserD,h15_su12,PV sys,0.0
 UserD,h15_su12,National Grid EE,0.0
-UserD,h15_su12,Storage EE,0.0
+UserD,h15_su12,Storage EE,-5.6520031793683145e-08
 UserD,h15_su12,Gas Boiler,0.0
 UserD,h15_su12,HP,0.0
 UserD,h15_su12,AC,0.0
@@ -64045,7 +64045,7 @@ UserD,h06_su13,Gas stove,0.0
 UserD,h06_su13,Gas National Grid,0.0
 UserD,h07_su13,PV sys,0.0
 UserD,h07_su13,National Grid EE,0.0
-UserD,h07_su13,Storage EE,0.0
+UserD,h07_su13,Storage EE,5.651972573295083e-08
 UserD,h07_su13,Gas Boiler,0.0
 UserD,h07_su13,HP,0.0
 UserD,h07_su13,AC,0.0
@@ -64057,7 +64057,7 @@ UserD,h07_su13,Gas stove,0.0
 UserD,h07_su13,Gas National Grid,0.0
 UserD,h08_su13,PV sys,0.0
 UserD,h08_su13,National Grid EE,0.0
-UserD,h08_su13,Storage EE,0.0
+UserD,h08_su13,Storage EE,5.651972573295083e-08
 UserD,h08_su13,Gas Boiler,0.0
 UserD,h08_su13,HP,0.0
 UserD,h08_su13,AC,0.0
@@ -64093,7 +64093,7 @@ UserD,h10_su13,Gas stove,0.0
 UserD,h10_su13,Gas National Grid,0.0
 UserD,h11_su13,PV sys,0.0
 UserD,h11_su13,National Grid EE,0.0
-UserD,h11_su13,Storage EE,0.0
+UserD,h11_su13,Storage EE,-5.6506166794451785e-08
 UserD,h11_su13,Gas Boiler,0.0
 UserD,h11_su13,HP,0.0
 UserD,h11_su13,AC,0.0
@@ -64105,7 +64105,7 @@ UserD,h11_su13,Gas stove,0.0
 UserD,h11_su13,Gas National Grid,0.0
 UserD,h12_su13,PV sys,0.0
 UserD,h12_su13,National Grid EE,0.0
-UserD,h12_su13,Storage EE,0.0
+UserD,h12_su13,Storage EE,-1.130177338178403e-07
 UserD,h12_su13,Gas Boiler,0.0
 UserD,h12_su13,HP,0.0
 UserD,h12_su13,AC,0.0
@@ -64117,7 +64117,7 @@ UserD,h12_su13,Gas stove,0.0
 UserD,h12_su13,Gas National Grid,0.0
 UserD,h13_su13,PV sys,0.0
 UserD,h13_su13,National Grid EE,0.0
-UserD,h13_su13,Storage EE,0.0
+UserD,h13_su13,Storage EE,-1.130177338178403e-07
 UserD,h13_su13,Gas Boiler,0.0
 UserD,h13_su13,HP,0.0
 UserD,h13_su13,AC,0.0
@@ -64309,7 +64309,7 @@ UserD,h04_su14,Gas stove,0.0
 UserD,h04_su14,Gas National Grid,0.0
 UserD,h05_su14,PV sys,0.0
 UserD,h05_su14,National Grid EE,0.0
-UserD,h05_su14,Storage EE,0.0
+UserD,h05_su14,Storage EE,7.319928189417309e-08
 UserD,h05_su14,Gas Boiler,0.0
 UserD,h05_su14,HP,0.0
 UserD,h05_su14,AC,0.0
@@ -64321,7 +64321,7 @@ UserD,h05_su14,Gas stove,0.0
 UserD,h05_su14,Gas National Grid,0.0
 UserD,h06_su14,PV sys,0.0
 UserD,h06_su14,National Grid EE,0.0
-UserD,h06_su14,Storage EE,0.0
+UserD,h06_su14,Storage EE,7.319928189417309e-08
 UserD,h06_su14,Gas Boiler,0.0
 UserD,h06_su14,HP,0.0
 UserD,h06_su14,AC,0.0
@@ -64333,7 +64333,7 @@ UserD,h06_su14,Gas stove,0.0
 UserD,h06_su14,Gas National Grid,0.0
 UserD,h07_su14,PV sys,0.0
 UserD,h07_su14,National Grid EE,0.0
-UserD,h07_su14,Storage EE,0.0
+UserD,h07_su14,Storage EE,7.320024055787707e-08
 UserD,h07_su14,Gas Boiler,0.0
 UserD,h07_su14,HP,0.0
 UserD,h07_su14,AC,0.0
@@ -64345,7 +64345,7 @@ UserD,h07_su14,Gas stove,0.0
 UserD,h07_su14,Gas National Grid,0.0
 UserD,h08_su14,PV sys,0.0
 UserD,h08_su14,National Grid EE,0.0
-UserD,h08_su14,Storage EE,0.0
+UserD,h08_su14,Storage EE,1.667797278059882e-08
 UserD,h08_su14,Gas Boiler,0.0
 UserD,h08_su14,HP,0.0
 UserD,h08_su14,AC,0.0
@@ -64357,7 +64357,7 @@ UserD,h08_su14,Gas stove,0.0
 UserD,h08_su14,Gas National Grid,0.0
 UserD,h09_su14,PV sys,0.0
 UserD,h09_su14,National Grid EE,0.0
-UserD,h09_su14,Storage EE,0.0
+UserD,h09_su14,Storage EE,1.6677972780598826e-08
 UserD,h09_su14,Gas Boiler,0.0
 UserD,h09_su14,HP,0.0
 UserD,h09_su14,AC,0.0

@@ -4033,7 +4033,7 @@ UserA,Storage EE,h21_su14,0.0
 UserA,Storage EE,h22_su14,0.0
 UserA,Storage EE,h23_su14,0.0
 UserA,Storage EE,h24_su14,0.0
-UserA,Storage EE,peak,-0.0
+UserA,Storage EE,peak,0.0
 UserA,Gas Boiler,h01_wi01,0.0
 UserA,Gas Boiler,h02_wi01,0.0
 UserA,Gas Boiler,h03_wi01,0.0
@@ -9413,7 +9413,7 @@ UserA,Storage HW,h21_su14,0.0
 UserA,Storage HW,h22_su14,0.0
 UserA,Storage HW,h23_su14,0.0
 UserA,Storage HW,h24_su14,0.0
-UserA,Storage HW,peak,-0.0
+UserA,Storage HW,peak,0.0
 UserA,Radiators,h01_wi01,0.0
 UserA,Radiators,h02_wi01,0.0
 UserA,Radiators,h03_wi01,0.0
@@ -20173,7 +20173,7 @@ UserB,Storage EE,h21_su14,0.0
 UserB,Storage EE,h22_su14,0.0
 UserB,Storage EE,h23_su14,0.0
 UserB,Storage EE,h24_su14,0.0
-UserB,Storage EE,peak,0.0
+UserB,Storage EE,peak,-0.0
 UserB,Gas Boiler,h01_wi01,0.0
 UserB,Gas Boiler,h02_wi01,0.0
 UserB,Gas Boiler,h03_wi01,0.0
@@ -25553,7 +25553,7 @@ UserB,Storage HW,h21_su14,0.0
 UserB,Storage HW,h22_su14,0.0
 UserB,Storage HW,h23_su14,0.0
 UserB,Storage HW,h24_su14,0.0
-UserB,Storage HW,peak,0.0
+UserB,Storage HW,peak,-0.0
 UserB,Radiators,h01_wi01,0.0
 UserB,Radiators,h02_wi01,0.0
 UserB,Radiators,h03_wi01,0.0
@@ -36313,7 +36313,7 @@ UserC,Storage EE,h21_su14,0.0
 UserC,Storage EE,h22_su14,0.0
 UserC,Storage EE,h23_su14,0.0
 UserC,Storage EE,h24_su14,0.0
-UserC,Storage EE,peak,0.0
+UserC,Storage EE,peak,-0.0
 UserC,Gas Boiler,h01_wi01,0.0
 UserC,Gas Boiler,h02_wi01,0.0
 UserC,Gas Boiler,h03_wi01,0.0
@@ -41693,7 +41693,7 @@ UserC,Storage HW,h21_su14,0.0
 UserC,Storage HW,h22_su14,0.0
 UserC,Storage HW,h23_su14,0.0
 UserC,Storage HW,h24_su14,0.0
-UserC,Storage HW,peak,0.0
+UserC,Storage HW,peak,-0.0
 UserC,Radiators,h01_wi01,0.0
 UserC,Radiators,h02_wi01,0.0
 UserC,Radiators,h03_wi01,0.0
