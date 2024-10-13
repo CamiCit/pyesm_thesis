@@ -8,9 +8,9 @@ UserA,HP heating winter,7.0
 UserA,HP heating summer,7.0
 UserA,HP cooling,7.0
 UserA,AC cooling,0.0
-UserA,Storing HW,6.0
-UserA,Radiators heater,14.999999978549223
-UserA,Floor heater,3.003108313320937e-08
+UserA,Storing HW,18.0
+UserA,Radiators heater,15.0
+UserA,Floor heater,0.0
 UserA,Induction stove cooking,4.0
 UserA,Gas stove cooking,0.0
 UserA,Natural Gas supply grid,1.0
@@ -23,9 +23,9 @@ UserB,HP heating winter,0.0
 UserB,HP heating summer,0.0
 UserB,HP cooling,0.0
 UserB,AC cooling,4.0
-UserB,Storing HW,6.0
-UserB,Radiators heater,26.999999884477994
-UserB,Floor heater,8.985044441435078e-08
+UserB,Storing HW,0.0
+UserB,Radiators heater,26.99999988001903
+UserB,Floor heater,9.331852723964455e-08
 UserB,Induction stove cooking,0.0
 UserB,Gas stove cooking,4.0
 UserB,Natural Gas supply grid,2.0
@@ -38,7 +38,7 @@ UserC,HP heating winter,7.0
 UserC,HP heating summer,7.0
 UserC,HP cooling,7.0
 UserC,AC cooling,0.0
-UserC,Storing HW,12.0
+UserC,Storing HW,0.0
 UserC,Radiators heater,39.0
 UserC,Floor heater,0.0
 UserC,Induction stove cooking,0.0
@@ -53,9 +53,9 @@ UserD,HP heating winter,7.0
 UserD,HP heating summer,7.0
 UserD,HP cooling,7.0
 UserD,AC cooling,0.0
-UserD,Storing HW,12.0
-UserD,Radiators heater,51.0
-UserD,Floor heater,0.0
+UserD,Storing HW,0.0
+UserD,Radiators heater,50.999999923626596
+UserD,Floor heater,6.289573285176131e-08
 UserD,Induction stove cooking,0.0
 UserD,Gas stove cooking,4.0
 UserD,Natural Gas supply grid,2.0
