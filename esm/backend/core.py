@@ -609,7 +609,7 @@ class Core:
                 
                 #Camilla: change
                 file_path = f"{main_dir_path}/{model_dir_name}/Results_csv"
-                file_name = f"{model_dir_path}/{model_dir_name}/{data_table_key}.csv"
+                file_name = f"{file_path}/{data_table_key}.csv"
                 os.makedirs(os.path.dirname(file_path), exist_ok=True)
                 data_table_dataframe.to_csv(file_name, index=False)
                 self.logger.info(f"Data exported to {data_table_key}.csv")
