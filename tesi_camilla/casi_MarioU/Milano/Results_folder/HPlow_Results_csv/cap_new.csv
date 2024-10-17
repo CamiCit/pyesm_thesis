@@ -2,29 +2,29 @@ s_names,t_names,values
 UserA,PV sys,0.0
 UserA,National Grid EE,0.0
 UserA,Storage EE,0.0
-UserA,Gas Boiler,0.0
-UserA,HP,7.0
-UserA,AC,0.0
-UserA,Storage HW,18.0
-UserA,Radiators,15.0
-UserA,Floor heating,0.0
-UserA,Induction stove,4.0
-UserA,Gas stove,0.0
-UserA,Gas National Grid,1.0
+UserA,Gas Boiler,24.0
+UserA,HP,0.0
+UserA,AC,4.0
+UserA,Storage HW,-2.930236491697943e-06
+UserA,Radiators,14.99999999054675
+UserA,Floor heating,1.523454507599382e-08
+UserA,Induction stove,0.0
+UserA,Gas stove,4.0
+UserA,Gas National Grid,2.0
 UserB,PV sys,0.0
-UserB,National Grid EE,-0.0
-UserB,Storage EE,0.0
-UserB,Gas Boiler,24.0
-UserB,HP,0.0
-UserB,AC,4.0
-UserB,Storage HW,0.0
-UserB,Radiators,27.0
-UserB,Floor heating,0.0
+UserB,National Grid EE,0.0
+UserB,Storage EE,-5.189485903139472e-10
+UserB,Gas Boiler,23.999999998479144
+UserB,HP,-3.5631474856359305e-08
+UserB,AC,4.000000018217987
+UserB,Storage HW,-2.8511393803104223e-08
+UserB,Radiators,26.999999916714152
+UserB,Floor heating,6.366676406360537e-08
 UserB,Induction stove,0.0
-UserB,Gas stove,3.9999999708163547
+UserB,Gas stove,4.0
 UserB,Gas National Grid,2.0
 UserC,PV sys,0.0
-UserC,National Grid EE,-0.0
+UserC,National Grid EE,0.0
 UserC,Storage EE,0.0
 UserC,Gas Boiler,24.0
 UserC,HP,0.0
@@ -41,9 +41,9 @@ UserD,Storage EE,0.0
 UserD,Gas Boiler,24.0
 UserD,HP,0.0
 UserD,AC,4.0
-UserD,Storage HW,-3.928308753539381e-08
-UserD,Radiators,50.99999993549227
-UserD,Floor heating,5.2241648879570116e-08
+UserD,Storage HW,0.0
+UserD,Radiators,51.0
+UserD,Floor heating,0.0
 UserD,Induction stove,0.0
 UserD,Gas stove,4.0
 UserD,Gas National Grid,2.0

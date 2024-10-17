@@ -1,7 +1,7 @@
 s_names,a_names,values
 UserA,PV,0.0
-UserA,National Grid import,2000.050648093378
-UserA,National Grid export,1.3786976243701465e-05
+UserA,National Grid import,1001.6881447370578
+UserA,National Grid export,2.667587044946133e-05
 UserA,Storing EE,0.0
 UserA,Gas Boiler heating,0.0
 UserA,HP heating winter,0.0
@@ -13,10 +13,10 @@ UserA,Radiators heater,0.0
 UserA,Floor heater,0.0
 UserA,Induction stove cooking,0.0
 UserA,Gas stove cooking,0.0
-UserA,Natural Gas supply grid,5.472212046697679e-07
+UserA,Natural Gas supply grid,1835.7259244469215
 UserB,PV,-0.0
-UserB,National Grid import,1348.096810546826
-UserB,National Grid export,1.4155688524548172e-08
+UserB,National Grid import,1348.09680807825
+UserB,National Grid export,1.5288423533610945e-06
 UserB,Storing EE,-0.0
 UserB,Gas Boiler heating,-0.0
 UserB,HP heating winter,-0.0
@@ -28,10 +28,10 @@ UserB,Radiators heater,-0.0
 UserB,Floor heater,-0.0
 UserB,Induction stove cooking,-0.0
 UserB,Gas stove cooking,-0.0
-UserB,Natural Gas supply grid,3464.744766467681
+UserB,Natural Gas supply grid,3464.744777472125
 UserC,PV,-0.0
-UserC,National Grid import,1412.1825507563012
-UserC,National Grid export,7.165425603039398e-08
+UserC,National Grid import,1412.1825471134496
+UserC,National Grid export,4.6949920132002714e-08
 UserC,Storing EE,-0.0
 UserC,Gas Boiler heating,-0.0
 UserC,HP heating winter,-0.0
@@ -43,10 +43,10 @@ UserC,Radiators heater,-0.0
 UserC,Floor heater,-0.0
 UserC,Induction stove cooking,-0.0
 UserC,Gas stove cooking,-0.0
-UserC,Natural Gas supply grid,5222.788987011345
+UserC,Natural Gas supply grid,5222.788995073253
 UserD,PV,-0.0
-UserD,National Grid import,1527.8473884300126
-UserD,National Grid export,6.580775941492567e-07
+UserD,National Grid import,1527.847391713759
+UserD,National Grid export,1.899514940314475e-07
 UserD,Storing EE,-0.0
 UserD,Gas Boiler heating,-0.0
 UserD,HP heating winter,-0.0
@@ -58,4 +58,4 @@ UserD,Radiators heater,-0.0
 UserD,Floor heater,-0.0
 UserD,Induction stove cooking,-0.0
 UserD,Gas stove cooking,-0.0
-UserD,Natural Gas supply grid,6852.269306965848
+UserD,Natural Gas supply grid,6852.269319223405

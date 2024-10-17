@@ -1,37 +1,37 @@
 s_names,a_names,values
-UserA,PV,-0.0
-UserA,National Grid import,1132.5091897043135
-UserA,National Grid export,9.133717060576091e-07
-UserA,Storing EE,-0.0
-UserA,Gas Boiler heating,-0.0
-UserA,HP heating winter,-0.0
-UserA,HP heating summer,-0.0
-UserA,HP cooling,-0.0
-UserA,AC cooling,-0.0
-UserA,Storing HW,-0.0
-UserA,Radiators heater,-0.0
-UserA,Floor heater,-0.0
-UserA,Induction stove cooking,-0.0
-UserA,Gas stove cooking,-0.0
-UserA,Natural Gas supply grid,2377.0383394512196
-UserB,PV,0.0
-UserB,National Grid import,1177.0569601642057
-UserB,National Grid export,-132.2712282210511
-UserB,Storing EE,0.0
-UserB,Gas Boiler heating,0.0
-UserB,HP heating winter,0.0
-UserB,HP heating summer,0.0
-UserB,HP cooling,0.0
-UserB,AC cooling,0.0
-UserB,Storing HW,0.0
-UserB,Radiators heater,0.0
-UserB,Floor heater,0.0
-UserB,Induction stove cooking,0.0
-UserB,Gas stove cooking,0.0
-UserB,Natural Gas supply grid,4607.052852192603
+UserA,PV,0.0
+UserA,National Grid import,1132.5091825175107
+UserA,National Grid export,0.0
+UserA,Storing EE,0.0
+UserA,Gas Boiler heating,0.0
+UserA,HP heating winter,0.0
+UserA,HP heating summer,0.0
+UserA,HP cooling,0.0
+UserA,AC cooling,0.0
+UserA,Storing HW,0.0
+UserA,Radiators heater,0.0
+UserA,Floor heater,0.0
+UserA,Induction stove cooking,0.0
+UserA,Gas stove cooking,0.0
+UserA,Natural Gas supply grid,2377.038313193397
+UserB,PV,-0.0
+UserB,National Grid import,1566.5139039850155
+UserB,National Grid export,6.287416561853785e-07
+UserB,Storing EE,-0.0
+UserB,Gas Boiler heating,-0.0
+UserB,HP heating winter,-0.0
+UserB,HP heating summer,-0.0
+UserB,HP cooling,-0.0
+UserB,AC cooling,-0.0
+UserB,Storing HW,-0.0
+UserB,Radiators heater,-0.0
+UserB,Floor heater,-0.0
+UserB,Induction stove cooking,-0.0
+UserB,Gas stove cooking,-0.0
+UserB,Natural Gas supply grid,4607.052833212333
 UserC,PV,-0.0
-UserC,National Grid import,1600.8044907962312
-UserC,National Grid export,-4.0953269709608485e-06
+UserC,National Grid import,1600.8044487588738
+UserC,National Grid export,-4.6402848780465455e-08
 UserC,Storing EE,-0.0
 UserC,Gas Boiler heating,-0.0
 UserC,HP heating winter,-0.0
@@ -43,10 +43,10 @@ UserC,Radiators heater,-0.0
 UserC,Floor heater,-0.0
 UserC,Induction stove cooking,-0.0
 UserC,Gas stove cooking,-0.0
-UserC,Natural Gas supply grid,6960.568447449406
+UserC,Natural Gas supply grid,6960.568500795646
 UserD,PV,-0.0
-UserD,National Grid import,1746.7237027312967
-UserD,National Grid export,3.326635651075773e-06
+UserD,National Grid import,1746.723676405838
+UserD,National Grid export,2.1305134519295704e-08
 UserD,Storing EE,-0.0
 UserD,Gas Boiler heating,-0.0
 UserD,HP heating winter,-0.0
@@ -58,4 +58,4 @@ UserD,Radiators heater,-0.0
 UserD,Floor heater,-0.0
 UserD,Induction stove cooking,-0.0
 UserD,Gas stove cooking,-0.0
-UserD,Natural Gas supply grid,9122.302709375532
+UserD,Natural Gas supply grid,9122.302770469609
