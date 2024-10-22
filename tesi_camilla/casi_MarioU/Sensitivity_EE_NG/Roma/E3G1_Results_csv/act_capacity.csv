@@ -1,20 +1,20 @@
 s_names,a_names,values
-UserA,PV,3.0
+UserA,PV,2.0
 UserA,National Grid import,3.0
 UserA,National Grid export,3.0
-UserA,Storing EE,6.0
-UserA,Gas Boiler heating,24.0
-UserA,HP heating winter,0.0
-UserA,HP heating summer,0.0
-UserA,HP cooling,0.0
-UserA,AC cooling,4.0
-UserA,Storing HW,0.0
+UserA,Storing EE,3.0
+UserA,Gas Boiler heating,23.99999999978508
+UserA,HP heating winter,6.26856973078053e-11
+UserA,HP heating summer,6.26856973078053e-11
+UserA,HP cooling,6.26856973078053e-11
+UserA,AC cooling,3.9999999999641798
+UserA,Storing HW,-1.0589037830696466e-06
 UserA,Radiators heater,15.0
 UserA,Floor heater,0.0
-UserA,Induction stove cooking,0.0
-UserA,Gas stove cooking,4.0
+UserA,Induction stove cooking,6.122343408398685e-11
+UserA,Gas stove cooking,3.9999999999387765
 UserA,Natural Gas supply grid,2.0
-UserB,PV,4.0
+UserB,PV,2.0
 UserB,National Grid import,3.0
 UserB,National Grid export,3.0
 UserB,Storing EE,6.0
@@ -29,30 +29,30 @@ UserB,Floor heater,0.0
 UserB,Induction stove cooking,0.0
 UserB,Gas stove cooking,4.0
 UserB,Natural Gas supply grid,2.0
-UserC,PV,4.0
+UserC,PV,2.0
 UserC,National Grid import,3.0
 UserC,National Grid export,3.0
 UserC,Storing EE,6.0
-UserC,Gas Boiler heating,24.00000653741536
+UserC,Gas Boiler heating,23.999999999999996
 UserC,HP heating winter,0.0
 UserC,HP heating summer,0.0
 UserC,HP cooling,0.0
 UserC,AC cooling,4.0
-UserC,Storing HW,-2.811623971241208e-06
+UserC,Storing HW,0.0
 UserC,Radiators heater,39.0
 UserC,Floor heater,0.0
-UserC,Induction stove cooking,-5.1742100260389e-07
-UserC,Gas stove cooking,4.0
+UserC,Induction stove cooking,-1.2418988256213353e-11
+UserC,Gas stove cooking,4.000000000012419
 UserC,Natural Gas supply grid,2.0
-UserD,PV,4.0
+UserD,PV,3.0
 UserD,National Grid import,3.0
 UserD,National Grid export,3.0
-UserD,Storing EE,9.0
+UserD,Storing EE,6.0
 UserD,Gas Boiler heating,24.0
-UserD,HP heating winter,-1.5000726408705024e-07
-UserD,HP heating summer,-1.5000726408705024e-07
-UserD,HP cooling,-1.5000726408705024e-07
-UserD,AC cooling,4.000000085718438
+UserD,HP heating winter,0.0
+UserD,HP heating summer,0.0
+UserD,HP cooling,0.0
+UserD,AC cooling,4.0
 UserD,Storing HW,0.0
 UserD,Radiators heater,51.0
 UserD,Floor heater,0.0

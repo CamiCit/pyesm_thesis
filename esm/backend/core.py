@@ -619,6 +619,7 @@ class Core:
                 #     dataframe=data_table_dataframe,
                 #     operation=operation,
                 #     suppress_warnings=suppress_warnings,
+                #     force_operation= True,#added by Camilla               
                 # )
 
     def check_results_as_expected(
