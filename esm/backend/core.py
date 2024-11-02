@@ -430,6 +430,12 @@ class Core:
             f"Fetching data from '{self.settings['sqlite_database_file']}' "
             "to cvxpy exogenous variables.")
 
+        filter_header = Constants.get('_FILTER_DICT_HEADER')
+        cvxpy_var_header = Constants.get('_CVXPY_VAR_HEADER')
+        values_header = Constants.get('_STD_VALUES_FIELD')['values'][0]
+        id_header = Constants.get('_STD_ID_FIELD')['id'][0]
+        allowed_values_types = Constants.get('_ALLOWED_VALUES_TYPES')
+
         with db_handler(self.sqltools):
             for var_key, variable in self.index.variables.items():
 
@@ -444,12 +450,6 @@ class Core:
                 self.logger.debug(
                     f"Fetching data from table '{var_key}' "
                     "to cvxpy exogenous variable.")
-
-                filter_header = Constants.get('_FILTER_DICT_HEADER')
-                cvxpy_var_header = Constants.get('_CVXPY_VAR_HEADER')
-                values_header = Constants.get('_STD_VALUES_FIELD')['values'][0]
-                id_header = Constants.get('_STD_ID_FIELD')['id'][0]
-                allowed_values_types = Constants.get('_ALLOWED_VALUES_TYPES')
 
                 err_msg = []
 
@@ -483,7 +483,7 @@ class Core:
 
                     for row in variable_data.index:
                         # get raw data from database
-                        raw_data = self.database.sqltools.filtered_table_to_dataframe(
+                        raw_data = self.database.sqltools.table_to_dataframe(
                             table_name=variable.related_table,
                             filters_dict=variable_data[filter_header][row])
 
@@ -517,9 +517,7 @@ class Core:
 
     def cvxpy_endogenous_data_to_database(
             self,
-            operation: str,
-            #main_dir_path,
-            #model_dir_name,
+            force_overwrite: bool = False,
             suppress_warnings: bool = False,
     ) -> None:
         """
@@ -530,7 +528,8 @@ class Core:
         the cvxpy variable to the corresponding data table in the SQLite database. 
 
         Parameters:
-            operation (str): The type of database operation to perform.
+            force_overwrite (bool, optional): If True, forces the re-export of 
+                data even if the data table already exists. Defaults to False.
             suppress_warnings (bool, optional): If True, suppresses warnings 
                 during the data export process. Defaults to False.
 
@@ -617,8 +616,8 @@ class Core:
                 self.sqltools.dataframe_to_table(
                     table_name=data_table_key,
                     dataframe=data_table_dataframe,
-                    operation=operation,
-                    suppress_warnings=suppress_warnings,             
+                    force_overwrite=force_overwrite,
+                    suppress_warnings=suppress_warnings,
                 )
 
     def check_results_as_expected(
@@ -757,8 +756,7 @@ class Core:
                     break
 
                 self.cvxpy_endogenous_data_to_database(
-                    operation='update',
-                    suppress_warnings=True,
+                    force_overwrite=True, suppress_warnings=True,
                 )
 
                 with db_handler(self.sqltools):
