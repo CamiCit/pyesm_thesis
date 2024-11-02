@@ -403,9 +403,10 @@ new_units:
     new_units:
       techs:
         dim: cols
+
 cap_new:
   name: cap_new
-  type: endogenous_integer
+  type: endogenous
   coordinates: [scenarios, techs]
   variables_info:
     cap_new:
