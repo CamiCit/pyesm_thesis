@@ -518,8 +518,8 @@ class Core:
     def cvxpy_endogenous_data_to_database(
             self,
             operation: str,
-            main_dir_path,
-            model_dir_name,
+            #main_dir_path,
+            #model_dir_name,
             suppress_warnings: bool = False,
     ) -> None:
         """
@@ -607,20 +607,19 @@ class Core:
 
                 data_table_dataframe[values_headers] = cvxpy_var_data
                 
-                #Camilla: change
-                file_path = f"{main_dir_path}/{model_dir_name}/Results_csv"
-                file_name = f"{file_path}/{data_table_key}.csv"
-                os.makedirs(os.path.dirname(file_path), exist_ok=True)
-                data_table_dataframe.to_csv(file_name, index=False)
-                self.logger.info(f"Data exported to {data_table_key}.csv")
+                ##Camilla change for exporting data to csv
+                # file_path = f"{main_dir_path}/{model_dir_name}/Results_csv"
+                # file_name = f"{file_path}/{data_table_key}.csv"
+                # os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                # data_table_dataframe.to_csv(file_name, index=False)
+                # self.logger.info(f"Data exported to {data_table_key}.csv")
 
-                # self.sqltools.dataframe_to_table(
-                #     table_name=data_table_key,
-                #     dataframe=data_table_dataframe,
-                #     operation=operation,
-                #     suppress_warnings=suppress_warnings,
-                #     force_operation= True,#added by Camilla               
-                # )
+                self.sqltools.dataframe_to_table(
+                    table_name=data_table_key,
+                    dataframe=data_table_dataframe,
+                    operation=operation,
+                    suppress_warnings=suppress_warnings,             
+                )
 
     def check_results_as_expected(
             self,
