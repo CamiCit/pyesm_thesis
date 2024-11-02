@@ -202,7 +202,42 @@ class Core:
 
                 data_table.cvxpy_var = cvxpy_var
 
-        # generating variables dataframes with cvxpy var and filters dictionary
+            elif data_table.type == 'endogenous_integer' or \
+                    isinstance(data_table.type, dict):
+
+                self.logger.debug(
+                    "Generating variable dataframe and cvxpy variable "
+                    f"for endogenous integer data table '{data_table_key}'.")
+
+                data_table.generate_coordinates_dataframes(
+                    sets_split_problems=self.index.sets_split_problem_dict
+                )
+
+                if isinstance(data_table.coordinates_dataframe, pd.DataFrame):
+
+                    cvxpy_var = self.problem.create_cvxpy_variable(
+                        var_type='endogenous_integer',
+                        shape=(data_table.table_length, 1),
+                        name=data_table_key,
+                    )
+
+                # in case of problem with sets split, multiple endogenous variables
+                # are created and stored in a dictionary
+                elif isinstance(data_table.coordinates_dataframe, dict):
+
+                    cvxpy_var = {}
+
+                    for problem_key, variable_df in data_table.coordinates_dataframe.items():
+
+                        cvxpy_var[problem_key] = self.problem.create_cvxpy_variable(
+                            var_type='endogenous_integer',
+                            shape=(len(variable_df), 1),
+                            name=f"{data_table_key}_{problem_key}",
+                        )
+
+                data_table.cvxpy_var = cvxpy_var    
+            
+        # Generating variables dataframes with cvxpy var and filters dictionary
         # (endogenous vars will be sliced from existing cvxpy var in data table)
         self.logger.debug(
             "Generating data structures for all variables and constants.")
@@ -218,7 +253,7 @@ class Core:
 
             # for variables whose type is univocally defined, only one data structure
             # is generated and stored in variable.data
-            elif variable.type in ['exogenous', 'endogenous']:
+            elif variable.type in ['exogenous', 'endogenous','endogenous_integer']:
                 variable.data = self.problem.generate_vars_dataframe(
                     variable_name=var_key,
                     variable=variable
@@ -409,7 +444,7 @@ class Core:
                     self.logger.error(msg)
                     raise TypeError(msg)
 
-                if variable.type in ['endogenous', 'constant']:
+                if variable.type in ['endogenous', 'endogenous_integer','constant']:
                     continue
 
                 self.logger.debug(
@@ -437,6 +472,7 @@ class Core:
                         variable.type, 'exogenous')
                 else:
                     problem_keys = [None]
+
 
                 for problem_key in problem_keys:
 
@@ -510,6 +546,7 @@ class Core:
             The data is exported using the 'dataframe_to_table' method of the 
                 SQLTools instance.
         """
+
         self.logger.debug(
             "Exporting data from cvxpy endogenous variable (in data table) "
             f"to SQLite database '{self.settings['sqlite_database_file']}' ")
@@ -539,7 +576,6 @@ class Core:
                         data_table.coordinates_dataframe.values(),
                         ignore_index=True
                     )
-
                 if not util.add_column_to_dataframe(
                     dataframe=data_table_dataframe,
                     column_header=values_headers,
@@ -549,14 +585,13 @@ class Core:
                         self.logger.warning(
                             f"Column '{values_headers}' already exists in data "
                             f"table '{data_table_key}'")
-
                 if data_table.cvxpy_var is None:
                     if self.settings['log_level'] == 'debug' or \
                             not suppress_warnings:
                         self.logger.warning(
                             f"No data available in cvxpy variable '{data_table_key}'")
                     continue
-
+                
                 if isinstance(data_table.cvxpy_var, dict):
 
                     cvxpy_var_values_list = []
@@ -570,6 +605,13 @@ class Core:
                     cvxpy_var_data = data_table.cvxpy_var.value
 
                 data_table_dataframe[values_headers] = cvxpy_var_data
+                
+                ##Camilla change for exporting data to csv
+                # file_path = f"{main_dir_path}/{model_dir_name}/Results_csv"
+                # file_name = f"{file_path}/{data_table_key}.csv"
+                # os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                # data_table_dataframe.to_csv(file_name, index=False)
+                # self.logger.info(f"Data exported to {data_table_key}.csv")
 
                 self.sqltools.dataframe_to_table(
                     table_name=data_table_key,

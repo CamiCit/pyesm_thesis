@@ -432,3 +432,100 @@ def weibull_distribution(
         weib_parameter.value = weib_dist_matrix
 
     return weib_parameter
+
+
+def power_tri(
+        dimension: cp.Parameter,
+        seasons: cp.Parameter, 
+        power_factor: cp.Parameter,
+) -> np.array:
+    """
+    Generate a square matrix with values in the lower triangular region
+    (ones in the diagonal) and zeros elsewhere. Each column contains a power series, 
+    multiplying the cell above by the power factor.
+
+    Parameters:
+        dimension (int): The size of the square matrix.
+        power_factor:
+
+    Returns:
+        np.ndarray: A square matrix of size 'dimension x dimension' with 
+            values in the lower triangular region (ones on the diagonal) and zeros elsewhere.
+
+    Raises:
+        ValueError: If passed dimension is not greater than zero.
+        TypeError: If passed dimension is not an integer.
+    """
+    # Warnings
+    if not isinstance(dimension, cp.Parameter):
+        raise TypeError("dimension must be a cvxpy.Parameter")
+    if not isinstance(power_factor, cp.Parameter):
+        raise TypeError("power_factor must be a cvxpy.Parameter")
+    
+    dim = int(dimension.value)  # Extract the integer value of the dimension
+    if isinstance(seasons,int):
+        s = seasons
+    else:
+        s = int(seasons.value)  # Extract the integer value of the seasons
+    #Extract values from cvxpy parameters
+    pf: np.ndarray = power_factor.value #pf defined for storage technologies, one equation for each storage tech 
+
+    # Initialize the matrix
+    matrix = np.zeros((dim, dim))
+    x=dim/s 
+    int_x=int(x)
+
+    for block in range(s):
+            start_row = block * int_x
+            start_col = block * int_x
+            
+            # Costruzione del blocco triangolare
+            for i in range(int_x):
+                for j in range(i + 1):
+                    if i == j:
+                        matrix[start_row + i, start_col + j] = 1
+                    else:
+                        matrix[start_row + i, start_col + j] = matrix[start_row + i - 1, start_col + j] * pf
+
+    return matrix
+
+def power_vector(
+        dimension: cp.Parameter, 
+        power_factor: cp.Parameter,
+) -> np.array:
+    """
+    Generate a column vector containing the power series of the power factor
+    [1; pf; pf^2; ... pf^(dimension-1)]
+
+    Parameters:
+        dimension (int): length of the vector
+        power_factor:
+
+    Returns:
+        np.ndarray: A column vector '1 x dimension' with the required power series
+
+    Raises:
+        ValueError: If passed dimension is not greater than zero.
+        TypeError: If passed dimension is not an integer.
+    """
+    # Warnings
+    if not isinstance(dimension, cp.Parameter):
+        raise TypeError("dimension must be a cvxpy.Parameter")
+    if not isinstance(power_factor, cp.Parameter):
+        raise TypeError("power_factor must be a cvxpy.Parameter")
+    
+    dim = int(dimension.value)  # Extract the integer value of the dimension
+
+    #Extract values from cvxpy parameters
+    pf: np.ndarray = power_factor.value #pf defined for storage technologies, one equation for each storage tech 
+
+    # Initialize the matrix
+    vector = np.zeros((dim,1))
+
+    for i in range(dim):
+        if i == 0:
+             vector[i,0] = 1
+        else:
+             vector[i,0] = vector[i - 1,0] * pf
+
+    return vector
