@@ -142,3 +142,6 @@ tutorial.ipynb
 pyesm_sourcetrail.srctrlbm
 pyesm_sourcetrail.srctrldb
 pyesm_sourcetrail.srctrlprj
+
+#macOS system storage file
+.DS_store
